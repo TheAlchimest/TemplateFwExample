@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExampleCategories" xml:space="preserve"><value>Example categories</value></data>
+<data name="ExampleCategory" xml:space="preserve"><value>Example category</value></data>
+<data name="ExampleCategory_Management" xml:space="preserve"><value>Example categories management</value></data>
+<data name="ExampleCategory_Information" xml:space="preserve"><value>Example category information</value></data>
+<data name="ExampleCategory_NameAr" xml:space="preserve"><value>Name in Arabic</value></data>
+<data name="ExampleCategory_Name" xml:space="preserve"><value>Name</value></data>
+<data name="ExampleCategory_NameEn" xml:space="preserve"><value>Name in English</value></data>
+<data name="ExampleCategory_DescriptionAr" xml:space="preserve"><value>Description in Arabic</value></data>
+<data name="ExampleCategory_Description" xml:space="preserve"><value>Description</value></data>
+<data name="ExampleCategory_DescriptionEn" xml:space="preserve"><value>Description in English</value></data>
+<data name="ExampleCategory_IsAvailable" xml:space="preserve"><value>Is available?</value></data>
+<data name="ExampleCategory_CreationDate" xml:space="preserve"><value>Creation date</value></data>
+<data name="ExampleCategory_CreatedBy" xml:space="preserve"><value>Created by</value></data>
+<data name="ExampleCategory_ModifiedDate" xml:space="preserve"><value>Modified date</value></data>
+<data name="ExampleCategory_ModifiedBy" xml:space="preserve"><value>Modified by</value></data>
+<data name="ExampleModels" xml:space="preserve"><value>Example models</value></data>
+<data name="ExampleModel" xml:space="preserve"><value>Example model</value></data>
+<data name="ExampleModel_Management" xml:space="preserve"><value>Example models management</value></data>
+<data name="ExampleModel_Information" xml:space="preserve"><value>Example model information</value></data>
+<data name="ExampleModel_TitleAr" xml:space="preserve"><value>Title in Arabic</value></data>
+<data name="ExampleModel_Title" xml:space="preserve"><value>Title</value></data>
+<data name="ExampleModel_TitleEn" xml:space="preserve"><value>Title in English</value></data>
+<data name="ExampleModel_BriefAr" xml:space="preserve"><value>Brief in Arabic</value></data>
+<data name="ExampleModel_Brief" xml:space="preserve"><value>Brief</value></data>
+<data name="ExampleModel_BriefEn" xml:space="preserve"><value>Brief in English</value></data>
+<data name="ExampleModel_ContentAr" xml:space="preserve"><value>Content in Arabic</value></data>
+<data name="ExampleModel_Content" xml:space="preserve"><value>Content</value></data>
+<data name="ExampleModel_ContentEn" xml:space="preserve"><value>Content in English</value></data>
+<data name="ExampleModel_FirstName" xml:space="preserve"><value>First name</value></data>
+<data name="ExampleModel_LastName" xml:space="preserve"><value>Last name</value></data>
+<data name="ExampleModel_Email" xml:space="preserve"><value>Email</value></data>
+<data name="ExampleModel_Phone" xml:space="preserve"><value>Phone</value></data>
+<data name="ExampleModel_Mobile" xml:space="preserve"><value>Mobile</value></data>
+<data name="ExampleModel_ProfileUrl" xml:space="preserve"><value>Profile url</value></data>
+<data name="ExampleModel_IDNumber" xml:space="preserve"><value>ID number</value></data>
+<data name="ExampleModel_Amount" xml:space="preserve"><value>Amount</value></data>
+<data name="ExampleModel_Price" xml:space="preserve"><value>Price</value></data>
+<data name="ExampleModel_PostalCode" xml:space="preserve"><value>Postal code</value></data>
+<data name="ExampleModel_Address" xml:space="preserve"><value>Address</value></data>
+<data name="ExampleModel_Website" xml:space="preserve"><value>Website</value></data>
+<data name="ExampleModel_StartDate" xml:space="preserve"><value>Start date</value></data>
+<data name="ExampleModel_EndDate" xml:space="preserve"><value>End date</value></data>
+<data name="ExampleModel_StartHijriDate" xml:space="preserve"><value>Start hijri date</value></data>
+<data name="ExampleModel_EndHijriDate" xml:space="preserve"><value>End hijri date</value></data>
+<data name="ExampleModel_ExampleCategory" xml:space="preserve"><value>Example category id</value></data>
+<data name="ExampleModel_ExampleCategoryChoose" xml:space="preserve"><value>Choose example category id</value></data>
+<data name="ExampleModel_ExampleStatus" xml:space="preserve"><value>Example status id</value></data>
+<data name="ExampleModel_ExampleStatusChoose" xml:space="preserve"><value>Choose example status id</value></data>
+<data name="ExampleModel_IsPublished" xml:space="preserve"><value>Is published?</value></data>
+<data name="ExampleModel_PublishingDate" xml:space="preserve"><value>Publishing date</value></data>
+<data name="ExampleModel_PublishedBy" xml:space="preserve"><value>Published by</value></data>
+<data name="ExampleModel_IsAvailable" xml:space="preserve"><value>Is available?</value></data>
+<data name="ExampleModel_CreationDate" xml:space="preserve"><value>Creation date</value></data>
+<data name="ExampleModel_CreatedBy" xml:space="preserve"><value>Created by</value></data>
+<data name="ExampleModel_ModifiedDate" xml:space="preserve"><value>Modified date</value></data>
+<data name="ExampleModel_ModifiedBy" xml:space="preserve"><value>Modified by</value></data>
+<data name="ExampleStatuses" xml:space="preserve"><value>Example statuses</value></data>
+<data name="ExampleStatu" xml:space="preserve"><value>Example status</value></data>
+<data name="ExampleStatus_Management" xml:space="preserve"><value>Example statuses management</value></data>
+<data name="ExampleStatus_Information" xml:space="preserve"><value>Example status information</value></data>
+<data name="ExampleStatus_NameAr" xml:space="preserve"><value>Name in Arabic</value></data>
+<data name="ExampleStatus_Name" xml:space="preserve"><value>Name</value></data>
+<data name="ExampleStatus_NameEn" xml:space="preserve"><value>Name in English</value></data>
+<data name="ExampleStatus_DescriptionAr" xml:space="preserve"><value>Description in Arabic</value></data>
+<data name="ExampleStatus_Description" xml:space="preserve"><value>Description</value></data>
+<data name="ExampleStatus_DescriptionEn" xml:space="preserve"><value>Description in English</value></data>
+<data name="ExampleStatus_IsAvailable" xml:space="preserve"><value>Is available?</value></data>
+<data name="ExampleStatus_CreationDate" xml:space="preserve"><value>Creation date</value></data>
+<data name="ExampleStatus_CreatedBy" xml:space="preserve"><value>Created by</value></data>
+<data name="ExampleStatus_ModifiedDate" xml:space="preserve"><value>Modified date</value></data>
+<data name="ExampleStatus_ModifiedBy" xml:space="preserve"><value>Modified by</value></data>
+
+</root>

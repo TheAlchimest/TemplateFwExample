@@ -1,0 +1,23 @@
+﻿@using Microsoft.Extensions.Localization;
+@using TemplateFwExample.Dashboard.Models;
+@using TemplateFwExample.Dtos.Common;
+@using TemplateFwExample.Resources.Resources;
+@using TemplateFwExample.Shared.Configuration;
+@using TemplateFwExample.Resources
+@using Microsoft.AspNetCore.Mvc.Localization
+@using TemplateFwExample.Domain.Models;
+@using TemplateFwExample.Shared.Dtos.Collections;
+@using Microsoft.Extensions.Options;
+@using TemplateFwExample.Dtos.Views;
+@using TemplateFwExample.Shared.Helpers;
+@using TemplateFwExample.Utilities.Helpers;
+
+
+
+@inject IStringLocalizer<SharedResource> localizer;
+@inject IStringLocalizer<UIResource> uiLocalizer
+@inject IStringLocalizer<ModulesResource> modulesLocalizer
+@inject IStringLocalizer<OperationsResource> operationsLocalizer
+@inject IStringLocalizer<CommonResource> commonResource
+
+	

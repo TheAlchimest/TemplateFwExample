@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="ServiceExtensions.cs" />
+	</ItemGroup>
+
+	
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.2.0" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Resources\CommonResource.ar.resx">
+	    <Generator>PublicResXFileCodeGenerator</Generator>
+	    <LastGenOutput>CommonResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+		<EmbeddedResource Update="Resources\CommonResource.en.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\ModulesResource.en.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+	  <EmbeddedResource Update="Resources\OperationsResource.ar.resx">
+	    <Generator>PublicResXFileCodeGenerator</Generator>
+	    <LastGenOutput>OperationsResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+		<EmbeddedResource Update="Resources\OperationsResource.en.resx">
+			<Generator>PublicResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+	  <EmbeddedResource Update="Resources\UIResource.ar.resx">
+	    <Generator>PublicResXFileCodeGenerator</Generator>
+	    <LastGenOutput>UIResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>

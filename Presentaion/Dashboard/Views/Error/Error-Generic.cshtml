@@ -1,0 +1,26 @@
+@using TemplateFw.Shared.Domain.GenericResponse
+@model WebResponse
+@{
+}
+<div class="row justify-content-center h-100 align-items-center">
+    <div class="col-md-5">
+        <div class="form-input-content text-center error-page">
+            <h1 class="error-text font-weight-bold">Error</h1>
+            <h4><i class="fa fa-thumbs-down text-danger"></i> @Model.Title</h4>
+            @if (Model != null && Model.Messages!=null && Model.Messages.Count>0)
+            {
+                foreach (var item in Model.Messages)
+                {
+                    <p>@item</p>
+                }
+            }
+            @if (Model != null && !string.IsNullOrEmpty(Model.ErrorCodes) )
+            {
+                <p>@Model.ErrorCodes</p>
+            }
+            @*<div>
+                <a class="btn btn-primary" href="./index.html">Back to Home</a>
+            </div>*@
+        </div>
+    </div>
+</div>

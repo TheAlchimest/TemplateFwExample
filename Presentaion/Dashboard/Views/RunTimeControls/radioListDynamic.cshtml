@@ -1,0 +1,53 @@
+﻿@model Engine.Domain.Element
+@using System.Reflection;
+@using Engine.Domain;
+
+
+@using Engine.Domain.Controls;
+@using Engine.Service.Html;
+@using Engine.Service.LanguageHelpers;
+@using Engine.Domain;
+@using Engine.Service.LanguageHelpers;
+@using System;
+@using System.Collections.Generic;
+@using System.Linq;
+@using System.Web;
+@using Engine.Domain.CustomModels;
+@using Engine.Domain.Enums;
+@using Engine.Utility;
+@using Engine.Service.Analysis;
+@using Engine.Domain.StandardDtos;
+
+@{     Element element = Model;
+    var options = ApiHelper.GetFromApi<List<StandardLookupDto>>(element.ApiUrl);
+    var val = element.Value;
+    string checkedStr = "";
+    string disabled = "";
+    var index = 0;
+    var name = element.Name;
+    var id = "";}
+<div class="form-group">
+    <label class="form-label-small px-3" @Html.Raw(ElementMarkup.GetLabelForIdAttribute(element))>@Html.Raw(TextHelper.GetLabel(element)) @Html.Raw((element.Required.HasValue && element.Required.Value == true) ? "<small><i class=\"fas fa-asterisk text-danger fa-xs\"></i></small>" : ""):</label>
+    <div class="form-row align-items-center" @Html.Raw(RadioListDynamic.GetAttribultes(element))>
+       @if(options!=null && options.Count>0)
+       {
+        foreach(var op in options){
+            checkedStr = (val == op.Id) ? "checked" : "";
+            disabled = (op.Disabled) ? "disabled" : "";
+            id = name + (++index);
+
+            @Html.Raw($@"<div class=""col-auto"">
+                    <div class=""custom-control custom-radio mx-sm-2 my-2"">
+                        <input type=""radio"" class=""custom-control-input""
+                            value=""{op.Id}""
+                            name=""{name}""
+                            id=""{id}""
+                            {checkedStr}>
+                    <label class=""custom-control-label font-weight-bold"" for=""{id}"">{op.Text}</label>
+                    </div>
+                </div>")
+         }
+        }
+    </div>
+    @Html.Raw(ElementMarkup.DrawHelpMarkup(element))
+</div>

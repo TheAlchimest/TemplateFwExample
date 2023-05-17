@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Collections\**" />
+    <Compile Remove="Enums\**" />
+    <Compile Remove="Models\**" />
+    <Compile Remove="QueryObjects\**" />
+    <Compile Remove="Settings\**" />
+    <Compile Remove="Utils\**" />
+    <Compile Remove="ViewModels\ExternalCustomControls\**" />
+    <EmbeddedResource Remove="Collections\**" />
+    <EmbeddedResource Remove="Enums\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="QueryObjects\**" />
+    <EmbeddedResource Remove="Settings\**" />
+    <EmbeddedResource Remove="Utils\**" />
+    <EmbeddedResource Remove="ViewModels\ExternalCustomControls\**" />
+    <None Remove="Collections\**" />
+    <None Remove="Enums\**" />
+    <None Remove="Models\**" />
+    <None Remove="QueryObjects\**" />
+    <None Remove="Settings\**" />
+    <None Remove="Utils\**" />
+    <None Remove="ViewModels\ExternalCustomControls\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\TemplateFw.Shared\TemplateFw.Shared.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Resources\TemplateFw.Resources.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Utilities\TemplateFw.Utilities.csproj" />
+    <ProjectReference Include="..\Domain\TemplateFw.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DataAnnotationsExtensions" Version="5.0.1.27" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.4" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\Acconuts\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+</Project>

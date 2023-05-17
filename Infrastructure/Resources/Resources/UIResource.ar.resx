@@ -1,0 +1,1941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountData" xml:space="preserve">
+    <value>بيانات الحساب</value>
+  </data>
+  <data name="ActivationCode" xml:space="preserve">
+    <value>رمز التأكد</value>
+  </data>
+  <data name="ActivationCodeMessage" xml:space="preserve">
+    <value>يجب ادخال رمز التأكد</value>
+  </data>
+  <data name="Aggree" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="AllRequest" xml:space="preserve">
+    <value>كل الطلبات</value>
+  </data>
+  <data name="AllServices" xml:space="preserve">
+    <value>كافة الخدمات</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>هيئة الاتصالات والفضاء والتقنية</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="BusinessEstablishments" xml:space="preserve">
+    <value>منشآت الأعمال</value>
+  </data>
+  <data name="BusinessEstablishmentsMessageA" xml:space="preserve">
+    <value>معاً لنمو أعمالك ..</value>
+  </data>
+  <data name="BusinessEstablishmentsMessageB" xml:space="preserve">
+    <value>خدمات مخصصة لمنشآت الأعمال تقدمها هيئة الاتصالات والفضاء والتقنية لتسهيل أعمالهم</value>
+  </data>
+  <data name="ByStatus" xml:space="preserve">
+    <value>ترتيب حسب الحالة</value>
+  </data>
+  <data name="CategoryTypeService" xml:space="preserve">
+    <value>فئة و نوع الخدمة</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>مغلق</value>
+  </data>
+  <data name="Complaint" xml:space="preserve">
+    <value>المقترحات والإستفسارات</value>
+  </data>
+  <data name="ContactData" xml:space="preserve">
+    <value>بيانات التواصل</value>
+  </data>
+  <data name="CopyRight" xml:space="preserve">
+    <value>هيئة الاتصالات والفضاء والتقنية</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>هيئة الاتصالات والفضاء والتقنية هي الجهة المسؤولة عن تنظيم قطاع الاتصالات وتقنية المعلومات في المملكة العربية السعودية. ويحدد كلٌ من (نظام الاتصالات) الصادر بقرار مجلس الوزراء ذي الرقم (74 ) في 5/3/1422هـ ولائحته التنفيذية الصادرة بالقرار الوزاري رقم ( 11) في 17 / 5 / 1423هـ الإطار القانوني الخاص بتنظيم القطاع</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>منجزة</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>البريد الالكتروني</value>
+  </data>
+  <data name="EmailMessage" xml:space="preserve">
+    <value>يجب إدخال البريد الإلكتروني</value>
+  </data>
+  <data name="EnglishFullName" xml:space="preserve">
+    <value>الاسم بالانجليزية</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>الاسئلة الشائعة</value>
+  </data>
+  <data name="FontSizeBig" xml:space="preserve">
+    <value>تكبير حجم الخط</value>
+  </data>
+  <data name="FontSizeDefault" xml:space="preserve">
+    <value>استعادة الحجم الافتراضي</value>
+  </data>
+  <data name="FontSizeSmall" xml:space="preserve">
+    <value>تصغير حجم الخط</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="GateEntry" xml:space="preserve">
+    <value>دخول البوابة</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>الجنس</value>
+  </data>
+  <data name="Governments" xml:space="preserve">
+    <value>الجهات الحكومية</value>
+  </data>
+  <data name="GovernmentsMessageA" xml:space="preserve">
+    <value>الترابط الرقمي الحكومي ..</value>
+  </data>
+  <data name="GovernmentsMessageB" xml:space="preserve">
+    <value>بوابة الخدمات الالكترونية لهيئة الاتصالات والفضاء والتقنية للتعاملات الإلكترونية الحكومية ..</value>
+  </data>
+  <data name="HelpCenter" xml:space="preserve">
+    <value>مركز المساعدة</value>
+  </data>
+  <data name="IdexpireDate" xml:space="preserve">
+    <value>تاريخ انتهاء الهوية</value>
+  </data>
+  <data name="Idnumber" xml:space="preserve">
+    <value>رقم الهوية</value>
+  </data>
+  <data name="IndividualPortal" xml:space="preserve">
+    <value>الأفراد</value>
+  </data>
+  <data name="IndividualPortalMessage" xml:space="preserve">
+    <value>تقدم بوابة الأفراد مجموعة من الخدمات التي تلبي احتياجات الأفراد في مجال الاتصالات وتقنية المعلومات بالمملكة</value>
+  </data>
+  <data name="keywords" xml:space="preserve">
+    <value>هيئة الاتصالات والفضاء والتقنية</value>
+  </data>
+  <data name="KnowMore" xml:space="preserve">
+    <value>تعرف على المزيد</value>
+  </data>
+  <data name="LoginToService" xml:space="preserve">
+    <value>دخول الخدمة</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>رقم الجوال</value>
+  </data>
+  <data name="MobileMessage" xml:space="preserve">
+    <value>يجب ادخال رقم الجوال</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>الجنسية</value>
+  </data>
+  <data name="NewFirst" xml:space="preserve">
+    <value>ترتيب الأحدث أولا</value>
+  </data>
+  <data name="NoThankYou" xml:space="preserve">
+    <value>لا شكراً</value>
+  </data>
+  <data name="no_poll" xml:space="preserve">
+    <value>لا يوجد إستبيانات حاليا</value>
+  </data>
+  <data name="OldFirst" xml:space="preserve">
+    <value>ترتيب الأقدم أولا</value>
+  </data>
+  <data name="OnlyFavorits" xml:space="preserve">
+    <value>عرض المفضلة فقط</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>منصة متصل - هيئة الاتصالات والفضاء والتقنية</value>
+  </data>
+  <data name="ParticipateToImprove" xml:space="preserve">
+    <value>شاركنا رأيك لتحسين الخدمة</value>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>تخطي</value>
+  </data>
+  <data name="PDFFile" xml:space="preserve">
+    <value>ملف الخدمة (PDF)</value>
+  </data>
+  <data name="PersonalData" xml:space="preserve">
+    <value>بيانات المستخدم</value>
+  </data>
+  <data name="Poll" xml:space="preserve">
+    <value>إستطلاع الرأي</value>
+  </data>
+  <data name="PollMoreOption" xml:space="preserve">
+    <value>في حال وجود اقتراحات نرجو ذكرها</value>
+  </data>
+  <data name="PollMorePaceHolder" xml:space="preserve">
+    <value>يرجى كتابة مقترحاتك لتطوير خدمات الهيئة الالكترونية</value>
+  </data>
+  <data name="PollPageTitle" xml:space="preserve">
+    <value>استطلاع الرأي</value>
+  </data>
+  <data name="PollSend" xml:space="preserve">
+    <value>إرسال استطلاع الرأي</value>
+  </data>
+  <data name="PollTitleA" xml:space="preserve">
+    <value>استبيان تقييم مستوى الخدمات</value>
+  </data>
+  <data name="PollTitleB" xml:space="preserve">
+    <value>الذي يهدف إلى رفع رضى المستفيدين من بوابة الخدمات الإلكترونية لهيئة الاتصالات والفضاء والتقنية بشكل مستمر</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>سياسة الخصوصية</value>
+  </data>
+  <data name="ProfilePageTitle" xml:space="preserve">
+    <value>الملف الشخصى</value>
+  </data>
+  <data name="ProfileSave" xml:space="preserve">
+    <value>تحديث بيانات التواصل</value>
+  </data>
+  <data name="PublicCommunicationsService" xml:space="preserve">
+    <value>خدمة البلاغات العامة</value>
+  </data>
+  <data name="PublicCommunicationsServiceMessage" xml:space="preserve">
+    <value>خدمة حكومية مقدمة إلى الأفراد والشركات والجهات الحكومية</value>
+  </data>
+  <data name="RateQuestion" xml:space="preserve">
+    <value>ما تقييمك للخدمة؟</value>
+  </data>
+  <data name="Recived" xml:space="preserve">
+    <value>تم الإستلام</value>
+  </data>
+  <data name="RegisterOffshoreFacilityAccount" xml:space="preserve">
+    <value>تسجيل حساب المنشآت الخارجية</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>تاريخ الطلب</value>
+  </data>
+  <data name="RequestNumber" xml:space="preserve">
+    <value>رقم البلاغ</value>
+  </data>
+  <data name="RequestNumberII" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="RequestOrder" xml:space="preserve">
+    <value>ترتيب الطلبات</value>
+  </data>
+  <data name="RequestSubmit" xml:space="preserve">
+    <value>تم استلام طلبكم بنجاح</value>
+  </data>
+  <data name="ReSendOTP" xml:space="preserve">
+    <value>إعادة إرسال رمز التأكيد</value>
+  </data>
+  <data name="ReturnBack" xml:space="preserve">
+    <value>عودة الى الرئيسية</value>
+  </data>
+  <data name="SaveTemp" xml:space="preserve">
+    <value>حفظ مؤقت</value>
+  </data>
+  <data name="SearchForRequest" xml:space="preserve">
+    <value>البحث عن الطلبات</value>
+  </data>
+  <data name="SearchForService" xml:space="preserve">
+    <value>البحث عن خدمة ..</value>
+  </data>
+  <data name="SelectAnswer" xml:space="preserve">
+    <value>اختر الإجابة</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>ارسال</value>
+  </data>
+  <data name="ServiceCondetion" xml:space="preserve">
+    <value>الشروط والأحكام</value>
+  </data>
+  <data name="ServiceCondetionMessage" xml:space="preserve">
+    <value>ينبغي على المستفيدين التالي</value>
+  </data>
+  <data name="ServiceDescription" xml:space="preserve">
+    <value>وصف الخدمة</value>
+  </data>
+  <data name="ServiceDocument" xml:space="preserve">
+    <value>الوثائق المطلوبة</value>
+  </data>
+  <data name="ServiceExecutionTime" xml:space="preserve">
+    <value>زمن تقديم الخدمة</value>
+  </data>
+  <data name="ServiceFees" xml:space="preserve">
+    <value>رسوم الخدمة</value>
+  </data>
+  <data name="ServiceNote" xml:space="preserve">
+    <value>يجب أن تعرف</value>
+  </data>
+  <data name="ServiceProviders" xml:space="preserve">
+    <value>مقدمي الخدمة</value>
+  </data>
+  <data name="ServiceProvidersMessageA" xml:space="preserve">
+    <value>منصة موحدة للخدمات الالكترونية ..</value>
+  </data>
+  <data name="ServiceProvidersMessageB" xml:space="preserve">
+    <value>لتحقيق الترابط بين مزودي الخدمات وهيئة الاتصالات والفضاء والتقنية بشكل سريع وآمن ..</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>الخدمات</value>
+  </data>
+  <data name="ServicesForYou" xml:space="preserve">
+    <value>خدمات صممت خصيصاً لك ..</value>
+  </data>
+  <data name="ServiceSteps" xml:space="preserve">
+    <value>خطوات طلب الخدمة</value>
+  </data>
+  <data name="StartService" xml:space="preserve">
+    <value>بدء الخدمة</value>
+  </data>
+  <data name="StartSurvey" xml:space="preserve">
+    <value>بدء الإستبيان</value>
+  </data>
+  <data name="TakeAction" xml:space="preserve">
+    <value>يلزم اتخاذ إجراء</value>
+  </data>
+  <data name="TargetAudience" xml:space="preserve">
+    <value>الجمهور المستهدف</value>
+  </data>
+  <data name="TargetAudienceMessage" xml:space="preserve">
+    <value>كافة المستفيدين من خدمات الاتصالات في الدولة من أفراد وقطاع الأعمال والقطاع الحكومي</value>
+  </data>
+  <data name="TermsOfUse" xml:space="preserve">
+    <value>شروط الاستخدام</value>
+  </data>
+  <data name="ThankYouForParticipaate" xml:space="preserve">
+    <value>نشكرك على إبداء رأيك بالخدمة</value>
+  </data>
+  <data name="ThankYouForParticipaateMessage" xml:space="preserve">
+    <value>لتحسين خدمات البوابة الرقمية نرجو تعبئة استبيان الرأي</value>
+  </data>
+  <data name="UnderProcessing" xml:space="preserve">
+    <value>تحت الإجراء</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>الفيديو التعريفي</value>
+  </data>
+  <data name="vote" xml:space="preserve">
+    <value>التصويت</value>
+  </data>
+  <data name="VotePageTitle" xml:space="preserve">
+    <value>التصويت</value>
+  </data>
+  <data name="VoteResult" xml:space="preserve">
+    <value>نتائج التصويت</value>
+  </data>
+  <data name="VoteSend" xml:space="preserve">
+    <value>إرسال التصويت</value>
+  </data>
+  <data name="WriteYourObinion" xml:space="preserve">
+    <value>ساهم برأيك هنا</value>
+  </data>
+  <data name="IntroVideo" xml:space="preserve">
+    <value>فيديو تعريفى للخدمة</value>
+  </data>
+  <data name="AccountDataManagement" xml:space="preserve">
+    <value>إدارة بيانات الحساب</value>
+  </data>
+  <data name="Daleel" xml:space="preserve">
+    <value>دليل الخدمات</value>
+  </data>
+  <data name="ElectronicSevice" xml:space="preserve">
+    <value>الخدمات الالكترونية</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>تسجيل خروج</value>
+  </data>
+  <data name="MyRequests" xml:space="preserve">
+    <value>متابعة طلباتي</value>
+  </data>
+  <data name="NotificationCounts" xml:space="preserve">
+    <value>عدد التنبيهات</value>
+  </data>
+  <data name="ReviewMyRequests" xml:space="preserve">
+    <value>متابعة طلباتي</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>مرحبا</value>
+  </data>
+  <data name="Choosecommunication" xml:space="preserve">
+    <value>اختر طريقة التواصل</value>
+  </data>
+  <data name="ChooseMessage" xml:space="preserve">
+    <value>اختر الرسالة</value>
+  </data>
+  <data name="ChooseTypeQuestion" xml:space="preserve">
+    <value>اختر نوع السؤال</value>
+  </data>
+  <data name="CloseII" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="Complaints" xml:space="preserve">
+    <value>إستفسار</value>
+  </data>
+  <data name="Generalization" xml:space="preserve">
+    <value>تعميم</value>
+  </data>
+  <data name="MessageType" xml:space="preserve">
+    <value>نوع الرسالة</value>
+  </data>
+  <data name="MobileII" xml:space="preserve">
+    <value>الجوال</value>
+  </data>
+  <data name="Nevershowagain" xml:space="preserve">
+    <value>عدم العرض مرة أخرى</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>تنويه</value>
+  </data>
+  <data name="Preferredcommunication" xml:space="preserve">
+    <value>طريقة التواصل المفضلة</value>
+  </data>
+  <data name="SendSuggestion" xml:space="preserve">
+    <value>ارسل مقترح او إستفسار</value>
+  </data>
+  <data name="Suggestion" xml:space="preserve">
+    <value>مقترح</value>
+  </data>
+  <data name="Writeyourquestionhere" xml:space="preserve">
+    <value>التفاصيل</value>
+  </data>
+  <data name="Yourquestionmaximum" xml:space="preserve">
+    <value>سيتم الرد على سؤالك في خلال 48 ساعة كحد أقصى</value>
+  </data>
+  <data name="favAddMessage" xml:space="preserve">
+    <value>تم إضافة الخدمة للخدمات المفضلة</value>
+  </data>
+  <data name="favRemoveMessage" xml:space="preserve">
+    <value>تم إزالة الخدمة من قائمة الخدمات المفضلة</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>التنبيهات</value>
+  </data>
+  <data name="View Request" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="more" xml:space="preserve">
+    <value>المزيد</value>
+  </data>
+  <data name="AssetsManagement" xml:space="preserve">
+    <value>ادارة الوثائق</value>
+  </data>
+  <data name="FoundationAccountDelegation" xml:space="preserve">
+    <value>تفويضات الحساب</value>
+  </data>
+  <data name="FoundationAccountManagement" xml:space="preserve">
+    <value>إدارة بيانات الجهة</value>
+  </data>
+  <data name="RequestsTracking" xml:space="preserve">
+    <value>متابعة الطلبات</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>وثيقة</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>الوثائق</value>
+  </data>
+  <data name="DocumentsManagement" xml:space="preserve">
+    <value>ادارة الوثائق</value>
+  </data>
+  <data name="DocumentsManagementTotal" xml:space="preserve">
+    <value>اجمالي عدد الوثائق</value>
+  </data>
+  <data name="Documents2" xml:space="preserve">
+    <value>وثائق</value>
+  </data>
+  <data name="DocumentsBackToList" xml:space="preserve">
+    <value>عودة الي الوثائق</value>
+  </data>
+  <data name="DocumentsCreationDate" xml:space="preserve">
+    <value>تاريخ الاصدار</value>
+  </data>
+  <data name="DocumentsExpirationDate" xml:space="preserve">
+    <value>تاريخ الانتهاء</value>
+  </data>
+  <data name="DocumentsNo" xml:space="preserve">
+    <value>رقم</value>
+  </data>
+  <data name="Requests_BackToList" xml:space="preserve">
+    <value>عودة لطلبات الخدمات</value>
+  </data>
+  <data name="Requests_CompletedRequest" xml:space="preserve">
+    <value>طلب مكتمل</value>
+  </data>
+  <data name="Requests_Request" xml:space="preserve">
+    <value>طلب</value>
+  </data>
+  <data name="Requests_Requests" xml:space="preserve">
+    <value>طلبات</value>
+  </data>
+  <data name="Requests_TheRequests" xml:space="preserve">
+    <value>الطلبات</value>
+  </data>
+  <data name="Requests_TotalRequests" xml:space="preserve">
+    <value>اجمالي عدد الطلبات</value>
+  </data>
+  <data name="Requests_UnderProcessingRequest" xml:space="preserve">
+    <value>تحت الإجراء</value>
+  </data>
+  <data name="MyNumbers_Number" xml:space="preserve">
+    <value>رقم</value>
+  </data>
+  <data name="MyNumbers_Numbers" xml:space="preserve">
+    <value>أرقام</value>
+  </data>
+  <data name="MyNumbers_Title" xml:space="preserve">
+    <value>أرقامي المسجلة</value>
+  </data>
+  <data name="no_Vote" xml:space="preserve">
+    <value>لم يتم العثور على تصويت</value>
+  </data>
+  <data name="No Data" xml:space="preserve">
+    <value>لا يوجد بيانات</value>
+  </data>
+  <data name="HaveQuestion" xml:space="preserve">
+    <value>الأسئلة الشائعة</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="Back_Home" xml:space="preserve">
+    <value>عودة للرئيسية</value>
+  </data>
+  <data name="Announce" xml:space="preserve">
+    <value>تعميم</value>
+  </data>
+  <data name="no_result" xml:space="preserve">
+    <value>لا توجد نتائج</value>
+  </data>
+  <data name="NoDataChanged" xml:space="preserve">
+    <value>لا يوجد بيانات تم تعديلها</value>
+  </data>
+  <data name="SelectAnswerVote" xml:space="preserve">
+    <value>يجب اختيار التقييم</value>
+  </data>
+  <data name="ComplaintHeader" xml:space="preserve">
+    <value>نعمل على زيادة فاعلية التواصل الإلكتروني ورفع نسبة مشاركة الجمهور في الشراكة ، كما تسمح لكم البوابة الاستماع لكل مقترح او إستفسار أو ملاحظة حول البوابة وخدماتها المختلفة.</value>
+  </data>
+  <data name="Message Data" xml:space="preserve">
+    <value>بيانات الرسالة</value>
+  </data>
+  <data name="Send Complaint or Enquiry" xml:space="preserve">
+    <value>ارسل مقترح او إستفسار</value>
+  </data>
+  <data name="accept_cond" xml:space="preserve">
+    <value>أقر بأني اطلعت على شروط و أحكام الإستخدام و أوافق عليها</value>
+  </data>
+  <data name="action" xml:space="preserve">
+    <value>الاجراء</value>
+  </data>
+  <data name="addedd_attachments" xml:space="preserve">
+    <value>الوثائق المضافة</value>
+  </data>
+  <data name="added_accounts" xml:space="preserve">
+    <value>الجهات  المضافة</value>
+  </data>
+  <data name="added_delegations" xml:space="preserve">
+    <value>التفويضات المضافة</value>
+  </data>
+  <data name="add_attachment" xml:space="preserve">
+    <value>اضافة المرفق</value>
+  </data>
+  <data name="add_contact" xml:space="preserve">
+    <value>إضافة جهة اتصال</value>
+  </data>
+  <data name="add_contct_btn" xml:space="preserve">
+    <value>اضافة جهة الإتصال</value>
+  </data>
+  <data name="add_delegate" xml:space="preserve">
+    <value>اضافة بيانات التفويض</value>
+  </data>
+  <data name="add_IdNumber" xml:space="preserve">
+    <value>ادخل رقم الهوية</value>
+  </data>
+  <data name="add_new_delegation" xml:space="preserve">
+    <value>إضافة تفويض جديد</value>
+  </data>
+  <data name="allawed_files" xml:space="preserve">
+    <value>الملفات المسموح بها docx,jpg,pdf</value>
+  </data>
+  <data name="attachment" xml:space="preserve">
+    <value>المرفقات</value>
+  </data>
+  <data name="attachments_data" xml:space="preserve">
+    <value>مرفقات طلب التسجيل</value>
+  </data>
+  <data name="attachment_file" xml:space="preserve">
+    <value>الملف</value>
+  </data>
+  <data name="attachment_msg" xml:space="preserve">
+    <value>الملفات المسموح بها docx,jpg,pdf بحد أقصى 20ميجا</value>
+  </data>
+  <data name="attachment_type" xml:space="preserve">
+    <value>نوع المرفق</value>
+  </data>
+  <data name="attachment_type_data" xml:space="preserve">
+    <value>نوع المرفق</value>
+  </data>
+  <data name="back_to_main" xml:space="preserve">
+    <value>عودة للصفحة الرئيسية</value>
+  </data>
+  <data name="back_to_registration" xml:space="preserve">
+    <value>عودة الي صفحة تسجيل الدخول</value>
+  </data>
+  <data name="change_password" xml:space="preserve">
+    <value>تغيير كلمة المرور</value>
+  </data>
+  <data name="Company_activity" xml:space="preserve">
+    <value>نشاط الشركة</value>
+  </data>
+  <data name="contact_info" xml:space="preserve">
+    <value>جهات الاتصال</value>
+  </data>
+  <data name="current_password" xml:space="preserve">
+    <value>كلمة المرور الحاليه</value>
+  </data>
+  <data name="email_lbl" xml:space="preserve">
+    <value>البريد الالكتروني</value>
+  </data>
+  <data name="email_lbl_conf" xml:space="preserve">
+    <value>تأكيد البريد الالكتروني</value>
+  </data>
+  <data name="external_b_account" xml:space="preserve">
+    <value>حساب منشأة خارجية</value>
+  </data>
+  <data name="External_Login" xml:space="preserve">
+    <value>دخول المنشآت الخارجية</value>
+  </data>
+  <data name="External_Login_msg" xml:space="preserve">
+    <value>يرجى ادخال بيانات الدخول</value>
+  </data>
+  <data name="face_any_login_issues" xml:space="preserve">
+    <value>هل تواجه مشكلة في تسجيل الدخول ؟</value>
+  </data>
+  <data name="finish_registration" xml:space="preserve">
+    <value>انهاء التسجيل</value>
+  </data>
+  <data name="finish_registration_btn" xml:space="preserve">
+    <value>انهاء التسجيل</value>
+  </data>
+  <data name="foundation_account_login" xml:space="preserve">
+    <value>بيانات الدخول الخاصة بالمنشأة</value>
+  </data>
+  <data name="foundation_arabic_name" xml:space="preserve">
+    <value>اسم المنشأة باللغة العربية</value>
+  </data>
+  <data name="Foundation_Country" xml:space="preserve">
+    <value>دولة تسجيل المنشأة</value>
+  </data>
+  <data name="foundation_english_name" xml:space="preserve">
+    <value>اسم المنشأة باللغة الانجليزية</value>
+  </data>
+  <data name="government_account" xml:space="preserve">
+    <value>حساب منشأة حكومية</value>
+  </data>
+  <data name="insert_birthdate" xml:space="preserve">
+    <value>ادخل تاريخ الميلاد</value>
+  </data>
+  <data name="insert_Company_activity" xml:space="preserve">
+    <value>ادخل نشاط الشركة</value>
+  </data>
+  <data name="insert_current_password" xml:space="preserve">
+    <value>كلمة المرور الحاليه مطلوبه</value>
+  </data>
+  <data name="insert_email" xml:space="preserve">
+    <value>ادخل البريد الالكتروني</value>
+  </data>
+  <data name="insert_email_lbl" xml:space="preserve">
+    <value>ادخل البريد الالكتروني</value>
+  </data>
+  <data name="insert_email_lbl_conf" xml:space="preserve">
+    <value>ادخل تأكيد البريد الالكتروني</value>
+  </data>
+  <data name="insert_FoundationNo" xml:space="preserve">
+    <value>ادخل رقم المنشأة</value>
+  </data>
+  <data name="insert_foundation_arabic_name" xml:space="preserve">
+    <value>ادخل اسم المنشأة باللغة العربية</value>
+  </data>
+  <data name="insert_foundation_english_name" xml:space="preserve">
+    <value>ادخل اسم المنشأة باللغة الانجليزية</value>
+  </data>
+  <data name="insert_full_name" xml:space="preserve">
+    <value>ادخل الاسم بالكامل</value>
+  </data>
+  <data name="insert_password" xml:space="preserve">
+    <value>أدخل كلمه المرور</value>
+  </data>
+  <data name="insert_password_conf" xml:space="preserve">
+    <value>ادخل تأكيد كلمة المرور</value>
+  </data>
+  <data name="insert_position" xml:space="preserve">
+    <value>ادخل المنصب</value>
+  </data>
+  <data name="insert_username" xml:space="preserve">
+    <value>أدخل إسم الستخدم</value>
+  </data>
+  <data name="International_login" xml:space="preserve">
+    <value>دخول المنشآت الوطنية</value>
+  </data>
+  <data name="International_login_info" xml:space="preserve">
+    <value>للإستفادة من خدمات منصة متصل يرجى الدخول عبر مركز المعلومات الوطني</value>
+  </data>
+  <data name="International_login_unique" xml:space="preserve">
+    <value>دخول عبر النفاذ الوطني الموحد</value>
+  </data>
+  <data name="International_login_unique_msg" xml:space="preserve">
+    <value>دخول عبر النفاذ الوطني الموحد</value>
+  </data>
+  <data name="login_btn" xml:space="preserve">
+    <value>دخول</value>
+  </data>
+  <data name="login_info" xml:space="preserve">
+    <value>بيانات الدخول</value>
+  </data>
+  <data name="login_to_government" xml:space="preserve">
+    <value>دخول الجهات الحكومية</value>
+  </data>
+  <data name="login_to_government_msg" xml:space="preserve">
+    <value>للإستفادة من خدمات منصة متصل يرجى الدخول عبر مركز المعلومات الوطني</value>
+  </data>
+  <data name="main_info" xml:space="preserve">
+    <value>المعلومات الرئيسية</value>
+  </data>
+  <data name="manage_foundation_account" xml:space="preserve">
+    <value>ادارة بيانات الجهة</value>
+  </data>
+  <data name="max_attachment_size" xml:space="preserve">
+    <value>الحد الأقصى للملف 20 ميجا</value>
+  </data>
+  <data name="message_not_recived" xml:space="preserve">
+    <value>لم تصلك الرسالة ..</value>
+  </data>
+  <data name="mobile_numb" xml:space="preserve">
+    <value>رقم الجوال</value>
+  </data>
+  <data name="new_account" xml:space="preserve">
+    <value>تسجيل حساب جديد</value>
+  </data>
+  <data name="new_account_create" xml:space="preserve">
+    <value>تسجيل حساب جديد</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="NoServiceFound" xml:space="preserve">
+    <value>لم يتم العثور على خدمة بهذا الاسم ...</value>
+  </data>
+  <data name="otp_code" xml:space="preserve">
+    <value>كود التحقق</value>
+  </data>
+  <data name="otp_code_msg" xml:space="preserve">
+    <value>يرجى ادخال كود التحقق المكون من اربعة ارقام الذي تم ارسالة على رقم الجوال</value>
+  </data>
+  <data name="otp_confermation" xml:space="preserve">
+    <value>ادخل رمز التأكيد المرسل إلي الهاتف</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="password_conf" xml:space="preserve">
+    <value>تأكيد كلمة المرور</value>
+  </data>
+  <data name="previous" xml:space="preserve">
+    <value>السابق</value>
+  </data>
+  <data name="recover_mobile_btn" xml:space="preserve">
+    <value>استعادة كلمة المرور</value>
+  </data>
+  <data name="recover_password" xml:space="preserve">
+    <value>استعادة كلمة المرور</value>
+  </data>
+  <data name="recover_password_msg" xml:space="preserve">
+    <value>يرجى ادخال اسم المستخدم ورقم الجوال المسجل بالحساب للتمكن من استعادة كلمة المرور</value>
+  </data>
+  <data name="register" xml:space="preserve">
+    <value>تسجيل</value>
+  </data>
+  <data name="register_government_account" xml:space="preserve">
+    <value>تسجيل حساب الجهات الحكومية</value>
+  </data>
+  <data name="register_government_account_msg" xml:space="preserve">
+    <value>ان لم يكن للمنشآة الحكومية حساب مسجل من قبل يرجى تسجيل حساب ببوابة الخدمات الالكترونية لهيئة الاتصالات والفضاء والتقنية للتعاملات الإلكترونية الحكومية ..</value>
+  </data>
+  <data name="register_review" xml:space="preserve">
+    <value>سيتم مراجعة البيانات المدخلة وسيتم اشعاركم فور تفعيل الحساب</value>
+  </data>
+  <data name="register_sent" xml:space="preserve">
+    <value>تم حفظ بيانات الحساب بنجاح</value>
+  </data>
+  <data name="resend" xml:space="preserve">
+    <value>اعادة ارسال</value>
+  </data>
+  <data name="resend_after" xml:space="preserve">
+    <value>اعادة ارسال خلال</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>ثانية</value>
+  </data>
+  <data name="select_attachment_type" xml:space="preserve">
+    <value>اختر نوع الملف</value>
+  </data>
+  <data name="Select_Country" xml:space="preserve">
+    <value>اختر الدولة</value>
+  </data>
+  <data name="select_one_services_to_delegate" xml:space="preserve">
+    <value>اختر واحدة او اكثر من الخدمات بالقائمة</value>
+  </data>
+  <data name="services_to_delegate" xml:space="preserve">
+    <value>الخدمات المراد التفويض عليها</value>
+  </data>
+  <data name="size" xml:space="preserve">
+    <value>المساحة</value>
+  </data>
+  <data name="update_contct_btn" xml:space="preserve">
+    <value>تعديل جهة الإتصال</value>
+  </data>
+  <data name="update_delegate" xml:space="preserve">
+    <value>تعديل بيانات التفويض</value>
+  </data>
+  <data name="update_login_data" xml:space="preserve">
+    <value>تحديث بيانات الدخول</value>
+  </data>
+  <data name="update_main_info" xml:space="preserve">
+    <value>تحديث المعلومات الرئيسية</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="view_terms" xml:space="preserve">
+    <value>.. عرض السياسات وشروط وأحكام الاستخدام</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Download Asset" xml:space="preserve">
+    <value>تحميل الوثيقة</value>
+  </data>
+  <data name="Show Details" xml:space="preserve">
+    <value>عرض التفاصيل</value>
+  </data>
+  <data name="address_info" xml:space="preserve">
+    <value>العناوين والاتصال</value>
+  </data>
+  <data name="comments" xml:space="preserve">
+    <value>التعليق</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>التعليق</value>
+  </data>
+  <data name="foundation_Address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="foundation_City" xml:space="preserve">
+    <value>المدينة</value>
+  </data>
+  <data name="Foundation_Country_address" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="foundation_Domain" xml:space="preserve">
+    <value>إسم النطاق</value>
+  </data>
+  <data name="foundation_PostalCode" xml:space="preserve">
+    <value>صندوق بريد</value>
+  </data>
+  <data name="foundation_Tel" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="foundation_Website" xml:space="preserve">
+    <value>الموقع الالكتروني</value>
+  </data>
+  <data name="foundation_ZipCode" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+  <data name="insert_Address" xml:space="preserve">
+    <value>أدخل العنوان</value>
+  </data>
+  <data name="insert_City" xml:space="preserve">
+    <value>أدخل المدينة</value>
+  </data>
+  <data name="insert_Comment" xml:space="preserve">
+    <value>أدخل تعليق</value>
+  </data>
+  <data name="insert_foundation_Domain" xml:space="preserve">
+    <value>أدخل إسم النطاق</value>
+  </data>
+  <data name="insert_PostalCode" xml:space="preserve">
+    <value>أدخل صندوق بريد</value>
+  </data>
+  <data name="insert_Tel" xml:space="preserve">
+    <value>أدخل رقم الهاتف</value>
+  </data>
+  <data name="insert_Website" xml:space="preserve">
+    <value>أدخل الموقع الإلكتروني</value>
+  </data>
+  <data name="insert_ZipCode" xml:space="preserve">
+    <value>أدخل الرمز البريدي</value>
+  </data>
+  <data name="update_address_info" xml:space="preserve">
+    <value>تحديث العناوين والاتصال</value>
+  </data>
+  <data name="no_data" xml:space="preserve">
+    <value>لا توجد بيانات</value>
+  </data>
+  <data name="update_comment_info" xml:space="preserve">
+    <value>تحديث التعليق</value>
+  </data>
+  <data name="insert_Complaint_message" xml:space="preserve">
+    <value>يجب إدخال نص الرسالة سواء إستفسار أو مقترح</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>لا توجد بيانات</value>
+  </data>
+  <data name="YourVoteIsImportant" xml:space="preserve">
+    <value>رأيك يهمنا</value>
+  </data>
+  <data name="YourVoteMessage" xml:space="preserve">
+    <value>نحتاج رأيك لتقييم الخدمات المقدمة و لقياس مدى ملائمتها لإحتياجاتك.</value>
+  </data>
+  <data name="ChangeAccountNo" xml:space="preserve">
+    <value>تبديل رقم السجل التجاري</value>
+  </data>
+  <data name="FoundationNo" xml:space="preserve">
+    <value>رقم المنشأة</value>
+  </data>
+  <data name="ProcessType" xml:space="preserve">
+    <value>نوع الطلب</value>
+  </data>
+  <data name="ProcessType_All" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="ProcessType_Processing" xml:space="preserve">
+    <value>معالجة</value>
+  </data>
+  <data name="ProcessType_Tracking" xml:space="preserve">
+    <value>متابعة</value>
+  </data>
+  <data name="Requests_TotalRequestsProcessing" xml:space="preserve">
+    <value>عدد طلبات المعالجة</value>
+  </data>
+  <data name="Requests_TotalRequestsTracking" xml:space="preserve">
+    <value>عدد طلبات المتابعة</value>
+  </data>
+  <data name="ProcessingRequests" xml:space="preserve">
+    <value>طلبات المعالجة</value>
+  </data>
+  <data name="TrackingRequests" xml:space="preserve">
+    <value>طلبات المتابعة</value>
+  </data>
+  <data name="average" xml:space="preserve">
+    <value>متوسط</value>
+  </data>
+  <data name="bad" xml:space="preserve">
+    <value>سيء</value>
+  </data>
+  <data name="excellent" xml:space="preserve">
+    <value>ممتاز</value>
+  </data>
+  <data name="good" xml:space="preserve">
+    <value>جيد</value>
+  </data>
+  <data name="SelectRate" xml:space="preserve">
+    <value>يرجى تحديد تقييم</value>
+  </data>
+  <data name="weak" xml:space="preserve">
+    <value>ضعيف</value>
+  </data>
+  <data name="oneattachment" xml:space="preserve">
+    <value>المرفق</value>
+  </data>
+  <data name="DelegationManageTitle" xml:space="preserve">
+    <value>ادارة تفويضات الحساب</value>
+  </data>
+  <data name="NodataNotification" xml:space="preserve">
+    <value>لا توجد تنبيهات</value>
+  </data>
+  <data name="privacyPage" xml:space="preserve">
+    <value>&lt;div class="news_text"&gt;
+
+                                    &lt;h3 style="text-align:justify;"&gt;
+
+                                        &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;
+                                            الخصوصية وبيان سريّة المعلومات
+                                        &lt;/span&gt;
+                                    &lt;/h3&gt;
+
+                                    &lt;div style="text-align:justify;"&gt;
+                                        &lt;p&gt;&lt;span class="ms-rteFontSize-1"&gt;نقدر اهتمامكم وحرصكم بشأن خصوصية بياناتكم على البوابة الإلكترونية وتطبيق الهواتف الذكية لـ (هيئة الاتصالات والفضاء والتقنية والتي يشار إليها بـ "الهيئة").&lt;/span&gt;&lt;/p&gt;
+
+                                        &lt;p&gt;&lt;span class="ms-rteFontSize-1"&gt;فقد تم إعداد هذه السياسة لدعم المستفيد في تفّهم طبيعة البيانات التي نقوم بتجميعها من خلال تسجيل الدخول لدى بوابة المستفيد من خلال الموقع الإلكتروني او من خلال تطبيق الهواتف الذكية وكيفية تعاملنا مع هذه البيانات الشخصية.&lt;/span&gt;&lt;/p&gt;
+                                        &lt;p&gt;&lt;span class="ms-rteFontSize-1"&gt;وإيمانًا بأهمية البيانات وسريتها، وحرصاً من هيئة الاتصالات والفضاء والتقنية على تقديم أفضل مستويات الخدمة، مع الالتزام بالمحافظة على سرية وخصوصية بيانات المستخدم والبيانات المدخلة، فإن الهيئة تلتزم بالمحافظة على سرية وخصوصية معلومات المستخدم والمواد المدخلة من قبلهم كأساس لسياسة الخصوصية، ولن يتم الإفصاح عن تلك المعلومات إلا وفقًا للضوابط المحددة والمنصوص عليها نظاماً. ومن أهم التدابير المعمول بها في الهيئة لحماية معلومات الزائر الشخصية:&lt;/span&gt;&lt;/p&gt;
+
+                                        &lt;ol style="list-style-type:decimal;"&gt;
+                                            &lt;li&gt;&lt;span class="ms-rteFontSize-1"&gt;الإجراءات والتدابير المشددة لحماية أمن المعلومات والتقنية التي نستخدمها للوقاية من عمليات الاحتيال والدخول غير المصرح به إلى أنظمتنا.&lt;/span&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;span class="ms-rteFontSize-1"&gt;التحديث المنتظم والدوري لإجراءات وضوابط الحماية التي تفي أو تزيد عن المعايير القياسية.&lt;/span&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;span class="ms-rteFontSize-1"&gt;إن موظفينا مؤهلون ومدربون على احترام والحفاظ على سرية وخصوصية المعلومات الشخصية لمستخدمي بوابة المستفيد.&lt;/span&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;span class="ms-rteFontSize-1"&gt;تجمع الهيئة البيانات – وفق أنظمتها واختصاصاها - وبالحد الأدنى لتحقيق الغرض من تقديم خدمات البوابة الالكترونية وتطبيق الهواتف الذكية.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;
+                                        &lt;/ol&gt;
+                                    &lt;/div&gt;
+
+                                    &lt;br /&gt;
+                                    &lt;h3 style="text-align:justify;"&gt;
+                                        &lt;span class="ms-rteFontSize-2"&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;الاستخدام والإفصاح&lt;/span&gt;
+                                        &lt;/span&gt;
+                                    &lt;/h3&gt;
+                                    &lt;div style="text-align:justify;"&gt;&lt;/div&gt;
+                                    &lt;p&gt;&lt;/p&gt;
+                                    &lt;p style="text-align:justify;"&gt;&lt;span class="ms-rteFontSize-1"&gt;ينحصر حق الاطلاع على بيانات ومعلومات المستفيدين للعاملين المخولين بذلك في الهيئة وللأغراض والاستخدامات التي تحددها أنظمة الهيئة.&lt;/span&gt;&lt;/p&gt;
+                                    &lt;p style="text-align:justify;"&gt;&lt;span class="ms-rteFontSize-1"&gt;ويقصد ببيانات ومعلومات المستفيدين كل وأيّ مما يلي:&lt;/span&gt;&lt;/p&gt;
+                                    &lt;p style="text-align:justify;"&gt;&lt;span class="ms-rteFontSize-1"&gt;أ- البيانات الشخصية المستخدمة في التسجيل.&lt;/span&gt;&lt;/p&gt;
+                                    &lt;p style="text-align:justify;"&gt;&lt;span class="ms-rteFontSize-1"&gt;ب- بيانات الموقع الجغرافي للمستخدم.&lt;/span&gt;&lt;/p&gt;
+                                    &lt;p style="text-align:justify;"&gt;&lt;span class="ms-rteFontSize-1"&gt;ج- معلومات بيانات الاتصال والتحديثات المتعلقة بالاستخدام.&lt;/span&gt;&lt;/p&gt;
+                                    &lt;p style="text-align:justify;"&gt;&lt;span class="ms-rteFontSize-1"&gt;د- المعلومات الأخرى المدخلة من المستخدم مثل تعبة نموذج الشكاوى او استخدام الخدمات الإلكترونية الأخرى التي تقوم بجمع المعلومات اللازمة للمعالجة.&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+
+
+                                    &lt;h3 style="text-align:justify;"&gt;
+                                        &lt;span class="ms-rteFontSize-2"&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;
+                                                جمع المعلومات الشخصية
+                                            &lt;/span&gt;
+                                        &lt;/span&gt;
+                                    &lt;/h3&gt;
+                                    &lt;div style="text-align:justify;"&gt;
+                                        &lt;span class="ms-rteFontSize-1"&gt;
+                                            إذا قمت باستخدام بوابة المستفيد او التواصل عبر وسائل التواصل الرسمية للهيئة او من خلال البوابة الإلكترونية وقمت بتزويدنا فيها ببياناتك الشخصية، فإننا قد نشارك بعض البيانات الضرورية مع جهات أخرى أو داخل إدارات الهيئة، وذلك لخدمتك بصورة أكثر فعالية، ولن نشارك بياناتك الشخصية مع الجهات غير الحكومية إلا إذا كانت من الجهات المصرح لها من الجهات المختصة بالقيام بأداء خدمات حكومية محددة. وبتقديمك لبياناتك ومعلوماتك الشخصية من خلال القنوات الرسمية للهيئة، فإنك توافق تمامًا على تخزين ومعالجة واستخدام تلك البيانات من قبلنا. ونحن نحتفظ بالحق في كل الأوقات في كشف أي معلومات للجهات المختصة، عندما يكون ذلك ضروريا للالتزام بأي قانون أو نظام أو طلب حكومي.
+                                        &lt;/span&gt;
+                                    &lt;/div&gt;
+                                    &lt;br /&gt;
+                                    &lt;h3 style="text-align:justify;"&gt;
+                                        &lt;span class="ms-rteFontSize-2"&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;أحكام عامة&lt;/span&gt;
+                                        &lt;/span&gt;
+                                    &lt;/h3&gt;
+                                    &lt;div style="text-align:justify;"&gt;&lt;/div&gt;
+                                    &lt;p style="text-align:justify;"&gt;
+                                        &lt;span class="ms-rteFontSize-1"&gt;
+                                            تحتفظ هيئة الاتصالات والفضاء والتقنية ب
+                                            الحق في إجراء أي تعديل طفيف أو جذري لسياسة الخصوصية من وقت لآخر من دون الحاجة إلى تقديم إخطار بذلك، إذ تعد تلك التعديلات سارية منذ نشرها على موقع الهيئة، ويعد استمرار استخدامك لموقعنا بعد تلك التعديلات قبولًا لهذه التغييرات، عليه ينبغي الاطلاع على سياسة الخصوصية بشكل دوري للتأكد من معرفتك بأحدث نسخة منها.
+                                        &lt;/span&gt;
+                                    &lt;/p&gt;
+                                    &lt;p style="text-align:justify;"&gt;
+                                        &lt;span class="ms-rteFontSize-1"&gt;
+                                            تكون قوانين المملكة العربية السعودية وحدها هي القوانين واجبة التطبيق في كل ما يتعلق بالنزاعات التي قد تنشأ من جراء استخدام هذا الموقع الإلكتروني، كما تختص محاكم المملكة العربية السعودية حصرياً بالنظر في تلك النزاعات والبت فيها.
+                                        &lt;/span&gt;
+                                        &lt;br&gt;
+                                        &lt;br&gt;
+                                    &lt;/p&gt;
+                                &lt;/div&gt;</value>
+  </data>
+  <data name="TermsOfUsePage" xml:space="preserve">
+    <value>&lt;div class="news_text"&gt;
+                                    &lt;div class="ms-rtestate-field" style="display:inline"&gt;
+
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;
+                                                &lt;strong&gt;الشروط&lt;/strong&gt;
+                                            &lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        إن الموقع الإلكتروني الخاص بهيئة الاتصالات والفضاء والتقنية وما فيه من خدمات ومواقع أخرى متشعبة
+                                        منه متاح لاستخدامك الشخصي، ويخضع دخولك واستخدامك لهذا الموقع لبنود وشروط الاستخدام
+                                        وللأنظمة المعمول بها في المملكة، وكذلك يعد وصولك ودخولك إلى الموقع وخدماته
+                                        موافقة دون قيد أو شرط على بنود وشروط الاستخدام، سواءً كنت مستخدماً مسجلاً
+                                        أم لا، وتسري هذه الموافقة اعتباراً من تاريخ أول استخدام لك لهذا الموقع.
+                                        &lt;br /&gt;&lt;br /&gt;
+                                        
+                                        يصبح أي تعديل لهذه البنود والشروط نافذاً فور إعلانه، ما لم يُبين خلاف ذلك، ويعني
+
+                                        استمرارك في استخدام هذا الموقع بعد إعلان
+                                        أي تعديل قبول تام لذلك التعديل.
+                                        
+                                       &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;
+                                                &lt;strong&gt;القيود على الاستخدام&lt;/strong&gt;
+                                            &lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        باستخدامك لخدمات أو مواقع هيئة الاتصالات والفضاء والتقنية، تقر بالامتناع عن الآتي:
+                                        &lt;ul&gt;
+                                            &lt;li&gt;رفع أو تحميل ملفات تحتوي على برمجيات أو مواد أو بيانات أو معلومات أخرى ليست مملوكة لك أو لا تملك ترخيصاً بشأنها. &lt;/li&gt;
+                                            &lt;li&gt;رفع أو تحميل ملفات تحتوي على فيروسات أو بيانات تالفة أو أي برمجيات خبيثة، أو القيام بكل ما من شأنه التأثير على سلامة المعلومات في الموقع أو موثوقيتها أو استمرار توفرها.&lt;/li&gt;
+                                            &lt;li&gt;نشر أو إعلان أو توزيع أو تعميم مواد أو معلومات تحتوي تشويهاً للسمعة أو انتهاكاً للقوانين أو مواد إباحية أو بذيئة أو مخالفة للتعاليم الإسلامية أو للآداب العامة أو أي مواد أو معلومات غير قانونية من خلال خدمات الهيئة.&lt;/li&gt;
+                                            &lt;li&gt;استخدام أية وسيلة أو برنامج أو إجراء لاعتراض أو محاولة اعتراض التشغيل الصحيح لموقع الهيئة.&lt;/li&gt;
+                                            &lt;li&gt;القيام بأي إجراء يفرض حملاً غير معقول أو كبير أو بصورة غير مناسبة على البنية التحتية لموقع الهيئة. &lt;/li&gt;
+                                            &lt;li&gt;كل ما يعد مخالفة لنظام مكافحة الجرائم المعلوماتية أو أي نظام آخر ذو علاقة في المملكة.&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                       &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe"&gt;
+                                                &lt;strong&gt;
+                                                    استخدام الروابط إلى موقع هيئة الاتصالات والفضاء والتقنية
+                                                &lt;/strong&gt;
+                                            &lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;ul&gt;
+                                            &lt;li&gt;يمنع إنشاء أية روابط الكترونية خاصة بالموقع أو عرض أي منها في إطار أو وضع روابطها في أي موقع ما عدا وضع روابط خاصة بالخدمات في مواقع لا تتعارض في أهدافها وتوجهها العام مع أهداف وسياسات وأطر عمل الخدمات الإلكترونية التابعة لهيئة الاتصالات والفضاء والتقنية.&lt;/li&gt;
+                                            &lt;li&gt;لا تعتبر الهيئة بأي حال من الأحوال مشاركة أو مرتبطة بأي شكل كان بأي علامات أو شعارات أو رموز تجارية أو خدمية أو أية وسائل أخرى مستخدمة أو تظهر على بعض خدمات الموقع أو أي من محتوياتها مالم تكن معتمدة لدى الإدارات المختصة لديها.&lt;/li&gt;
+                                            &lt;li&gt;تحتفظ الهيئة بكامل حقوقها في إيقاف وإعاقة أي ارتباط بأي شكل من الأشكال من أي موقع غير مصرح به أو يحتوي على مواضيع غير ملائمة أو فاضحة أو متعدية أو بذيئة أو إباحية أو غير لائقة أو غير مقبولة أو غير قانونية، أو أسماء أو مواد أو معلومات تخالف أي نظام أو تنتهك أية حقوق عامة أو خاصة.&lt;/li&gt;
+                                            &lt;li&gt;لا تتحمل الهيئة أية مسئولية عن المحتويات المتوفرة في أي موقع آخر يتم الوصول إليه عبر هذا الموقع أو الوصول من خلال خدمات الهيئة.&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;استخدام الروابط من خدمات هيئة الاتصالات والفضاء والتقنية&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;ul&gt;
+                                            &lt;li&gt;يتم توفير روابط الاتصال الخاصة بخدمات ومواقع ويب أخرى بغرض التسهيل على الزائر، ولا تتحمل الهيئة مسؤولية أي محتويات أو مصداقية الخدمات والمواقع التي ترتبط بها ولم تصادق على محتوياتها، وبذلك فإن استخدام أي من هذه الروابط للوصول إلى المواقع أو الخدمات الغير مصدق عليها من الهيئة يكون على مسؤولية المستخدم.&lt;/li&gt;
+                                            &lt;li&gt;لا تضمن الهيئة عمل الروابط الإلكترونية المرتبطة بمواقع أخرى.&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;
+                                                &lt;strong&gt;حقوق الملكية&lt;/strong&gt;
+                                            &lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;ul&gt;
+                                            &lt;li&gt;تشرف الإدارة العامة لتقنية المعلومات بهيئة الاتصالات والفضاء والتقنية بالمملكة على هذا الموقع فنياً، وتعد جميع محتويات الموقع من خدمات ومعلومات ملكًا للهيئة، وهي محمية بالكامل طبقا للأنظمة السعودية لحقوق النشر والعلامات التجارية وحقوق الملكية الفكرية.&lt;/li&gt;
+                                            &lt;li&gt;ما لم ينص على خلاف ذلك، لا يجوز بيع خدمات الموقع وموادها أو ترخيصها أو تأجيرها أو تعديلها أو نسخها أو استنساخها أو إعادة طبعها أو تحميلها أو الإعلان عنها أو نقلها أو توزيعها أو عرضها بصورة علنية أو تحريرها أو إنشاء أعمال مشتقة منها للجمهور أو لأغراض تجارية، دون الحصول على الموافقة المسبقة من الإدارة العامة لتقنية المعلومات بالهيئة إلا للأغراض العلمية والبحثية ونشر الوعي فيجوز الاقتباس بشرط الإحالة إلى الموقع.&lt;/li&gt;
+                                            &lt;li&gt;يمنع منعاً باتاً أي تعديل لأي من محتويات الموقع.&lt;/li&gt;
+                                            &lt;li&gt;الرسومات والصور في هذه الموقع محمية بموجب حقوق النشر، ولا يجوز استنساخها أو استغلالها بأية طريقة كانت، دون موافقة خطية مسبقة من الإدارة العامة لتقنية المعلومات بالهيئة.&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                       &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;إنهاء الاستخدام&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        يجوز للهيئة وحسب تقديرها المطلق إنهاء أو تقييد أو إيقاف حق المستخدم في الدخول
+                                        إلى خدمات الموقع واستخدامها دون إشعار ولأي سبب بما في
+                                        ذلك مخالفة شروط وبنود الاستخدام أو أي سلوك
+                                        آخر قد تعتبره الهيئة حسب تقديرها غير قانوني أو مضرًا بالآخرين، وفي حالة
+                                        الإنهاء، فإنه لن يكون مصرحا للمستخدم بالدخول إلى هذه الخدمات.
+                                        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;المرجعية القضائية&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        يخضع المستخدم للأنظمة القضائية المطبقة بالمملكة العربية السعودية.
+                                        
+                                        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;حدود المسؤولية&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        الخدمات الإلكترونية التي يقدمها موقع هيئة الاتصالات والفضاء والتقنية بشأن العموم
+                                        والجهات الحكومية المختلفة تُقدم فقط لتسهيل
+                                        الإجراءات اليدوية، وبهذا يُقر المستخدم بعلمه
+                                        الكامل بأن الاتصال  عبر شبكة الإنترنت قد يتعرض للتدخل أو الاعتراض بواسطة الغير، وأن
+                                        الموقع ومافيه من خدمات لا يستبدل المعلومات المتوفرة من خلال الجهات الرسمية،
+                                        وأن الطلبات والإجراءات الإدارية يمكن اتخاذها مباشرة أمام الجهات المختصة،
+                                        وعليه؛ فإن اللجوء إلى هذا الموقع يظل على
+                                        مسؤولية المستخدم، ولا تكون الهيئة بأي حال من الأحوال مسؤولة عن أي خسائر
+                                        أو أضرار من أي نوع قد  يتكبدها  المستخدم، أو اعتماده على أي بيان
+                                        أو رأي أو إعلان في الموقع،
+                                        أو ينجم عن أي تأخير في التشغيل، أو تعثر الاتصال، أو مشاكل الدخول إلى شبكة الإنترنت، أو أعطال
+                                        المعدات، أو البرامج، أو سلوك أو أفكار أي شخص يدخل إلى هذا الموقع، وبهذا يقر
+                                        المستخدم هنا ويوافق على أن وسيلته الحصرية والوحيدة لعلاج أي ضرر
+                                        أو خسارة قد تحدث نتيجة دخوله أو استخدامه لهذا
+                                        الموقع هي الامتناع عن استخدامها أو الدخول إليها أو عدم الاستمرار في ذلك.
+                                        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;الحماية من الفيروسات&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        تبذل هيئة الاتصالات والفضاء والتقنية كافة الجهود لفحص واختبار محتويات الموقع، وعلى المستخدم الالتزام بتشغيل برامج مضادات
+                                        الفيروسات في جميع المواد التي يقوم بتنزيلها من الموقع، ولا تكون للهيئة أدنى مسؤولية عن أي خسائر أو انقطاع أو تلفيات في بيانات وأجهزة المستخدم، عند استخدام الموقع، أو المواد الواردة منها.
+
+                                        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;التنازل عن المطالبات&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;ul&gt;
+                                            &lt;li&gt;
+                                                إن موقع الهيئة والخدمات والمعلومات والمواد والوظائف المتاحة به، أو التي يمكن الوصول إليها من خلاله تُوفر للمستخدم "كما هي" و"كما هي متاحة" دون أي إقرار أو وعود أو ضمانات من أي نوع
+                                                ولا يمكن للهيئة أن تضمن أو تتحمل المسؤولية عن أي انقطاعات أو أخطاء أو تجاوزات قد تنشأ عن استخدام هذا الموقع أو محتوياته أو أي موقع يرتبط به، سواء كان ذلك بعلمها أو بدون علمها.
+                                            &lt;/li&gt;
+                                            &lt;li&gt;لا يكون للمستخدم الحق في ملكية أي اتصالات أو معلومات قد يقوم بإرسالها من خلال خدمات هذا الموقع أو حق ضمان سريتها كما أن أي استخدام أو استخدام تفاعلي تتضمنه هذه الخدمات لا تضمن للمستخدم أي حقوق أو تراخيص أو أية امتيازات من أي نوع.&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;التعويض&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        يقر المستخدم بعدم اتخاذ أي إجراءات ضد الهيئة أو موظفيها أو المسؤولين عن إدارة خدمات الموقع أو صيانتها أو تحديثها أو تقديمها، وإعفائها من جميع الالتزامات
+                                        والمسؤوليات والتعويضات الناشئة عن استخدام الخدمات سواء أكان الإخلال من جانبه ببنود وشروط الاستخدام، أو أي من الأنظمة السارية سواء في المملكة أو المكان الذي يقيم فيه، أو لغير ذلك.
+                                        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;معايير التعليقات والمشاركة الإلكترونية:&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        تخضع كل التعليقات التي تضاف في قنوات المشاركة الإلكترونية
+                                        لعملية فلترة بهدف التأكد من التزام صاحب التعليق بمعايير وضوابط نشر التعليقات، ومن حق الإدارة عدم نشر أية تعليقات تراها غير مناسبة للنشر، علماً بأن معايير نشر التعليقات تشمل ما يلي:
+                                        &lt;br /&gt;
+                                        &lt;ol&gt;
+                                            &lt;li&gt;يجب على صاحب التعليق أن يلتزم بالآداب العامة وأنظمة المملكة والتعاليم الإسلامية، وأن يتجنب استخدام أية عبارات غير مناسبة أو ألفاظ خادشة للحياء.&lt;/li&gt;
+                                            &lt;li&gt;أن يكون التعليق منصباً على الموضوع المطروح للنقاش وألا يبتعد عن ذلك بأي شكل من الأشكال عنه.&lt;/li&gt;
+                                            &lt;li&gt;تجنب الوقوع في أية انتقادات شخصية لا تهدف إلى إثراء الفكرة المطروحة.&lt;/li&gt;
+                                            &lt;li&gt;الابتعاد عن النعرات الطائفية وتجنب الوقوع في أية موضوعات عنصرية أو خلافات مذهبية.&lt;/li&gt;
+                                            &lt;li&gt;التأكد التام عند كتابة أي نصوص قرآنية أو آراء دينية ويفضل عدم الخوض فيها إلا من المختصين.&lt;/li&gt;
+                                            &lt;li&gt;تجنب كتابة أية معلومات شخصية ومنها أية معلومات خاصة بالتواصل.&lt;br /&gt;&lt;/li&gt;
+                                        &lt;/ol&gt;
+                                        &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;</value>
+  </data>
+  <data name="full_name" xml:space="preserve">
+    <value>الاسم بالكامل</value>
+  </data>
+  <data name="Request_Details" xml:space="preserve">
+    <value>تفاصيل الطلب</value>
+  </data>
+  <data name="Request_Log" xml:space="preserve">
+    <value>سير الاجراء</value>
+  </data>
+  <data name="BackDirection" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="CRNumber" xml:space="preserve">
+    <value>سجل تجاري رقم</value>
+  </data>
+  <data name="CRs" xml:space="preserve">
+    <value>السجلات التجارية</value>
+  </data>
+  <data name="SelectCR" xml:space="preserve">
+    <value>يرجى اختيار السجل التجاري للمؤسسة المراد الدخول بحسابها من السجلات التالية</value>
+  </data>
+  <data name="TotalCRs" xml:space="preserve">
+    <value>إجمالي السجلات المسجلة لديك</value>
+  </data>
+  <data name="dateType" xml:space="preserve">
+    <value>نوع التاريخ</value>
+  </data>
+  <data name="higri" xml:space="preserve">
+    <value>هجري</value>
+  </data>
+  <data name="melady" xml:space="preserve">
+    <value>ميلادي</value>
+  </data>
+  <data name="Select_dateType" xml:space="preserve">
+    <value>إختر نوع التاريخ</value>
+  </data>
+  <data name="NoServiceFoundData" xml:space="preserve">
+    <value>لم يتم العثور على خدمات</value>
+  </data>
+  <data name="PollSavedSuccessfully" xml:space="preserve">
+    <value>تم ارسال الاستطلاع شاكرين مشاركتكم المثمرة في تطوير خدمات الهيئة</value>
+  </data>
+  <data name="PollSent" xml:space="preserve">
+    <value>تم إرسال الاستطلاع</value>
+  </data>
+  <data name="Reply" xml:space="preserve">
+    <value>الرد</value>
+  </data>
+  <data name="langCode" xml:space="preserve">
+    <value>ar</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>القائمة</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>اختياري</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>مطلوب</value>
+  </data>
+  <data name="BankTransfer" xml:space="preserve">
+    <value>تحويل بنكى</value>
+  </data>
+  <data name="ElectronicGate" xml:space="preserve">
+    <value>البوابة الإلكترونية</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>الدفع</value>
+  </data>
+  <data name="ServicePaymentChannels" xml:space="preserve">
+    <value>قنوات الدفع</value>
+  </data>
+  <data name="ServicePaymentChannelsMessage" xml:space="preserve">
+    <value>طرق الدفع الممكنة</value>
+  </data>
+  <data name="ServiceSubmitChannels" xml:space="preserve">
+    <value>قنوات تقديم الخدمة</value>
+  </data>
+  <data name="ServiceSubmitChannelsMessage" xml:space="preserve">
+    <value>سبل تقديم الخدمات المتاحه</value>
+  </data>
+  <data name="MobileGate" xml:space="preserve">
+    <value>تطبيق الجوال</value>
+  </data>
+  <data name="no_requests" xml:space="preserve">
+    <value>لا توجد طلبات</value>
+  </data>
+  <data name="no_requests_results" xml:space="preserve">
+    <value>لا يوجد نتائج للبحث</value>
+  </data>
+  <data name="PDFFileServiceIntro" xml:space="preserve">
+    <value>الملف التعريفى</value>
+  </data>
+  <data name="RequestNumberMessage" xml:space="preserve">
+    <value>الرقم المرجعى للطلب</value>
+  </data>
+  <data name="AnnounceDontShowAgain" xml:space="preserve">
+    <value>عدم الظهور مرة اخري</value>
+  </data>
+  <data name="WeHelpYou" xml:space="preserve">
+    <value>منصة متصل</value>
+  </data>
+  <data name="WeHelpYouA" xml:space="preserve">
+    <value>منصة متصل توفر لك كافة الخدمات الالكترونية المقدمة من قبل هيئة الاتصالات والفضاء والتقنية</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>المساعدة</value>
+  </data>
+  <data name="electronicService" xml:space="preserve">
+    <value>الخدمات الإلكترونية</value>
+  </data>
+  <data name="MyRequestsManagement" xml:space="preserve">
+    <value>إدارة الطلبات</value>
+  </data>
+  <data name="AccountDataManagementTitle" xml:space="preserve">
+    <value>إدارة بيانات الحساب</value>
+  </data>
+  <data name="AssetsManagementTitle" xml:space="preserve">
+    <value>الوثائق</value>
+  </data>
+  <data name="NotificationsTitle" xml:space="preserve">
+    <value>التنبيهات</value>
+  </data>
+  <data name="RequestsTrackingTitle" xml:space="preserve">
+    <value>متابعة طلباتي</value>
+  </data>
+  <data name="All_Requests" xml:space="preserve">
+    <value>كل الطلبات</value>
+  </data>
+  <data name="apply" xml:space="preserve">
+    <value>تطبيق</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="CurrentMonth" xml:space="preserve">
+    <value>الشهر الحالي</value>
+  </data>
+  <data name="customRange" xml:space="preserve">
+    <value>تاريخ محدد</value>
+  </data>
+  <data name="DocumentsStatus" xml:space="preserve">
+    <value>حالة الطلب</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="Last30Days" xml:space="preserve">
+    <value>اخر 30 يوم</value>
+  </data>
+  <data name="Last7Days" xml:space="preserve">
+    <value>اخر 7 أيام</value>
+  </data>
+  <data name="Last90Days" xml:space="preserve">
+    <value>اخر 90 يوم</value>
+  </data>
+  <data name="LastMonth" xml:space="preserve">
+    <value>الشهر الماضي</value>
+  </data>
+  <data name="numberCopied" xml:space="preserve">
+    <value>تم نسخ رقم الطلب :</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>طلب</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>الي</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>منتهي</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>غير مكتمل</value>
+  </data>
+  <data name="NeedAction" xml:space="preserve">
+    <value>يحتاج إلي إجراء</value>
+  </data>
+  <data name="Recieved" xml:space="preserve">
+    <value>تم الإستلام</value>
+  </data>
+  <data name="RequestesFillter" xml:space="preserve">
+    <value>فلترة الطلبات</value>
+  </data>
+  <data name="RequestNumberTitle" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="RequestReview" xml:space="preserve">
+    <value>متابعة الطلبات</value>
+  </data>
+  <data name="RequestStatus" xml:space="preserve">
+    <value>حالة الطلب</value>
+  </data>
+  <data name="TheCurrent" xml:space="preserve">
+    <value>الحالية</value>
+  </data>
+  <data name="TheEnded" xml:space="preserve">
+    <value>المنتهية</value>
+  </data>
+  <data name="TheNotCompleted" xml:space="preserve">
+    <value>الغير مكتملة</value>
+  </data>
+  <data name="ViewAll" xml:space="preserve">
+    <value>عرض الكل</value>
+  </data>
+  <data name="DocumentStatus" xml:space="preserve">
+    <value>حالة الوثيقة</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>الانتهاء</value>
+  </data>
+  <data name="InValidDocument" xml:space="preserve">
+    <value>وثيقة منتهية</value>
+  </data>
+  <data name="IssueDate" xml:space="preserve">
+    <value>الاصدار</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>الرقم</value>
+  </data>
+  <data name="ValidDocument" xml:space="preserve">
+    <value>وثيقة سارية</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>عرض التفاصيل</value>
+  </data>
+  <data name="ReviewRequest" xml:space="preserve">
+    <value>مراجعة الطلب</value>
+  </data>
+  <data name="WizzradA" xml:space="preserve">
+    <value>يمكننا مساعدتك للوصول للخدمة التي تريدها بشكل أسرع عن طريق الإجابة على بعض الأسئلة ...</value>
+  </data>
+  <data name="WizzradQ" xml:space="preserve">
+    <value>هل تحتاج مساعدة لتحديد الخدمة المناسبة لك ؟</value>
+  </data>
+  <data name="WizzradStartNow" xml:space="preserve">
+    <value>إبدأ الآن</value>
+  </data>
+  <data name="AtAnySector" xml:space="preserve">
+    <value>في اي قطاع تتعلق بها الخدمة المطلوبة</value>
+  </data>
+  <data name="BackHome" xml:space="preserve">
+    <value>عودة الي الرئيسية</value>
+  </data>
+  <data name="CurrentStatus" xml:space="preserve">
+    <value>المرحلة الحالية</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>انهاء</value>
+  </data>
+  <data name="GetServiceYouWant" xml:space="preserve">
+    <value>للوصول للخدمة التي تريدها</value>
+  </data>
+  <data name="HelpMe" xml:space="preserve">
+    <value>المساعدة</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>جاري التحميل ...</value>
+  </data>
+  <data name="NoCategoryForSector" xml:space="preserve">
+    <value>لا توجد تصنيفات لهذا القطاع</value>
+  </data>
+  <data name="NoServiceForCategory" xml:space="preserve">
+    <value>لا توجد خدمات لهذه التصنيفات</value>
+  </data>
+  <data name="NoServieFound" xml:space="preserve">
+    <value>لم تجد الخدمة المناسبة لك ضمن الخدمات السابقة ؟</value>
+  </data>
+  <data name="SelectSector" xml:space="preserve">
+    <value>يرجى تحديد اي من القطاعات التالية يتعلق بالخدمة المطلوبة</value>
+  </data>
+  <data name="ServiceActive" xml:space="preserve">
+    <value>الخدمات المقترحة</value>
+  </data>
+  <data name="ServiceActiveQ" xml:space="preserve">
+    <value>بناء على اجابتك فيما يلي الخدمات المناسبة لتلبية احتياجاتك</value>
+  </data>
+  <data name="ServiceYouNeed" xml:space="preserve">
+    <value>تصنيف الخدمات</value>
+  </data>
+  <data name="ServiceYouNeedQ" xml:space="preserve">
+    <value>يمكنك تحديد خيارات متعددة لعرض الخدمات المناسب لاحتياجاتك ..</value>
+  </data>
+  <data name="ViewAllServices" xml:space="preserve">
+    <value>.. عرض كافة الخدمات</value>
+  </data>
+  <data name="Request_Back" xml:space="preserve">
+    <value>عودة لطلبات الخدمات</value>
+  </data>
+  <data name="Request_Date" xml:space="preserve">
+    <value>تاريخ الطلب</value>
+  </data>
+  <data name="Request_Description" xml:space="preserve">
+    <value>وصف البلاغ :</value>
+  </data>
+  <data name="Request_Description_Enter" xml:space="preserve">
+    <value>ادخل وصف البلاغ</value>
+  </data>
+  <data name="Request_Description_Required" xml:space="preserve">
+    <value>يجب ادخال وصف البلاغ</value>
+  </data>
+  <data name="Request_Evidence" xml:space="preserve">
+    <value>ما الذي يثبت ذلك؟ :</value>
+  </data>
+  <data name="Request_Evidence_Enter" xml:space="preserve">
+    <value>ادخل ما الذي يثبت ذلك؟</value>
+  </data>
+  <data name="Request_Evidence_Required" xml:space="preserve">
+    <value>يجب ادخال ما الذي يثبت ذلك؟</value>
+  </data>
+  <data name="Request_HistoryLogActions" xml:space="preserve">
+    <value>تاريخ سير اجراء الطلب</value>
+  </data>
+  <data name="Request_ReportDetails" xml:space="preserve">
+    <value>بيانات المبلغ</value>
+  </data>
+  <data name="Request_ReporterInformation" xml:space="preserve">
+    <value>بيانات البلاغ</value>
+  </data>
+  <data name="Request_ReportType" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="Request_ReportType_Choose" xml:space="preserve">
+    <value>اختر نوع البلاغ</value>
+  </data>
+  <data name="Request_Send" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="Request_Service" xml:space="preserve">
+    <value>خدمة البلاغات</value>
+  </data>
+  <data name="Request_ServiceNumber" xml:space="preserve">
+    <value>رقم الخدمة محل البلاغ</value>
+  </data>
+  <data name="Request_ServiceNumberEnter" xml:space="preserve">
+    <value>ادخل رقم الخدمة محل البلاغ</value>
+  </data>
+  <data name="Request_ServiceNumber_Choose" xml:space="preserve">
+    <value>اختر مقدم الخدمة</value>
+  </data>
+  <data name="Request_ServiceNumber_Required" xml:space="preserve">
+    <value>يجب ادخال رقم الخدمة محل البلاغ</value>
+  </data>
+  <data name="Request_ServiceProvider" xml:space="preserve">
+    <value>مقدم الخدمة :</value>
+  </data>
+  <data name="Request_Title" xml:space="preserve">
+    <value>إفشاء معلومات المستخدم السرية</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>الحالية</value>
+  </data>
+  <data name="Ended" xml:space="preserve">
+    <value>المنتهية</value>
+  </data>
+  <data name="FilterByService" xml:space="preserve">
+    <value>فلترة حسب الخدمة</value>
+  </data>
+  <data name="FilterRequestByStatus" xml:space="preserve">
+    <value>فلترة الطلبات حسب الحالة</value>
+  </data>
+  <data name="NoServiceFoundDataWithSameName" xml:space="preserve">
+    <value>لم يتم العثور على خدمة بهذا الاسم</value>
+  </data>
+  <data name="NotCompleted" xml:space="preserve">
+    <value>الغير مكتملة</value>
+  </data>
+  <data name="SearchByRequestNumber" xml:space="preserve">
+    <value>البحث برقم الطلب</value>
+  </data>
+  <data name="service_filter" xml:space="preserve">
+    <value>فلترة الخدمات</value>
+  </data>
+  <data name="Agree" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="CopyNumber" xml:space="preserve">
+    <value>نسخ رقم الطلب</value>
+  </data>
+  <data name="NumberHasCopied" xml:space="preserve">
+    <value>تم نسخ رقم الطلب :</value>
+  </data>
+  <data name="CurrentState" xml:space="preserve">
+    <value>الحالية</value>
+  </data>
+  <data name="EndedState" xml:space="preserve">
+    <value>المنتهية</value>
+  </data>
+  <data name="FilterByServiceState" xml:space="preserve">
+    <value>فلترة حسب الخدمة</value>
+  </data>
+  <data name="NotCompletedState" xml:space="preserve">
+    <value>الغير مكتملة</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
+  <data name="nextBtn" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="soon" xml:space="preserve">
+    <value>قريبا</value>
+  </data>
+  <data name="no_Documents" xml:space="preserve">
+    <value>لا توجد وثائق</value>
+  </data>
+  <data name="loading_numbers" xml:space="preserve">
+    <value>جارٍ تحميل أرقامي ...</value>
+  </data>
+  <data name="failed_to_load_numbers" xml:space="preserve">
+    <value>فشل تحميل أرقامي</value>
+  </data>
+  <data name="no_numbers" xml:space="preserve">
+    <value>لا يوجد ارقام مسجلة</value>
+  </data>
+  <data name="ComplaintManagement" xml:space="preserve">
+    <value>إدارة المقترحات والإستفسارات</value>
+  </data>
+  <data name="KnowmoreTitle" xml:space="preserve">
+    <value>تعرف أكثر</value>
+  </data>
+  <data name="StartServiceTitle" xml:space="preserve">
+    <value>بدء الخدمة</value>
+  </data>
+  <data name="UsedMore" xml:space="preserve">
+    <value>الأكثر استخداما</value>
+  </data>
+  <data name="TopRequest" xml:space="preserve">
+    <value>أحدث الطلبات</value>
+  </data>
+  <data name="TotalDocuments" xml:space="preserve">
+    <value>إجمالي الوثائق</value>
+  </data>
+  <data name="Condetions" xml:space="preserve">
+    <value>الشروط</value>
+  </data>
+  <data name="FAQ_Title" xml:space="preserve">
+    <value>الأسئلــة الشائــعـة</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>أخرى</value>
+  </data>
+  <data name="Steps" xml:space="preserve">
+    <value>الخطوات</value>
+  </data>
+  <data name="DefineRightService" xml:space="preserve">
+    <value>لتحديد الخدمة المناسبة</value>
+  </data>
+  <data name="Presshere" xml:space="preserve">
+    <value>اضغط هنا</value>
+  </data>
+  <data name="StartPoll" xml:space="preserve">
+    <value>بدا الإستبيان</value>
+  </data>
+  <data name="YourOpenionDoDiffrance" xml:space="preserve">
+    <value>رأيك يصنع الفارق</value>
+  </data>
+  <data name="YourOpenionDoDiffranceDesc" xml:space="preserve">
+    <value>شارك برأيك في تقييم متصل للمساعدة في تطوير الخدمة المقدمة للعموم ...</value>
+  </data>
+  <data name="OtherLanguage" xml:space="preserve">
+    <value>En</value>
+  </data>
+  <data name="AddressInfo" xml:space="preserve">
+    <value>بيانات العنوان الوطني</value>
+  </data>
+  <data name="BuildingNo" xml:space="preserve">
+    <value>رقم المبنى</value>
+  </data>
+  <data name="CityName" xml:space="preserve">
+    <value>اسم المدينة</value>
+  </data>
+  <data name="DistrictArea" xml:space="preserve">
+    <value>اسم الحي</value>
+  </data>
+  <data name="DragImageHere" xml:space="preserve">
+    <value>اسحب الملف هنا أو انقر لاختيار الصورة</value>
+  </data>
+  <data name="DragImageHereI" xml:space="preserve">
+    <value>اسحب الملف هنا أو انقر للاستبدال الصورة</value>
+  </data>
+  <data name="MaxFileImageSize" xml:space="preserve">
+    <value>حجم الملف كبير جدا ( الحد الأقصى 2 م .ب ).</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>ازالة</value>
+  </data>
+  <data name="Sorry" xml:space="preserve">
+    <value>عفوا .. حدث خطأ غير متوقع</value>
+  </data>
+  <data name="StreetName" xml:space="preserve">
+    <value>اسم الشارع</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+  <data name="ProfileImage" xml:space="preserve">
+    <value>الصورة الشخصية</value>
+  </data>
+  <data name="EndedTitle" xml:space="preserve">
+    <value>منتهى</value>
+  </data>
+  <data name="RequestTitle" xml:space="preserve">
+    <value>طلب</value>
+  </data>
+  <data name="TotalRequests" xml:space="preserve">
+    <value>اجمالي الطلبات</value>
+  </data>
+  <data name="UnderReview" xml:space="preserve">
+    <value>تحت المعالجة</value>
+  </data>
+  <data name="DashboardInfo" xml:space="preserve">
+    <value>لوحة المعلومات</value>
+  </data>
+  <data name="ManageFoundationInfo" xml:space="preserve">
+    <value>ادارة بيانات الجهة</value>
+  </data>
+  <data name="AllowedFiles" xml:space="preserve">
+    <value>الملفات المسموحة</value>
+  </data>
+  <data name="ComplaintTitle" xml:space="preserve">
+    <value>إستفسار</value>
+  </data>
+  <data name="PersonalImage" xml:space="preserve">
+    <value>الصورة الشخصية</value>
+  </data>
+  <data name="BeneficiaryCategory" xml:space="preserve">
+    <value>الفئة المستفيدة</value>
+  </data>
+  <data name="BusinessLoginGateTitle" xml:space="preserve">
+    <value>بوابة منشآت الأعمال</value>
+  </data>
+  <data name="BusinessLoginGateTitleDesc" xml:space="preserve">
+    <value>خدمات مخصصة لمنشآت الأعمال تقدمها هيئة الإتصالات وتقنية المعلومات لفتح آفاق جديدة للإستمار بالمملكة ..</value>
+  </data>
+  <data name="ExternalBuilding" xml:space="preserve">
+    <value>المنشآت الخارجية</value>
+  </data>
+  <data name="GovernmentGates" xml:space="preserve">
+    <value>الجهات الحكومية</value>
+  </data>
+  <data name="GovernmentGatesDesc" xml:space="preserve">
+    <value>خدمات مخصصة للجهات الحكومية تقدمها هيئة الإتصالات وتقنية المعلومات لفتح آفاق جديدة للإستمار بالمملكة ..</value>
+  </data>
+  <data name="GovernmentGatesLogin" xml:space="preserve">
+    <value>دخول الجهات الحكومية</value>
+  </data>
+  <data name="GovernmentGatesSignUp" xml:space="preserve">
+    <value>تسجيل حساب الجهات الحكومية</value>
+  </data>
+  <data name="NationalBuilding" xml:space="preserve">
+    <value>المنشآت الوطنية</value>
+  </data>
+  <data name="login_to_government_button" xml:space="preserve">
+    <value>دخول عبر النفاذ الوطني الموحد</value>
+  </data>
+  <data name="MyNumbers_Title_main" xml:space="preserve">
+    <value>أرقامي</value>
+  </data>
+  <data name="ServiceActive_Title" xml:space="preserve">
+    <value>قائمة الخدمات المتاحة</value>
+  </data>
+  <data name="ServiceYouNeed_Title" xml:space="preserve">
+    <value>الخدمة التي تحتاجها</value>
+  </data>
+  <data name="Help_Title" xml:space="preserve">
+    <value>تواصل معنا</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MutasilVisitor" xml:space="preserve">
+    <value>زائر بوابة متصل</value>
+    <comment>Online portal visitor</comment>
+  </data>
+  <data name="GoHome" xml:space="preserve">
+    <value>العودة للرئيسية</value>
+  </data>
+  <data name="ThankYouForYourUsingOurService" xml:space="preserve">
+    <value>شكرا لك لإستخدامك خدماتنا</value>
+  </data>
+  <data name="FileExtionForProfileImage" xml:space="preserve">
+    <value>مسموح فقط الامتدادات التالية .png | .jpg | .gif | .jpeg</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>العوده للرئيسية</value>
+  </data>
+  <data name="ChangeFoundationError" xml:space="preserve">
+    <value>حدث خطأ أثناء تبديل السجل التجاري</value>
+  </data>
+  <data name="ChnageFoundationErrorMessage" xml:space="preserve">
+    <value>برجاء المحاولة في وقت لاحق</value>
+  </data>
+  <data name="CopyRightII" xml:space="preserve">
+    <value>جميع الحقوق محفوظة © 2023</value>
+  </data>
+  <data name="TryVersion" xml:space="preserve">
+    <value>اطلاق تجريبي</value>
+  </data>
+  <data name="ChangeFoundationInProgress" xml:space="preserve">
+    <value>تبديل السجل التجاري</value>
+  </data>
+  <data name="ChangeFoundationInProgressMessage" xml:space="preserve">
+    <value>جاري تبديل بيانات السجل التجاري ...</value>
+  </data>
+  <data name="electronicServiceProcess" xml:space="preserve">
+    <value>معالجة الطلبات</value>
+  </data>
+  <data name="DocumentActive" xml:space="preserve">
+    <value>وثيقة سارية</value>
+  </data>
+  <data name="DocumentDeactivated" xml:space="preserve">
+    <value>ملغية</value>
+  </data>
+  <data name="DocumentExpired" xml:space="preserve">
+    <value>منتهية</value>
+  </data>
+  <data name="DocumentSuspended" xml:space="preserve">
+    <value>موقوفة</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>ملغي</value>
+  </data>
+  <data name="sorryM1" xml:space="preserve">
+    <value>لم يتم العثور على الصفحة المطلوبة</value>
+  </data>
+  <data name="sorryM2" xml:space="preserve">
+    <value>رجاء التأكد من الرابط والمحاولة مرة اخرى</value>
+  </data>
+  <data name="sorryT" xml:space="preserve">
+    <value>عذرا</value>
+  </data>
+  <data name="search_delegations" xml:space="preserve">
+    <value>بحث المفوضين</value>
+  </data>
+  <data name="Account_Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+</root>

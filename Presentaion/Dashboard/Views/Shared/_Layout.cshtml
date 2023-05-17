@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+@inject IOptions<WebSettings> webSettings
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+
+    <title>Web App</title>
+    <!-- Favicon icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#4527a0">
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#4527a0">
+    <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#4527a0">
+
+    <link href="/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/vendor/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/vendor/select2/css/select2.ui.css">
+    <link href="/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="/vendor/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet">
+    <link id="MutasilServicIcons" href="@(webSettings.Value.CDN)assets/iconfonts/mutasil/mutasil.css?v24" rel="stylesheet" />
+
+    <!-- Datepicker -->
+    <link rel="stylesheet" href="/vendor/datepicker/css/bootstrap-datetimepicker.min.css">
+    <link href="/app/Framework/tools/validation/smoke-v3.1.1/css/smoke.min.css" rel="stylesheet">
+    <link href="/vendor/chartist/css/chartist.min.css" rel="stylesheet">
+    <link href="/css/all.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
+    <link href="/css/custom2.css" rel="stylesheet">
+    <script src="/vendor/jquery/jquery-3.4.1.min.js"></script>
+
+    <style>
+        .loader-box {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background-color: #00000030;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size: 30px;
+            font-weight: 900;
+        }
+    </style>
+    <style>
+        .gray {
+            background-color: #eee !important;
+        }
+    </style>
+
+</head>
+<body class="rtl">
+
+    <input type="hidden" id="WebLookupApiUrl" value="@(webSettings.Value.WebLookupApiUrl)" />
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+        <!--**********************************
+            Header start
+        ***********************************-->
+        @*@Html.Partial("_Header.cshtml")*@
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        @Html.Partial("_Sidebar")
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+            <div class="container-fluid" id="allcontent">
+                @RenderBody()
+            </div>
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>منصة متصل © <a href="#" class="font-w400" target="_blank">هيئة الاتصالات وتقنية الملعومات</a> @DateTime.Now.Year</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+        <!--**********************************
+           Support ticket button start
+        ***********************************-->
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+
+    </div>
+    @Html.Partial("/Views/Shared/DeactivateAccountModal.cshtml");
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+
+    <script src="/vendor/global/global.min.js"></script>
+    <script src="/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="/vendor/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="/vendor/sweetalert2/dist/sweetalert2.lang.js"></script>
+    <script src="/vendor/select2/js/select2.full.min.js"></script>
+    <script src="/vendor/datepicker/bootstrap-hijri-datetimepicker.min.js"></script>
+
+
+    <script src="/vendor/fontIconPicker/js/css.min.js"></script>
+	<script src="/vendor/fontIconPicker/js/jquery.fonticonpicker.min.js"></script>
+	<link rel="stylesheet" href="/vendor/fontIconPicker/css/base/jquery.fonticonpicker.min.css">
+	<link rel="stylesheet" href="/vendor/fontIconPicker/css/themes/grey-theme/jquery.fonticonpicker.grey.min.css">
+
+    <script src="/js/custom.min.js"></script>
+    <script src="/js/deznav-init.js"></script>
+    <!-- Datepicker -->
+    <!-- Smoke -->
+    <script src="/app/Framework/tools/validation/smoke-v3.1.1/js/smoke.js"></script>
+    <script src="/app/Framework/tools/validation/smoke-v3.1.1/lang/ar.js"></script>
+    <script src="/app/Framework/tools/json/serializeJSON.js"></script>
+
+    <script src="/vendor/chart.js/Chart.bundle.min.js"></script>
+
+    <!-- Chart piety plugin files -->
+    <script src="/vendor/peity/jquery.peity.min.js"></script>
+
+    <!-- Apex Chart -->
+    <script src="/vendor/apexchart/apexchart.js"></script>
+
+    <script src="/app/Framework/helpers/StringHelper.js"></script>
+    <script src="/app/Framework/helpers/globals.js"></script>
+    <script src="/app/Framework/helpers/AlertHelper.js"></script>
+    <script src="/app/helpers/daashboard/DataTableHelper.js"></script>
+    @*<script src="/app/helpers/daashboard/TableHelper.js"></script>*@
+    <script src="/app/helpers/engine/cascadeValuesHelper.js"></script>
+    <script src="/app/helpers/engine/lookupHelper.js"></script>
+    <script src="/app/helpers/engine/templateHelper.js"></script>
+    <script src="/app/helpers/engine/cascadeVisibilityHelper.js"></script>
+    <script src="/app/helpers/engine/inputsHelper.js"></script>
+    <script src="/app/helpers/engine/formHtmlHelper.js"></script>
+    <script src="/app/helpers/engine/jsonHelper.js"></script>
+    <script src="/app/helpers/engine/AjaxHelper.js"></script>
+    <script src="/app/helpers/engine/FormHelper.js"></script>
+    <script src="/app/controllers/actionsController.js"></script>
+@*    <script src="/app/controllers/accounts/userHelper.js"></script>*@
+@*
+    <script src="/app/controllers/list-pages/poll.js"></script>
+    <script src="/app/controllers/list-pages/vote.js"></script>
+    <script src="/app/controllers/list-pages/announce.js"></script>
+    <script src="/app/controllers/list-pages/userAccounts.js"></script>
+    <script src="/app/controllers/list-pages/accounts.js"></script>
+    <script src="/app/controllers/list-pages/businessToSp.js"></script>
+    <script src="/app/controllers/list-pages/services.js"></script>*@
+
+    @*<script src="/app/controllers/accounts/accountValidations.js"></script>
+    <script src="/app/controllers/accounts/attachmentController.js"></script>
+    <script src="/app/controllers/accounts/contactPersonsController.js"></script>
+    <script src="/app/controllers/accounts/validationHelper.js"></script>
+    <script src="/app/controllers/accounts/foundationAccountController.js"></script>
+*@
+    <script src="/app/interceptor.js"></script>
+
+    <script src="/app/Framework/app/uiController.js"></script>
+    <script src="/app/Framework/app/navigationController.js"></script>
+    <script src="~/app/Framework/app/appData.js"></script>
+    <script src="/app/Framework/app/app.js"></script>
+    <script>
+        $(document).ready(function () {
+            app.run();
+        });
+    </script>
+</body>
+</html>

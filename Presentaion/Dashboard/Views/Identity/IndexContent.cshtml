@@ -1,0 +1,65 @@
+﻿@inject IOptions<WebSettings> webSettings
+@model PagedList<TemplateFw.Shared.Dtos.Identity.AdminDto>
+@{
+    int itemNo = Model.FirstItemNo;
+}
+<h6 class="card-title-small align-items-center paging-items-info">
+    <i class="fad fa-stream text-muted"></i>&nbsp;
+    عرض البيانات <span id="spItemsCount" class="text-primary">( @(Model.Items.Count()) )</span> عنصر من اجمالي <span id="spTotalCount" class="text-primary">( @(Model.TotalCount ) )</span>
+</h6>
+
+<div class="table-responsive">
+    <table class="table table-responsive-md table-hover">
+        <thead>
+            <tr>
+                <th><strong></strong></th>
+                <th><strong>الحساب</strong></th>
+                <th><strong>الموظف</strong></th>
+                <th><strong>تاريخ الاضافة</strong></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td><strong>@(itemNo++)</strong></td>
+                    <td>
+                        <span class="text-primary">
+                            <b>
+                                @(item.UserName)
+                            </b>
+                        </span>
+                    </td>
+                    <td>
+                        <span class="text-primary">
+                            <b>
+                                @(item.EmployeeName)
+                            </b>
+                        </span>
+                    </td>
+                    <td>
+                         @Html.Raw(item.CreationDate.ConvertToGridDateTime())
+                    </td>
+                    <td class="text-center"><a href="#!/identity/edit/@(StringCipher.Encrypt(item.Id.ToString()))" class="btn btn-outline-primary btn-sm py-1 mx-1">تعديل</a></td>
+
+                    <td class="">
+                        <div class="d-flex justify-content-end">
+                            <button onclick="actionsController.delete(this);"
+                                data-title="@item.UserName"
+                                data-action-url="/Identity/Delete/@item.Id"
+                                data-to-post='{"id":@(item.Id)}'
+                                class="btn btn-outline-danger btn-md py-1">
+                                حذف
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@Html.Partial("/Views/Shared/paging.cshtml", Model)
+

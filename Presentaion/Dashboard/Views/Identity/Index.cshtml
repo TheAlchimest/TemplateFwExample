@@ -1,0 +1,25 @@
+﻿@inject IOptions<WebSettings> webSettings
+@model PagedList<TemplateFw.Shared.Dtos.Identity.AdminDto>
+@{
+    int itemNo = Model.FirstItemNo;
+}
+
+<div class="form-head mb-sm-5 mb-3 d-flex flex-wrap align-items-center">
+    <div class=" mr-auto">
+        <h3 class="font-w600 mb-2">إدارة مديري النظام</h3>
+        <p class="mb-0">إدارة مديري النظام</p>
+    </div>
+    <a href="/#!/identity/add" class="btn btn-outline-primary mr-3">
+        <i class="fas fa-layer-plus fa-lg mr-2"></i> اضافة مدير جديد
+    </a>
+</div>
+
+@Html.Partial("/Views/Shared/_GridFilter.cshtml",
+        new GridFilterDto { Url = "/identity/IndexContent", PageNo = Model.PageNumber, HasPortalsFilter = false ,HasSearchFilter=false})
+
+<div class="card">
+    <div style="visibility:hidden" class="loader-box">جاري التحميل ...</div>
+    <div class="card-body" id="containerBox">
+        @Html.Partial("/Views/Identity/IndexContent.cshtml", Model)
+    </div>
+</div>

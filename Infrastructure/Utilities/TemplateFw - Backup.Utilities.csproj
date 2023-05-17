@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<GenerateEmbeddedFilesManifest>false</GenerateEmbeddedFilesManifest>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Web\**" />
+		<EmbeddedResource Remove="Web\**" />
+		<None Remove="Web\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="CitcExtensions.cs" />
+		<Compile Remove="WebClientHelpers\RequestUrlHelper.v2.cs" />
+	</ItemGroup>
+
+ 
+
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="106.13.0" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="6.0.0" />
+  </ItemGroup>
+
+ 
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\TemplateFw.Shared\TemplateFw.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

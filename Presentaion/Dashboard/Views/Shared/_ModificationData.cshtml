@@ -1,0 +1,145 @@
+﻿@inject IOptions<WebSettings> webSettings
+@model TemplateFwExample.Dtos.Views.ItemModificationDto
+<div class="card master-form">
+    <div class="card-body">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="font-w600 px-2 fs-14"
+                           for="modificationBy">
+                        اضيف بواسطة
+                    </label>
+                    <input type="text" disabled
+                           data-full-name-url="Identity/GetFullName/@(StringCipher.Encrypt(Model.CreatedBy))"
+                           class="form-control input-default gray"
+                           id="modificationBy">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="font-w600 px-2 fs-14"
+                           for="modificationAt">
+                        تاريخ الاضافة
+                    </label>
+                    <input type="text" disabled value="@Model.CreationAt"
+                           class="form-control input-default gray"
+                           id="modificationAt">
+                </div>
+            </div>
+
+        </div>
+        @if (!string.IsNullOrEmpty(Model.ModificationBy))
+        {
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        @if (Model.ShowTitleReplyBy)
+                        {
+                            <label class="font-w600 px-2 fs-14" for="modificationBy">
+                                تم الرد على الشكوى بواسطة
+                            </label>
+                        }
+                        else
+                        {
+                            <label class="font-w600 px-2 fs-14" for="modificationBy">
+                                تم التعديل بواسطة
+                            </label>
+                        }
+                        <input type="text" disabled
+                           data-full-name-url="Identity/GetFullName/@(StringCipher.Encrypt(Model.ModificationBy))"
+                           class="form-control input-default gray"
+                           id="modificationBy">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="font-w600 px-2 fs-14"
+                           for="modificationAt">
+                            تاريخ التعديل
+                        </label>
+                        <input type="text" disabled value="@Model.ModificationAt"
+                           class="form-control input-default gray"
+                           id="modificationAt">
+                    </div>
+                </div>
+
+            </div>
+        }
+
+
+        @if (!string.IsNullOrEmpty(Model.LastActivationBy))
+        {
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="font-w600 px-2 fs-14"
+                           for="modificationBy">
+                            تم التفعيل بواسطة
+                        </label>
+                        <input type="text" disabled
+                           data-full-name-url="Identity/GetFullName/@(StringCipher.Encrypt(Model.LastActivationBy))"
+                           class="form-control input-default gray"
+                           id="modificationBy">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="font-w600 px-2 fs-14"
+                           for="modificationAt">
+                            تاريخ التفعيل
+                        </label>
+                        <input type="text" disabled value="@Model.LastActivationDate"
+                           class="form-control input-default gray"
+                           id="modificationAt">
+                    </div>
+                </div>
+
+            </div>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.LastDectivationBy))
+        {
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="font-w600 px-2 fs-14"
+                           for="modificationBy">
+                            تم الإيقاف بواسطة
+                        </label>
+                        <input type="text" disabled
+                           data-full-name-url="Identity/GetFullName/@(StringCipher.Encrypt(Model.LastDectivationBy))"
+                           class="form-control input-default gray"
+                           id="modificationBy">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="font-w600 px-2 fs-14"
+                           for="modificationAt">
+                            تاريخ الإيقاف
+                        </label>
+                        <input type="text" disabled value="@Model.LastDectivationDate"
+                           class="form-control input-default gray"
+                           id="modificationAt">
+                    </div>
+                </div>
+
+            </div>
+        }
+
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        userHelper.run();
+    });
+</script>
+
+
+

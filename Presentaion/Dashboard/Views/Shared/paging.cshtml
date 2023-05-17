@@ -1,0 +1,41 @@
+﻿@using TemplateFwExample.Shared.Domain.Interfaces
+@model dynamic
+@{
+    var searchURL = ViewBag.searchURL;
+}
+
+@if (Model != null && Model.IsVisible)
+{
+    <nav class="mt-4 d-flex">
+        <ul class="pagination mx-auto">
+
+            @if (Model.HasPreviousPage)
+                {
+                <li class="page-item page-indicator">
+                    <a class="page-link"
+                     data-search-url="@searchURL" 
+                    onclick="actionsController.paginate(@Model.PreviousPageNo)"
+                    href="javascript:void(0)"><i class="la la-angle-left"></i></a>
+                </li>
+                }
+            @for (int i = Model.StartPage; i <= Model.EndPage; i++)
+            {
+                <li class="page-item @((Model.PageNumber==i)?"active":"")">
+                    <a class="page-link" data-search-url="@searchURL" 
+                    onclick="actionsController.paginate(@i)"
+                    href="javascript:void(0)">@(i)</a></li>
+            }
+            @if (Model.HasNextPage)
+            {
+                <li class="page-item page-indicator">
+                    <a class="page-link" 
+                     data-search-url="@searchURL" 
+                    onclick="actionsController.paginate(@Model.NextPageNo)"
+                    href="javascript:void(0)">
+                        <i class="la la-angle-right"></i>
+                    </a>
+                </li>
+            }
+            </ul>
+    </nav>
+}

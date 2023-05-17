@@ -1,0 +1,1486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbsherAccountNotValid" xml:space="preserve">
+    <value>Absher account does not exist for ID number {0}</value>
+  </data>
+  <data name="Account_Attachments" xml:space="preserve">
+    <value>Attached files</value>
+  </data>
+  <data name="Account_BasicData" xml:space="preserve">
+    <value>Basic information</value>
+  </data>
+  <data name="Account_BasicData_FoundationArName" xml:space="preserve">
+    <value>The name of the entity in Arabic</value>
+  </data>
+  <data name="Account_BasicData_FoundationEnName" xml:space="preserve">
+    <value>Name of the entity in English</value>
+  </data>
+  <data name="Account_BasicData_FoundationNo" xml:space="preserve">
+    <value>Foundation No</value>
+  </data>
+  <data name="Account_ContactData" xml:space="preserve">
+    <value>Addresses and contact</value>
+  </data>
+  <data name="Account_ContactData_Address" xml:space="preserve">
+    <value>The address</value>
+  </data>
+  <data name="Account_ContactData_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Account_ContactData_Domain" xml:space="preserve">
+    <value>Domain name</value>
+  </data>
+  <data name="Account_ContactData_PostalCode" xml:space="preserve">
+    <value>Mail box</value>
+  </data>
+  <data name="Account_ContactData_Tel" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="Account_ContactData_Wasel" xml:space="preserve">
+    <value>Wasel number</value>
+  </data>
+  <data name="Account_ContactData_Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="Account_ContactData_ZipCode" xml:space="preserve">
+    <value>Postal code</value>
+  </data>
+  <data name="Account_ContactPersons" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="Account_ContactPersons_" xml:space="preserve">
+    <value>Person's account</value>
+  </data>
+  <data name="Account_ContactPersons_1" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="Account_ContactPersons_2" xml:space="preserve">
+    <value>Person's account</value>
+  </data>
+  <data name="Account_Governments_Add" xml:space="preserve">
+    <value>Add a government agency account</value>
+  </data>
+  <data name="Account_Governments_Management" xml:space="preserve">
+    <value>Managing the accounts of government agencies</value>
+  </data>
+  <data name="Account_Manager" xml:space="preserve">
+    <value>Account manager</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="ActionDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ActionEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Procedures</value>
+  </data>
+  <data name="ActionSend" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ActivatedSuccessfully" xml:space="preserve">
+    <value>Activation completed successfully</value>
+  </data>
+  <data name="ActivateFoundationAccountNotificationTitle" xml:space="preserve">
+    <value>Activate the corporate account</value>
+  </data>
+  <data name="ActivateUserAccountNotificationTitle" xml:space="preserve">
+    <value>Activate the user account</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Addition</value>
+  </data>
+  <data name="Add New Vote" xml:space="preserve">
+    <value>Add a new vote</value>
+  </data>
+  <data name="AddedSuccessfully" xml:space="preserve">
+    <value>Added successfully</value>
+  </data>
+  <data name="AddingSpAccountForBusinessSuccessfully" xml:space="preserve">
+    <value>The process of adding an account as a service provider has been completed successfully</value>
+  </data>
+  <data name="AddNewAdminNotificationTitle" xml:space="preserve">
+    <value>Add a new controller</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>System manager</value>
+  </data>
+  <data name="Admin Settings" xml:space="preserve">
+    <value>System manager settings</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Everyone</value>
+  </data>
+  <data name="Already have an account? Login!" xml:space="preserve">
+    <value>Do you have an account? sign in!</value>
+  </data>
+  <data name="AlreadyPollBefore" xml:space="preserve">
+    <value>You have already answered the survey</value>
+  </data>
+  <data name="AM" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="Announce" xml:space="preserve">
+    <value>Circulars</value>
+  </data>
+  <data name="AnnounceManagement" xml:space="preserve">
+    <value>Circular management</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>The answer</value>
+  </data>
+  <data name="AnswerArabic" xml:space="preserve">
+    <value>Arabic answer</value>
+  </data>
+  <data name="Application Under miantenance" xml:space="preserve">
+    <value>The application is being maintained</value>
+  </data>
+  <data name="Are you sure you want to delete?" xml:space="preserve">
+    <value>Are sure of the deleting process?</value>
+  </data>
+  <data name="Are you sure you want to open this vote?" xml:space="preserve">
+    <value>Are you sure to activate</value>
+  </data>
+  <data name="Are you sure you want to stop this vote?" xml:space="preserve">
+    <value>Are you sure to turn off the activation</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="AreaName" xml:space="preserve">
+    <value>Area name</value>
+  </data>
+  <data name="Areas" xml:space="preserve">
+    <value>Regions</value>
+  </data>
+  <data name="At max" xml:space="preserve">
+    <value>At most 5</value>
+  </data>
+  <data name="AuditLog" xml:space="preserve">
+    <value>Audit log</value>
+  </data>
+  <data name="BackDirection" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancellation</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="CategoryHasRelatedService" xml:space="preserve">
+    <value>Category has related services</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>The choice</value>
+  </data>
+  <data name="CITCProtalAccountActivated" xml:space="preserve">
+    <value>CITC Protal: Your Foundation Account is Activated</value>
+  </data>
+  <data name="CITCProtalAccountDeactivated" xml:space="preserve">
+    <value>CITC Protal: Your Foundation Account is Deactivated</value>
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>The cities</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="CityName" xml:space="preserve">
+    <value>The city name</value>
+  </data>
+  <data name="Complaint" xml:space="preserve">
+    <value>Complaints and suggestions</value>
+  </data>
+  <data name="ComplaintGotResponse" xml:space="preserve">
+    <value>Your inquiry has been answered</value>
+  </data>
+  <data name="ComplaintResponseNotificationTitle" xml:space="preserve">
+    <value>Your complaint has been answered</value>
+  </data>
+  <data name="ComplaintsAndSuggestions" xml:space="preserve">
+    <value>Complaints and suggestions</value>
+  </data>
+  <data name="ComplaintSavedSuccessfully" xml:space="preserve">
+    <value>Your inquiry has been received, thank you for contacting us</value>
+  </data>
+  <data name="ComplanManagement" xml:space="preserve">
+    <value>Complaints and suggestions management</value>
+  </data>
+  <data name="ComplanSavedSuccessfully" xml:space="preserve">
+    <value>Your complaint has been received. Thank you for contacting us</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="Contact type" xml:space="preserve">
+    <value>Means of communication</value>
+  </data>
+  <data name="ContactIsValid" xml:space="preserve">
+    <value>The data entered is correct</value>
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>Countries</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Country_Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Country_CreatedBy" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="Country_CreationDate" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="Country_Information" xml:space="preserve">
+    <value>Country information</value>
+  </data>
+  <data name="Country_IsAvailable" xml:space="preserve">
+    <value>Is available?</value>
+  </data>
+  <data name="Country_LastModificationDate" xml:space="preserve">
+    <value>Last modification date</value>
+  </data>
+  <data name="Country_LastModifiedBy" xml:space="preserve">
+    <value>Last modified by</value>
+  </data>
+  <data name="Country_Management" xml:space="preserve">
+    <value>Countries management</value>
+  </data>
+  <data name="Country_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Country_NameAr" xml:space="preserve">
+    <value>Name in Arabic</value>
+  </data>
+  <data name="Country_NameEn" xml:space="preserve">
+    <value>Name in English</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Create an Account!" xml:space="preserve">
+    <value>Create an account!</value>
+  </data>
+  <data name="CreateArea" xml:space="preserve">
+    <value>Create a region</value>
+  </data>
+  <data name="CreateAt" xml:space="preserve">
+    <value>Added date</value>
+  </data>
+  <data name="CreateCity" xml:space="preserve">
+    <value>Create a city</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="CreatePaymentWay" xml:space="preserve">
+    <value>Create a payment method</value>
+  </data>
+  <data name="CreateProject" xml:space="preserve">
+    <value>Project establishment</value>
+  </data>
+  <data name="CreateSpeciality" xml:space="preserve">
+    <value>Create a specialty</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="DarkMode" xml:space="preserve">
+    <value>Dark mode</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Control Board</value>
+  </data>
+  <data name="DataChangedSuccessfully" xml:space="preserve">
+    <value>The data has been changed successfully</value>
+  </data>
+  <data name="DeactivatedSuccessfully" xml:space="preserve">
+    <value>The suspension has been completed successfully</value>
+  </data>
+  <data name="DeactivateFoundationAccountNotificationTitle" xml:space="preserve">
+    <value>Disable the organization's account</value>
+  </data>
+  <data name="DeactivateUserAccountNotificationTitle" xml:space="preserve">
+    <value>Disable user account</value>
+  </data>
+  <data name="Default Credentials" xml:space="preserve">
+    <value>Default credentials</value>
+  </data>
+  <data name="DefaultOption" xml:space="preserve">
+    <value>Choose ...</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Deleted Successfully" xml:space="preserve">
+    <value>The deletion process has been successful</value>
+  </data>
+  <data name="deletedSuccessfuly" xml:space="preserve">
+    <value>The deletion process has been successful</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>The description</value>
+  </data>
+  <data name="DescriptionArabic" xml:space="preserve">
+    <value>Arabic description</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="DownloadingError" xml:space="preserve">
+    <value>There was an error downloading the file</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Amendment</value>
+  </data>
+  <data name="EditArea" xml:space="preserve">
+    <value>Edit area</value>
+  </data>
+  <data name="EditCity" xml:space="preserve">
+    <value>Modify the city</value>
+  </data>
+  <data name="EditPaymentWay" xml:space="preserve">
+    <value>Edit payment method</value>
+  </data>
+  <data name="EditProject" xml:space="preserve">
+    <value>Project modification</value>
+  </data>
+  <data name="EditSpeciality" xml:space="preserve">
+    <value>Edit Specialization</value>
+  </data>
+  <data name="EditUnit" xml:space="preserve">
+    <value>EditUnit</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Email Address" xml:space="preserve">
+    <value>E-mail address</value>
+  </data>
+  <data name="EndAt" xml:space="preserve">
+    <value>Survey end date</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="EvaluationRate" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="Exception1" xml:space="preserve">
+    <value>Wrong user data</value>
+  </data>
+  <data name="Exception10" xml:space="preserve">
+    <value>A confirmation code has been sent to your mobile phone</value>
+  </data>
+  <data name="Exception1000" xml:space="preserve">
+    <value>Sorry, an unexpected error occurred</value>
+  </data>
+  <data name="Exception1001" xml:space="preserve">
+    <value>Addition failed</value>
+  </data>
+  <data name="Exception1002" xml:space="preserve">
+    <value>Data call failed</value>
+  </data>
+  <data name="Exception1003" xml:space="preserve">
+    <value>Edit operation failed</value>
+  </data>
+  <data name="Exception1004" xml:space="preserve">
+    <value>Deletion failed</value>
+  </data>
+  <data name="Exception1005" xml:space="preserve">
+    <value>Activation failed</value>
+  </data>
+  <data name="Exception1006" xml:space="preserve">
+    <value>Stop operation failed</value>
+  </data>
+  <data name="Exception1007" xml:space="preserve">
+    <value>Publish failed</value>
+  </data>
+  <data name="Exception1008" xml:space="preserve">
+    <value>Stop operation failed</value>
+  </data>
+  <data name="Exception1009" xml:space="preserve">
+    <value>Data call failed</value>
+  </data>
+  <data name="Exception101" xml:space="preserve">
+    <value>Duplicate facility number</value>
+  </data>
+  <data name="Exception1010" xml:space="preserve">
+    <value>Save failed</value>
+  </data>
+  <data name="Exception1011" xml:space="preserve">
+    <value>Rejection failed</value>
+  </data>
+  <data name="Exception1012" xml:space="preserve">
+    <value>Reply failed</value>
+  </data>
+  <data name="Exception1013" xml:space="preserve">
+    <value>Data call failed</value>
+  </data>
+  <data name="Exception1014" xml:space="preserve">
+    <value>Data call failed</value>
+  </data>
+  <data name="Exception1015" xml:space="preserve">
+    <value>Upload failed</value>
+  </data>
+  <data name="Exception1016" xml:space="preserve">
+    <value>Download failed</value>
+  </data>
+  <data name="Exception1017" xml:space="preserve">
+    <value>The process of adding the service to the preferred services failed</value>
+  </data>
+  <data name="Exception1018" xml:space="preserve">
+    <value>Failed to remove the service from the list of favorite services</value>
+  </data>
+  <data name="Exception1019" xml:space="preserve">
+    <value>Verification failed</value>
+  </data>
+  <data name="Exception102" xml:space="preserve">
+    <value>The name in Arabic is repeated</value>
+  </data>
+  <data name="Exception103" xml:space="preserve">
+    <value>The name in English is repeated</value>
+  </data>
+  <data name="Exception104" xml:space="preserve">
+    <value>Attachments must be added</value>
+  </data>
+  <data name="Exception105" xml:space="preserve">
+    <value>Contacts must be added</value>
+  </data>
+  <data name="Exception106" xml:space="preserve">
+    <value>One of the contacts must be selected as an account manager</value>
+  </data>
+  <data name="Exception107" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="Exception108" xml:space="preserve">
+    <value>The old password is incorrect</value>
+  </data>
+  <data name="Exception109" xml:space="preserve">
+    <value>Invalid confirmation code</value>
+  </data>
+  <data name="Exception11" xml:space="preserve">
+    <value>The confirmation code has expired</value>
+  </data>
+  <data name="Exception110" xml:space="preserve">
+    <value>Username already exists</value>
+  </data>
+  <data name="Exception1101" xml:space="preserve">
+    <value>Service provider account creation failed</value>
+  </data>
+  <data name="Exception111" xml:space="preserve">
+    <value>Username or password is incorrect</value>
+  </data>
+  <data name="Exception112" xml:space="preserve">
+    <value>The password is invalid, not less than four characters</value>
+  </data>
+  <data name="Exception113" xml:space="preserve">
+    <value>Invalid email</value>
+  </data>
+  <data name="Exception114" xml:space="preserve">
+    <value>You have exceeded the maximum number of confirmation codes</value>
+  </data>
+  <data name="Exception115" xml:space="preserve">
+    <value>The ID number and date of birth are not found in Absher</value>
+  </data>
+  <data name="Exception116" xml:space="preserve">
+    <value>The contact email is not associated with the domain name</value>
+  </data>
+  <data name="Exception117" xml:space="preserve">
+    <value>Institution account not found</value>
+  </data>
+  <data name="Exception118" xml:space="preserve">
+    <value>No data has been updated</value>
+  </data>
+  <data name="Exception12" xml:space="preserve">
+    <value>Data modification failed</value>
+  </data>
+  <data name="Exception13" xml:space="preserve">
+    <value>Invalid verification code</value>
+  </data>
+  <data name="Exception14" xml:space="preserve">
+    <value>The service is published</value>
+  </data>
+  <data name="Exception2" xml:space="preserve">
+    <value>This item already exists</value>
+  </data>
+  <data name="Exception3" xml:space="preserve">
+    <value>Not available in the system</value>
+  </data>
+  <data name="Exception4" xml:space="preserve">
+    <value>The operation cannot be completed on a vote that has already been activated</value>
+  </data>
+  <data name="Exception400" xml:space="preserve">
+    <value>Bad Request</value>
+  </data>
+  <data name="Exception401" xml:space="preserve">
+    <value>عفواُ ليس لديك الصلاحية للوصول للمحتوى المطلوب</value>
+    <comment>Unauthorized</comment>
+  </data>
+  <data name="Exception403" xml:space="preserve">
+    <value>عفواُ ليس لديك الصلاحية للوصول للمحتوى المطلوب</value>
+  </data>
+  <data name="Exception404" xml:space="preserve">
+    <value>عفواً المحتوى المطلوب غير موجود</value>
+  </data>
+  <data name="Exception5" xml:space="preserve">
+    <value>A published service cannot be deleted</value>
+  </data>
+  <data name="Exception500" xml:space="preserve">
+    <value>Sorry, an unexpected error occurred</value>
+  </data>
+  <data name="Exception501" xml:space="preserve">
+    <value>Request Not Exists</value>
+  </data>
+  <data name="Exception502" xml:space="preserve">
+    <value>Request Not In Draft Cannot Delete</value>
+  </data>
+  <data name="Exception503" xml:space="preserve">
+    <value>Document Not Exists</value>
+  </data>
+  <data name="Exception504" xml:space="preserve">
+    <value>Request Already Exists</value>
+  </data>
+  <data name="Exception505" xml:space="preserve">
+    <value>Document Already Exists</value>
+  </data>
+  <data name="Exception506" xml:space="preserve">
+    <value>Service not exists</value>
+  </data>
+  <data name="Exception507" xml:space="preserve">
+    <value>User ID Number Or Foundation Number Should Be Provided</value>
+  </data>
+  <data name="Exception510" xml:space="preserve">
+    <value>Account ID Number Exists Before</value>
+  </data>
+  <data name="Exception511" xml:space="preserve">
+    <value>Account Is Blocked</value>
+  </data>
+  <data name="Exception512" xml:space="preserve">
+    <value>Account Name Exists Before</value>
+  </data>
+  <data name="Exception513" xml:space="preserve">
+    <value>Account ID Number Not Exists</value>
+  </data>
+  <data name="Exception522" xml:space="preserve">
+    <value>Id Number already Exists</value>
+  </data>
+  <data name="Exception523" xml:space="preserve">
+    <value>Email already Exists</value>
+  </data>
+  <data name="Exception524" xml:space="preserve">
+    <value>Mobile already Exists</value>
+  </data>
+  <data name="Exception525" xml:space="preserve">
+    <value>Posission exist before</value>
+  </data>
+  <data name="Exception526" xml:space="preserve">
+    <value>Failed To Create User Account Manager</value>
+  </data>
+  <data name="Exception527" xml:space="preserve">
+    <value>Failed To Update User Account Manager</value>
+  </data>
+  <data name="Exception528" xml:space="preserve">
+    <value>Failed To Remove User Account Manager</value>
+  </data>
+  <data name="Exception529" xml:space="preserve">
+    <value>Can't Remove Last Account Manager</value>
+  </data>
+  <data name="Exception6" xml:space="preserve">
+    <value>You cannot delete your account</value>
+  </data>
+  <data name="Exception7" xml:space="preserve">
+    <value>You have already answered the survey</value>
+  </data>
+  <data name="Exception8" xml:space="preserve">
+    <value>Category has related services</value>
+  </data>
+  <data name="Exception9" xml:space="preserve">
+    <value>You have already answered the vote</value>
+  </data>
+  <data name="FailedToCheckAbsher" xml:space="preserve">
+    <value>Failed to check {0} information from MOI</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Common questions</value>
+  </data>
+  <data name="Faq1" xml:space="preserve">
+    <value>Faq</value>
+  </data>
+  <data name="FaqManagement" xml:space="preserve">
+    <value>Frequently Asked Questions Data Management</value>
+  </data>
+  <data name="Faqs" xml:space="preserve">
+    <value>Faqs</value>
+  </data>
+  <data name="Faq_Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="Faq_AnswerAr" xml:space="preserve">
+    <value>Answer in Arabic</value>
+  </data>
+  <data name="Faq_AnswerEn" xml:space="preserve">
+    <value>Answer in English</value>
+  </data>
+  <data name="Faq_Portal" xml:space="preserve">
+    <value>Portal</value>
+  </data>
+  <data name="Faq_PortalChoose" xml:space="preserve">
+    <value>Choose portal</value>
+  </data>
+  <data name="Faq_Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Faq_QuestionAr" xml:space="preserve">
+    <value>Question in Arabic</value>
+  </data>
+  <data name="Faq_QuestionEn" xml:space="preserve">
+    <value>Question in English</value>
+  </data>
+  <data name="Faq_Service" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="Faq_ServiceChoose" xml:space="preserve">
+    <value>Choose service</value>
+  </data>
+  <data name="First Name" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Forgot Password?" xml:space="preserve">
+    <value>Did you forget your password?</value>
+  </data>
+  <data name="FoundationArabicRepeated" xml:space="preserve">
+    <value>Foundation arabic name already exists</value>
+  </data>
+  <data name="FoundationCreatedNotificationTitle" xml:space="preserve">
+    <value>A new corporate account has been created</value>
+  </data>
+  <data name="FoundationEnglishRepeated" xml:space="preserve">
+    <value>Foundation english name already exists</value>
+  </data>
+  <data name="FoundationNoRepeated" xml:space="preserve">
+    <value>Foundation number already exists</value>
+  </data>
+  <data name="General_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="General_MobileNo" xml:space="preserve">
+    <value>Mobile number</value>
+  </data>
+  <data name="General_Name" xml:space="preserve">
+    <value>The name</value>
+  </data>
+  <data name="General_Tel" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="InvalidAttachmentSize" xml:space="preserve">
+    <value>File exceeded the allowed size</value>
+  </data>
+  <data name="InvalidAttachmentType" xml:space="preserve">
+    <value>Unsupported or incorrect format</value>
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>Is available</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Languages" xml:space="preserve">
+    <value>Languages</value>
+  </data>
+  <data name="Language_IsDefault" xml:space="preserve">
+    <value>Is default?</value>
+  </data>
+  <data name="Last Name" xml:space="preserve">
+    <value>Nickname</value>
+  </data>
+  <data name="LastModificationDate" xml:space="preserve">
+    <value>Last modification date</value>
+  </data>
+  <data name="LastModifiedBy" xml:space="preserve">
+    <value>Last modification by</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Nickname</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="LoginedSuccessfully" xml:space="preserve">
+    <value>You are logged in successfully</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="Manage Areas" xml:space="preserve">
+    <value>District management</value>
+  </data>
+  <data name="Manage category" xml:space="preserve">
+    <value>Manage Categories</value>
+  </data>
+  <data name="Manage ComplaintsAndSuggestions" xml:space="preserve">
+    <value>Complaints and suggestions management</value>
+  </data>
+  <data name="Manage Projects" xml:space="preserve">
+    <value>Project management</value>
+  </data>
+  <data name="Manage Units" xml:space="preserve">
+    <value>Manage Units</value>
+  </data>
+  <data name="Manage voting" xml:space="preserve">
+    <value>Vote management</value>
+  </data>
+  <data name="ManageCities" xml:space="preserve">
+    <value>City ​​management</value>
+  </data>
+  <data name="ManageFaqs" xml:space="preserve">
+    <value>Manage FAQ</value>
+  </data>
+  <data name="ManagePaymentWays" xml:space="preserve">
+    <value>Payment Methods Management</value>
+  </data>
+  <data name="ManageServices" xml:space="preserve">
+    <value>Service management</value>
+  </data>
+  <data name="ManageSpecialities" xml:space="preserve">
+    <value>Department of Specialties</value>
+  </data>
+  <data name="Massage" xml:space="preserve">
+    <value>The message</value>
+  </data>
+  <data name="Massage type" xml:space="preserve">
+    <value>Message type</value>
+  </data>
+  <data name="Master" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Max number of voting options" xml:space="preserve">
+    <value>Can not enter more than 5</value>
+  </data>
+  <data name="Min number of voting options" xml:space="preserve">
+    <value>At least enter 2</value>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>Months</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>The name</value>
+  </data>
+  <data name="NameArabic" xml:space="preserve">
+    <value>Arabic name</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="NewMassage" xml:space="preserve">
+    <value>New messages</value>
+  </data>
+  <data name="NoServices" xml:space="preserve">
+    <value>No services</value>
+  </data>
+  <data name="no_Vote" xml:space="preserve">
+    <value>No vote</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="OperationDone_1" xml:space="preserve">
+    <value>Added successfully</value>
+  </data>
+  <data name="OperationDone_10" xml:space="preserve">
+    <value>Saved successfully</value>
+  </data>
+  <data name="OperationDone_11" xml:space="preserve">
+    <value>Rejection completed successfully</value>
+  </data>
+  <data name="OperationDone_12" xml:space="preserve">
+    <value>The response has been completed successfully</value>
+  </data>
+  <data name="OperationDone_13" xml:space="preserve">
+    <value>The data recall was completed successfully</value>
+  </data>
+  <data name="OperationDone_14" xml:space="preserve">
+    <value>The data recall was completed successfully</value>
+  </data>
+  <data name="OperationDone_15" xml:space="preserve">
+    <value>The upload has been completed successfully</value>
+  </data>
+  <data name="OperationDone_16" xml:space="preserve">
+    <value>Download completed successfully</value>
+  </data>
+  <data name="OperationDone_17" xml:space="preserve">
+    <value>The Verification has been completed successfully</value>
+  </data>
+  <data name="OperationDone_18" xml:space="preserve">
+    <value>The OTP has been sent successfully</value>
+  </data>
+  <data name="OperationDone_19" xml:space="preserve">
+    <value>Registration completed successfully</value>
+  </data>
+  <data name="OperationDone_2" xml:space="preserve">
+    <value>The data recall was completed successfully</value>
+  </data>
+  <data name="OperationDone_3" xml:space="preserve">
+    <value>Editing completed successfully</value>
+  </data>
+  <data name="OperationDone_4" xml:space="preserve">
+    <value>The deletion process has been successful</value>
+  </data>
+  <data name="OperationDone_5" xml:space="preserve">
+    <value>Activation completed successfully</value>
+  </data>
+  <data name="OperationDone_6" xml:space="preserve">
+    <value>The suspension has been completed successfully</value>
+  </data>
+  <data name="OperationDone_7" xml:space="preserve">
+    <value>Deployment completed successfully</value>
+  </data>
+  <data name="OperationDone_8" xml:space="preserve">
+    <value>The suspension has been completed successfully</value>
+  </data>
+  <data name="OperationDone_9" xml:space="preserve">
+    <value>The data recall was completed successfully</value>
+  </data>
+  <data name="OperationFailed_0" xml:space="preserve">
+    <value>Sorry, an unexpected error occurred</value>
+  </data>
+  <data name="OperationFailed_1" xml:space="preserve">
+    <value>Addition failed</value>
+  </data>
+  <data name="OperationFailed_10" xml:space="preserve">
+    <value>Save failed</value>
+  </data>
+  <data name="OperationFailed_11" xml:space="preserve">
+    <value>Rejection failed</value>
+  </data>
+  <data name="OperationFailed_12" xml:space="preserve">
+    <value>Reply failed</value>
+  </data>
+  <data name="OperationFailed_13" xml:space="preserve">
+    <value>Data call failed</value>
+  </data>
+  <data name="OperationFailed_14" xml:space="preserve">
+    <value>Data call failed</value>
+  </data>
+  <data name="OperationFailed_15" xml:space="preserve">
+    <value>Upload failed</value>
+  </data>
+  <data name="OperationFailed_16" xml:space="preserve">
+    <value>Download failed</value>
+  </data>
+  <data name="OperationFailed_17" xml:space="preserve">
+    <value>Verification failed</value>
+  </data>
+  <data name="OperationFailed_18" xml:space="preserve">
+    <value>Sending OTP failed</value>
+  </data>
+  <data name="OperationFailed_19" xml:space="preserve">
+    <value>Registration faild</value>
+  </data>
+  <data name="OperationFailed_2" xml:space="preserve">
+    <value>Data call failed</value>
+  </data>
+  <data name="OperationFailed_3" xml:space="preserve">
+    <value>Edit operation failed</value>
+  </data>
+  <data name="OperationFailed_4" xml:space="preserve">
+    <value>Deletion failed</value>
+  </data>
+  <data name="OperationFailed_5" xml:space="preserve">
+    <value>Activation failed</value>
+  </data>
+  <data name="OperationFailed_6" xml:space="preserve">
+    <value>Stop operation failed</value>
+  </data>
+  <data name="OperationFailed_7" xml:space="preserve">
+    <value>Publish failed</value>
+  </data>
+  <data name="OperationFailed_8" xml:space="preserve">
+    <value>Stop operation failed</value>
+  </data>
+  <data name="OperationFailed_9" xml:space="preserve">
+    <value>Data call failed</value>
+  </data>
+  <data name="OTPNotificationTitle" xml:space="preserve">
+    <value>Confirmation Code</value>
+  </data>
+  <data name="OtpSent" xml:space="preserve">
+    <value>Confirmation code has been sent</value>
+  </data>
+  <data name="OTPSentSuccessfully" xml:space="preserve">
+    <value>Verification code sent successfully</value>
+  </data>
+  <data name="PageSize" xml:space="preserve">
+    <value>Items count</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>The password</value>
+  </data>
+  <data name="PasswordRestoredSuccessfully" xml:space="preserve">
+    <value>The new password has been sent to the phone</value>
+  </data>
+  <data name="PaymentWays" xml:space="preserve">
+    <value>Payment methods</value>
+  </data>
+  <data name="Person_BirthDate" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="Person_IdNumber" xml:space="preserve">
+    <value>Identification Number</value>
+  </data>
+  <data name="Person_JobTitle" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="PM" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Poll" xml:space="preserve">
+    <value>Polls</value>
+  </data>
+  <data name="PollManagement" xml:space="preserve">
+    <value>Polls management</value>
+  </data>
+  <data name="PollQuestion" xml:space="preserve">
+    <value>Poll questions</value>
+  </data>
+  <data name="PollQuestionManagement" xml:space="preserve">
+    <value>Manage poll questions</value>
+  </data>
+  <data name="PollResult" xml:space="preserve">
+    <value>Poll results</value>
+  </data>
+  <data name="PollResultManagement" xml:space="preserve">
+    <value>Managing poll results</value>
+  </data>
+  <data name="PollSavedSuccessfully" xml:space="preserve">
+    <value>The survey has been sent, thanking you for your fruitful participation in the development of the Authority's services</value>
+  </data>
+  <data name="Portal" xml:space="preserve">
+    <value>The gate</value>
+  </data>
+  <data name="Portals" xml:space="preserve">
+    <value>Portals</value>
+  </data>
+  <data name="Portal_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Portal_DescriptionAr" xml:space="preserve">
+    <value>Description in Arabic</value>
+  </data>
+  <data name="Portal_DescriptionEn" xml:space="preserve">
+    <value>Description in English</value>
+  </data>
+  <data name="Portal_Link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="PoweredBy" xml:space="preserve">
+    <value>Done by</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile personly</value>
+  </data>
+  <data name="ProfiledSavedSuccessfully" xml:space="preserve">
+    <value>The contact details have been modified successfully</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>ProjectName</value>
+  </data>
+  <data name="Projects" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="PublishedSuccessfully" xml:space="preserve">
+    <value>Deployment completed successfully</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>The question</value>
+  </data>
+  <data name="QuestionArabic" xml:space="preserve">
+    <value>Arabic question</value>
+  </data>
+  <data name="RateSuccessfully" xml:space="preserve">
+    <value>The evaluation has been sent, thanking you for your fruitful participation in the development of the Authority's services</value>
+  </data>
+  <data name="Ready to Leave?" xml:space="preserve">
+    <value>Ready to let go?</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="Register Account" xml:space="preserve">
+    <value>Register an account</value>
+  </data>
+  <data name="RejectedSuccessfully" xml:space="preserve">
+    <value>Rejection completed successfully</value>
+  </data>
+  <data name="RejectedSuccessfully1" xml:space="preserve">
+    <value>Rejection completed successfully</value>
+  </data>
+  <data name="RejectUserAccountNotificationTitle" xml:space="preserve">
+    <value>User account has been rejected</value>
+  </data>
+  <data name="Remember Me" xml:space="preserve">
+    <value>Remember me</value>
+  </data>
+  <data name="Repeat Password" xml:space="preserve">
+    <value>Reset password</value>
+  </data>
+  <data name="Replied" xml:space="preserve">
+    <value>Answered</value>
+  </data>
+  <data name="Reply" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="Request_Details" xml:space="preserve">
+    <value>Request Details</value>
+  </data>
+  <data name="Request_Details1" xml:space="preserve">
+    <value>Request Details</value>
+  </data>
+  <data name="Request_Log" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="Request_Log1" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Saved Successfully" xml:space="preserve">
+    <value>Saved successfully</value>
+  </data>
+  <data name="SavedSuccessfully" xml:space="preserve">
+    <value>Saved successfully</value>
+  </data>
+  <data name="SaveProfileImageSuccessfully" xml:space="preserve">
+    <value>Profile image saved successfully</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>The service</value>
+  </data>
+  <data name="ServiceBase" xml:space="preserve">
+    <value>Types of electronic services</value>
+  </data>
+  <data name="ServiceBaseDelete_SqlExecution_ExecutionDone" xml:space="preserve">
+    <value>The deletion process has been successful</value>
+  </data>
+  <data name="ServiceBaseDelete_SqlExecution_HasRelatedItems" xml:space="preserve">
+    <value>Unable to complete the deletion process due to related services</value>
+  </data>
+  <data name="ServiceBaseDelete_SqlExecution_NoChanges" xml:space="preserve">
+    <value>Deletion failed</value>
+  </data>
+  <data name="ServiceBaseManagement" xml:space="preserve">
+    <value>Manage types of electronic services</value>
+  </data>
+  <data name="ServiceCategory" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="ServiceCategoryDelete_SqlExecution_ExecutionDone" xml:space="preserve">
+    <value>The deletion process has been successful</value>
+  </data>
+  <data name="ServiceCategoryDelete_SqlExecution_HasRelatedItems" xml:space="preserve">
+    <value>Unable to complete the deletion process due to related services</value>
+  </data>
+  <data name="ServiceCategoryDelete_SqlExecution_NoChanges" xml:space="preserve">
+    <value>Deletion failed</value>
+  </data>
+  <data name="ServiceCategoryManagement" xml:space="preserve">
+    <value>Manage Categories</value>
+  </data>
+  <data name="ServiceManagement" xml:space="preserve">
+    <value>Service management</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Services1" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="ServiceSave_ServiceCodeExists" xml:space="preserve">
+    <value>Service Code Exists before</value>
+  </data>
+  <data name="ServiceTypes" xml:space="preserve">
+    <value>Service types</value>
+  </data>
+  <data name="Service_Conditions" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="Service_ConditionsAr" xml:space="preserve">
+    <value>Conditions in Arabic</value>
+  </data>
+  <data name="Service_ConditionsEn" xml:space="preserve">
+    <value>Conditions in English</value>
+  </data>
+  <data name="Service_DocumentRequired" xml:space="preserve">
+    <value>Document required</value>
+  </data>
+  <data name="Service_DocumentRequiredAr" xml:space="preserve">
+    <value>Document required in Arabic</value>
+  </data>
+  <data name="Service_DocumentRequiredEn" xml:space="preserve">
+    <value>Document required in English</value>
+  </data>
+  <data name="Service_Fees" xml:space="preserve">
+    <value>Fees</value>
+  </data>
+  <data name="Service_FeesAr" xml:space="preserve">
+    <value>Fees in Arabic</value>
+  </data>
+  <data name="Service_FeesEn" xml:space="preserve">
+    <value>Fees in English</value>
+  </data>
+  <data name="Service_Icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="Service_IsPublished" xml:space="preserve">
+    <value>Is published?</value>
+  </data>
+  <data name="Service_LogInRequired" xml:space="preserve">
+    <value>Log in required</value>
+  </data>
+  <data name="Service_MobileUrl" xml:space="preserve">
+    <value>Mobile url</value>
+  </data>
+  <data name="Service_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Service_NotesAr" xml:space="preserve">
+    <value>Notes in Arabic</value>
+  </data>
+  <data name="Service_NotesEn" xml:space="preserve">
+    <value>Notes in English</value>
+  </data>
+  <data name="Service_PdfMediaId" xml:space="preserve">
+    <value>Pdf media id</value>
+  </data>
+  <data name="Service_PublishedAt" xml:space="preserve">
+    <value>Published at</value>
+  </data>
+  <data name="Service_PublishedBy" xml:space="preserve">
+    <value>Published by</value>
+  </data>
+  <data name="Service_ServiceCode" xml:space="preserve">
+    <value>Service code</value>
+  </data>
+  <data name="Service_ServiceType" xml:space="preserve">
+    <value>Service type</value>
+  </data>
+  <data name="Service_ServiceTypeChoose" xml:space="preserve">
+    <value>Choose service type</value>
+  </data>
+  <data name="Service_ShortDescription" xml:space="preserve">
+    <value>Short description</value>
+  </data>
+  <data name="Service_ShortDescriptionAr" xml:space="preserve">
+    <value>Short description in Arabic</value>
+  </data>
+  <data name="Service_ShortDescriptionEn" xml:space="preserve">
+    <value>Short description in English</value>
+  </data>
+  <data name="Service_ShowInAssets" xml:space="preserve">
+    <value>Show in assets</value>
+  </data>
+  <data name="Service_ShowInCatalog" xml:space="preserve">
+    <value>Show in catalog</value>
+  </data>
+  <data name="Service_ShowInFollowUp" xml:space="preserve">
+    <value>Show in follow up</value>
+  </data>
+  <data name="Service_Steps" xml:space="preserve">
+    <value>Steps</value>
+  </data>
+  <data name="Service_StepsAr" xml:space="preserve">
+    <value>Steps in Arabic</value>
+  </data>
+  <data name="Service_StepsEn" xml:space="preserve">
+    <value>Steps in English</value>
+  </data>
+  <data name="Service_StoppedAt" xml:space="preserve">
+    <value>Stopped at</value>
+  </data>
+  <data name="Service_StoppedBy" xml:space="preserve">
+    <value>Stopped by</value>
+  </data>
+  <data name="Service_TimeRequired" xml:space="preserve">
+    <value>Time required</value>
+  </data>
+  <data name="Service_TimeRequiredAr" xml:space="preserve">
+    <value>Time required in Arabic</value>
+  </data>
+  <data name="Service_TimeRequiredEn" xml:space="preserve">
+    <value>Time required in English</value>
+  </data>
+  <data name="Service_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Service_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Service_ViewOrder" xml:space="preserve">
+    <value>View order</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Specialities" xml:space="preserve">
+    <value>Specialties</value>
+  </data>
+  <data name="StartAt" xml:space="preserve">
+    <value>Survey start date</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>The condition</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Error: 'string' does not contain a definition for 'Count'</value>
+  </data>
+  <data name="SuggestionGotResponse" xml:space="preserve">
+    <value>Your suggestion has been answered</value>
+  </data>
+  <data name="SuggestionSavedSuccessfully" xml:space="preserve">
+    <value>Your suggestion has been received. Thank you for contacting us</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UnableToSave" xml:space="preserve">
+    <value>Unable to save file</value>
+  </data>
+  <data name="Units" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="UnitStatus" xml:space="preserve">
+    <value>UnitStatus</value>
+  </data>
+  <data name="UnitType" xml:space="preserve">
+    <value>UnitType</value>
+  </data>
+  <data name="UnPublishedSuccessfully" xml:space="preserve">
+    <value>The suspension has been completed successfully</value>
+  </data>
+  <data name="UpdatedSuccessfully" xml:space="preserve">
+    <value>Editing completed successfully</value>
+  </data>
+  <data name="UploadingError" xml:space="preserve">
+    <value>There was an error uploading the file</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>The user</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="Utlities" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>Error in the entered data</value>
+  </data>
+  <data name="ValidationLength" xml:space="preserve">
+    <value>{PropertyName} must not exceed {Length} characters.</value>
+  </data>
+  <data name="ValidationRequired" xml:space="preserve">
+    <value>{PropertyName} is required</value>
+  </data>
+  <data name="Version Blocked" xml:space="preserve">
+    <value>It is necessary to update the current version</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="ViewError" xml:space="preserve">
+    <value>Data call failed</value>
+  </data>
+  <data name="Vote" xml:space="preserve">
+    <value>Vote</value>
+  </data>
+  <data name="VoteAnswerSavedSuccessfully" xml:space="preserve">
+    <value>The survey has been sent, thanking you for your fruitful participation in the development of the Authority's services</value>
+  </data>
+  <data name="VoteManagement" xml:space="preserve">
+    <value>Vote management</value>
+  </data>
+  <data name="VotePageTitle" xml:space="preserve">
+    <value>Vote</value>
+  </data>
+  <data name="VoteResult" xml:space="preserve">
+    <value>Voting results</value>
+  </data>
+  <data name="VoteResultManagement" xml:space="preserve">
+    <value>Vote management</value>
+  </data>
+  <data name="VoteSend" xml:space="preserve">
+    <value>Submit the vote</value>
+  </data>
+  <data name="Voting" xml:space="preserve">
+    <value>Vote</value>
+  </data>
+  <data name="VotingName" xml:space="preserve">
+    <value>Voting address</value>
+  </data>
+  <data name="VotingResults" xml:space="preserve">
+    <value>Voting results</value>
+  </data>
+  <data name="You don't have permission to do this action" xml:space="preserve">
+    <value>You do not have permission</value>
+  </data>
+  <data name="YourAccountIsActiated" xml:space="preserve">
+    <value>CITC Protal: Your Account is Actiated</value>
+  </data>
+  <data name="YourAccountIsDeactiated" xml:space="preserve">
+    <value>CITC Protal: Your Account is Deactiated</value>
+  </data>
+  <data name="YourAccountIsRejected" xml:space="preserve">
+    <value>CITC Protal: Your Account is Rejected</value>
+  </data>
+</root>

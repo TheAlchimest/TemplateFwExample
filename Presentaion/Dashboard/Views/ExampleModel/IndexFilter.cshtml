@@ -1,0 +1,57 @@
+﻿@inject IOptions<WebSettings> webSettings
+@model TemplateFwExample.Dtos.ExampleModelFilter
+<div class="card master-form">
+    <div class="card-body">
+        <form id="grid-filter" class="grid-filter"
+              action="/exampleModel/IndexContent"
+              data-container-id="containerBox"
+              onsubmit="actionsController.search(this,event)">
+            <input type="hidden" id="PageNumber" name="PageNumber" value="@Model.PageNumber" />
+            <div class="row">
+                <div class="col-md-4 eng-form-element">
+<div class="form-group select2-lg">
+    <label class="form-label-small px-3" for="ExampleCategoryId">@modulesLocalizer["ExampleCategory"] :</label>
+    <select class="form-control form-select select2 select2-control select-dynamic"   id="ExampleCategoryId" name="ExampleCategoryId" data-api-url="examplecategory/lookup" data-default-val="" data-default-text="@localizer["All"]" value="@(Model?.ExampleCategoryId)"  data-smk-max="9999999999" data-smk-min="-9999999999">
+    </select>
+    
+</div>
+</div>
+<div class="col-md-4 eng-form-element">
+<div class="form-group select2-lg">
+    <label class="form-label-small px-3" for="ExampleStatusId">@modulesLocalizer["ExampleStatus"] :</label>
+    <select class="form-control form-select select2 select2-control select-dynamic"   id="ExampleStatusId" name="ExampleStatusId" data-api-url="examplestatus/lookup" data-default-val="" data-default-text="@localizer["All"]" value="@(Model?.ExampleStatusId)"  data-smk-max="9999999999" data-smk-min="-9999999999">
+    </select>
+    
+</div>
+</div>
+<div class="col-md-4 eng-form-element">
+<div class="form-group select2-lg">
+    <label class="form-label-small px-3" for="PageSize">@modulesLocalizer[""] :</label>
+    <select class="form-control form-select select2 select2-control static-select"   id="PageSize" name="PageSize" value="@(Model?.PageSize)">
+        <option value="20">20</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+    </select>
+    
+</div>
+</div>
+<div class="col-md-12 eng-form-element">
+<div class="form-group">
+    <label class="form-label-small px-3" for="Title">@modulesLocalizer["ExampleModel_TitleAr"] :</label>
+    <input class="form-control"   type="text" data-type="text" data-smk-type="text" id="Title" name="Title" placeholder="" maxlength="100" value="@(Model?.Title)">
+    
+    <i class="accent"></i>
+</div>
+</div>
+
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    $('#grid-filter').find('select,input').change(function () {
+        $('#PageNumber').val('1');
+        $('#grid-filter').trigger('submit');
+
+    });
+</script>   

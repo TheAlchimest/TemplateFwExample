@@ -1,0 +1,38 @@
+﻿@using TemplateFwExample.Dashboard.Auth;
+<div class="deznav">
+    <div class="deznav-scroll">
+        <ul class="metismenu" id="menu">
+            
+            <li>
+                <a href="#!/exampleCategory/" class="ai-icon" aria-expanded="false">
+                    <img src="~/images/icons/file-question-alt.svg" width="48" class="icon-img" />
+                    <span class="nav-text">@modulesLocalizer["ExampleCategories"] </span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="#!/exampleModel/" class="ai-icon" aria-expanded="false">
+                    <img src="~/images/icons/file-question-alt.svg" width="48" class="icon-img" />
+                    <span class="nav-text">@modulesLocalizer["ExampleModels"] </span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="#!/exampleStatus/" class="ai-icon" aria-expanded="false">
+                    <img src="~/images/icons/file-question-alt.svg" width="48" class="icon-img" />
+                    <span class="nav-text">@modulesLocalizer["ExampleStatuses"] </span>
+                </a>
+            </li>
+            
+           @* @if (User.IsInRole(RoleProvider.SUPER_ADMIN))
+            {
+                <li>
+                    <a href="#!/Identity" class="ai-icon" aria-expanded="false">
+                        <img src="~/images/icons/setting.svg" width="48" class="icon-img" />
+                        <span class="nav-text">إدارة مديري النظام</span>
+                    </a>
+                </li>
+            }*@
+        </ul>
+    </div>
+</div>

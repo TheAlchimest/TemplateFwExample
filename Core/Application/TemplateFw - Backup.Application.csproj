@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateEmbeddedFilesManifest>false</GenerateEmbeddedFilesManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\Integration\**" />
+    <EmbeddedResource Remove="Services\Integration\**" />
+    <None Remove="Services\Integration\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="AutoMapper\DashboardProfile.cs" />
+    <Compile Remove="Services\MyCache.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1">
+      <TreatAsUsed>true</TreatAsUsed>
+    </PackageReference>
+    <PackageReference Include="Serilog" Version="2.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Persistence\TemplateFw.Persistence.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Utilities\TemplateFw.Utilities.csproj" />
+    <ProjectReference Include="..\Domain\TemplateFw.Domain.csproj" />
+    <ProjectReference Include="..\Dtos\TemplateFw.Dtos.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Base\" />
+  </ItemGroup>
+
+</Project>

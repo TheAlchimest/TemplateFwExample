@@ -1,0 +1,149 @@
+﻿@inject IOptions<WebSettings> webSettings
+@model TemplateFw.Shared.Dtos.Identity.AdminDto
+
+<form method="post" id="frmForm" name="frmForm" action="/Identity/Save" data-is-lingual="True">
+    <input type="hidden" name="Id" value="@(Model.Id)">
+    <div class="form-head mb-sm-5 mb-3 d-flex flex-wrap align-items-center ">
+        <div class=" mr-auto">
+            <h3 class="font-w600 mb-2">@localizer["Admin"]</h3>
+            <p class="mb-0">إضافة مدير للنظام</p>
+        </div>
+    </div>
+
+    <div class="card master-form">
+        <div class="card-header">
+            <h4 class="card-title fs-16 text-primary">
+                <i class="fal fa-hand-pointer fa-lg mr-1"></i>
+                <strong>يرجى إدخال بيانات الحساب...</strong>
+            </h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="font-w600 px-2 fs-14" for="UserName">
+                            الحساب
+                            <small class="text-danger small mx-1">
+                                <i class="fas fa-asterisk fs-10"></i>
+                            </small>
+                        </label>
+                        <input type="text" @Html.Raw(string.IsNullOrWhiteSpace(Model.UserName)?"":"disabled='disabled'") value="@Model.UserName" class="form-control input-default" required="" maxlength="30" smk-error-msg-required="يجب ادخال بيانات الحساب" id="UserName" name="UserName" value="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="font-w600 px-2 fs-14" for="UserName">
+                            إسم الموظف
+                            <small class="text-danger small mx-1">
+                                <i class="fas fa-asterisk fs-10"></i>
+                            </small>
+                        </label>
+                        <input type="text" value="@Model.EmployeeName" class="form-control input-default" required="" maxlength="100" smk-error-msg-required="يجب إدخال إسم الموظف" id="EmployeeName" name="EmployeeName" value="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageServices" name="CanManageServices" @Html.Raw(Model.CanManageServices==true?"checked='checked'":"") value="true">
+                        <label for="CanManageServices">يستطيع إدارة الخدمات</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageIndividualsAccounts" name="CanManageIndividualsAccounts" @Html.Raw(Model.CanManageIndividualsAccounts==true?"checked='checked'":"") value="true">
+                        <label for="CanManageIndividualsAccounts">يستطيع إدارة حسابات الأفراد</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageInternalBusinessAccounts" name="CanManageInternalBusinessAccounts" @Html.Raw(Model.CanManageInternalBusinessAccounts==true?"checked='checked'":"") value="true">
+                        <label for="CanManageInternalBusinessAccounts">يستطيع إدارة حسابات الأعمال الداخلية</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageExternalBusinessAccounts" name="CanManageExternalBusinessAccounts" @Html.Raw(Model.CanManageExternalBusinessAccounts==true?"checked='checked'":"") value="true">
+                        <label for="CanManageExternalBusinessAccounts">يستطيع إدارة حسابات الأعمال الخارجية</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageGovernmentAccounts" name="CanManageGovernmentAccounts" @Html.Raw(Model.CanManageGovernmentAccounts==true?"checked='checked'":"") value="true">
+                        <label for="CanManageGovernmentAccounts">يستطيع إدارة حسابات الجهات الحكومية</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageServiceProvidersAccounts" name="CanManageServiceProvidersAccounts" @Html.Raw(Model.CanManageServiceProvidersAccounts==true?"checked='checked'":"") value="true">
+                        <label for="CanManageServiceProvidersAccounts">يستطيع إدارة حسابات مقدمي الخدمة</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageSecurityAccounts" name="CanManageSecurityAccounts" @Html.Raw(Model.CanManageSecurityAccounts==true?"checked='checked'":"") value="true">
+                        <label for="CanManageSecurityAccounts">يستطيع إدارة حسابات الجهات الأمنية</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageFaqs" name="CanManageFaqs" @Html.Raw(Model.CanManageFaqs==true?"checked='checked'":"") value="true">
+                        <label for="CanManageFaqs">يستطيع إدارة الأسئلة الشائعة</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManagePolls" name="CanManagePolls" @Html.Raw(Model.CanManagePolls==true?"checked='checked'":"") value="true">
+                        <label for="CanManagePolls">يستطيع إدارة إستطلاعات الرأي</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageVotings" name="CanManageVotings" @Html.Raw(Model.CanManageVotings==true?"checked='checked'":"") value="true">
+                        <label for="CanManageVotings">يستطيع إدارة التصويتات</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageComplaints" name="CanManageComplaints" @Html.Raw(Model.CanManageComplaints==true?"checked='checked'":"") value="true">
+                        <label for="CanManageComplaints">يستطيع إدارة الشكاوى والمقترحات</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageAnnounces" name="CanManageAnnounces" @Html.Raw(Model.CanManageAnnounces==true?"checked='checked'":"") value="true">
+                        <label for="CanManageAnnounces">يستطيع إدارة التعاميم</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageAdmins" name="CanManageAdmins" @Html.Raw(Model.CanManageAdmins==true?"checked='checked'":"") value="true">
+                        <label for="CanMangeAdmins">يستطيع إدارة مديري النظام</label>
+                    </div>
+                </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="checkbox" class="input-default" id="CanManageMobile" name="CanManageMobile" @Html.Raw(Model.CanManageMobile==true?"checked='checked'":"") value="true">
+                        <label for="CanMangeAdmins">يستطيع إدارة تطبيق الجوال</label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <button type="button" id="Send" class="btn btn-primary font-size-13 font-weight-bold" onclick="app.form.submit(this,event)"><i class="far fa-lg fa-check"></i> ارسال</button>
+    </div>
+</form>

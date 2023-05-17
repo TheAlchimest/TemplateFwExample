@@ -1,0 +1,47 @@
+﻿@using TemplateFwExample.Dtos
+@inject IOptions<WebSettings> webSettings
+@model PagedList<ExampleCategoryInfoDto>
+@{
+    int itemNo = Model.FirstItemNo;
+}
+<h6 class="card-title-small align-items-center paging-items-info">
+    <i class="fad fa-stream text-muted"></i>&nbsp;
+    عرض البيانات <span id="spItemsCount" class="text-primary">( @(Model.Items.Count()) )</span> عنصر من اجمالي <span id="spTotalCount" class="text-primary">( @(Model.TotalCount ) )</span>
+</h6>
+
+<div class="table-responsive">
+    <table class="table table-responsive-md table-hover">
+        <thead>
+            <tr>
+                
+<th><strong>#</strong></th>
+<th><strong>@modulesLocalizer["ExampleCategory_NameAr"]</strong></th>
+<th><strong>@modulesLocalizer["ExampleCategory_CreationDate"]</strong></th>
+<th><strong>@modulesLocalizer["ExampleCategory_ModifiedDate"]</strong></th>
+<th class="text-center"><strong>@commonResource["ActionEdit"]</strong></th>
+<th class="text-center"><strong>@commonResource["ActionDelete"]</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    
+<td><strong>@(itemNo++)</strong></td>
+<td><b>@item.Name</b></td>
+<td>@Html.Raw(item.CreationDate.ConvertToGridDateTime())</td>
+<td>@Html.Raw(item.ModifiedDate.ConvertToGridDateTime())</td>
+<td class="text-center"><a href="#!/exampleCategory/edit/@(StringCipher.Encrypt(item.ExampleCategoryId.ToString()))" class="btn btn-outline-primary btn-sm py-1 mx-1">@localizer["ActionEdit"]</a></td>
+<td class="text-center"><button onclick="actionsController.delete(this);" data-title="@item.Name" data-action-url="/exampleCategory/Delete/@item.ExampleCategoryId" data-to-post='{"id":@(item.ExampleCategoryId)}' class="btn btn-outline-danger btn-md py-1">@localizer["ActionDelete"]</button></td>
+                </tr>
+                    }
+            @if (Model.Items.Count() <= 0 || Model == null)
+            {
+            <tr><td colspan="6" class="text-center">@localizer["ThereIsNoData"]</td></tr>
+            }
+
+                </tbody>
+    </table>
+</div>
+@Html.Partial("/Views/Shared/paging.cshtml", Model)
+

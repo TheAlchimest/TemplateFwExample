@@ -1,0 +1,89 @@
+﻿@using TemplateFwExample.Shared.Domain.Enums
+@inject IOptions<WebSettings> webSettings
+@model TemplateFwExample.Dtos.ExampleStatusDto
+
+@{
+    bool isUpdateMode = (ViewBag.IsUpdateMode != null) ? ViewBag.IsUpdateMode : false;
+
+}
+<form method="post" id="frmForm" name="frmForm" action="@(ViewBag.ActionUrl)">
+    <div class="form-head mb-sm-5 mb-3 d-flex flex-wrap align-items-center ">
+        <div class=" mr-auto">
+            <h3 class="font-w600 mb-2">@modulesLocalizer["ExampleStatuses"]</h3>
+            <p class="mb-0">@modulesLocalizer["ExampleStatus_Management"]</p>
+        </div>
+    </div>
+    <div class="card master-form">
+        <div class="card-header">
+            <h4 class="card-title fs-16 text-primary">
+            </h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6 eng-form-element">
+<div class="form-group">
+    <label class="form-label-small px-3" for="ExampleStatusId">@modulesLocalizer["ExampleStatus_ExampleStatusId"] <small><i class="fas fa-asterisk text-danger fa-xs"></i></small>:</label>
+    <input class="form-control"   type="number" data-type="number" data-smk-type="number" id="ExampleStatusId" name="ExampleStatusId" placeholder="" required maxlength="10" value="@(Model?.ExampleStatusId)"  smk-error-msg-required="" data-smk-max="9999999999" data-smk-min="-9999999999" max="9999999999" min="-9999999999">
+    
+    <i class="accent"></i>
+</div>
+</div>
+<div class="col-md-6 eng-form-element">
+<div class="form-group">
+    <label class="form-label-small px-3" for="NameAr">@modulesLocalizer["ExampleStatus_NameAr"] <small><i class="fas fa-asterisk text-danger fa-xs"></i></small>:</label>
+    <input class="form-control"   type="text" data-type="text" data-smk-type="text" id="NameAr" name="NameAr" placeholder="" required maxlength="50" value="@(Model?.NameAr)"  smk-error-msg-required="">
+    
+    <i class="accent"></i>
+</div>
+</div>
+<div class="col-md-6 eng-form-element">
+<div class="form-group">
+    <label class="form-label-small px-3" for="NameEn">@modulesLocalizer["ExampleStatus_NameEn"] <small><i class="fas fa-asterisk text-danger fa-xs"></i></small>:</label>
+    <input class="form-control"   type="text" data-type="text" data-smk-type="text" id="NameEn" name="NameEn" placeholder="" required maxlength="50" value="@(Model?.NameEn)"  smk-error-msg-required="">
+    
+    <i class="accent"></i>
+</div>
+</div>
+<div class="col-md-6 eng-form-element">
+<div class="form-group">
+    <label class="form-label-small px-3" for="DescriptionAr">@modulesLocalizer["ExampleStatus_DescriptionAr"] <small><i class="fas fa-asterisk text-danger fa-xs"></i></small>:</label>
+    <textarea rows="4"
+              class="form-control"
+               id="DescriptionAr" name="DescriptionAr" placeholder="" required maxlength="200" value="@(Model?.DescriptionAr)"  smk-error-msg-required="">@(Model?.DescriptionAr)</textarea>
+              
+    <i class="accent"></i>
+</div>
+</div>
+<div class="col-md-6 eng-form-element">
+<div class="form-group">
+    <label class="form-label-small px-3" for="DescriptionEn">@modulesLocalizer["ExampleStatus_DescriptionEn"] <small><i class="fas fa-asterisk text-danger fa-xs"></i></small>:</label>
+    <textarea rows="4"
+              class="form-control"
+               id="DescriptionEn" name="DescriptionEn" placeholder="" required maxlength="200" value="@(Model?.DescriptionEn)"  smk-error-msg-required="">@(Model?.DescriptionEn)</textarea>
+              
+    <i class="accent"></i>
+</div>
+</div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="text-center">
+        <button type="button" id="Send" class="btn btn-primary font-size-13 font-weight-bold"
+                onclick="actionsController.submit('frmForm',this,event)"
+                on-sccess-redirect-url="/#!/exampleStatus/">
+            <i class="far fa-lg fa-check"></i> ارسال
+        </button>
+
+
+        <a id="backActionBtn" href="/#!/exampleStatus" class="btn btn-danger mr-3">
+            <i class="fas fa-times fa-lg fa-arrow-left"></i> العودة
+        </a>
+
+    </div>
+</form>
+
+<script>
+    actionsController.prepareForm("frmForm");
+</script>

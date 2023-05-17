@@ -1,0 +1,1911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accept_cond" xml:space="preserve">
+    <value>I acknowledge that I have read and agree to the terms and conditions of use</value>
+  </data>
+  <data name="AccountData" xml:space="preserve">
+    <value>Account details</value>
+  </data>
+  <data name="AccountDataManagement" xml:space="preserve">
+    <value>Manage Account Info</value>
+  </data>
+  <data name="action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="ActivationCode" xml:space="preserve">
+    <value>Verification Code</value>
+  </data>
+  <data name="ActivationCodeMessage" xml:space="preserve">
+    <value>Verification code must be entered</value>
+  </data>
+  <data name="add_attachment" xml:space="preserve">
+    <value>Add attachment</value>
+  </data>
+  <data name="add_contact" xml:space="preserve">
+    <value>Add a contact</value>
+  </data>
+  <data name="add_contct_btn" xml:space="preserve">
+    <value>Add contact</value>
+  </data>
+  <data name="add_delegate" xml:space="preserve">
+    <value>Add authorization data</value>
+  </data>
+  <data name="add_IdNumber" xml:space="preserve">
+    <value>Enter the ID number</value>
+  </data>
+  <data name="add_new_delegation" xml:space="preserve">
+    <value>Add a new authorization</value>
+  </data>
+  <data name="added_accounts" xml:space="preserve">
+    <value>Added entities</value>
+  </data>
+  <data name="added_delegations" xml:space="preserve">
+    <value>Added authorizations</value>
+  </data>
+  <data name="addedd_attachments" xml:space="preserve">
+    <value>Added documents</value>
+  </data>
+  <data name="address_info" xml:space="preserve">
+    <value>Addresses and contact</value>
+  </data>
+  <data name="Aggree" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="allawed_files" xml:space="preserve">
+    <value>Allowed files docx, jpg, pdf</value>
+  </data>
+  <data name="AllRequest" xml:space="preserve">
+    <value>All requests</value>
+  </data>
+  <data name="AllServices" xml:space="preserve">
+    <value>All services</value>
+  </data>
+  <data name="Announce" xml:space="preserve">
+    <value>Announcement</value>
+  </data>
+  <data name="AssetsManagement" xml:space="preserve">
+    <value>Document management</value>
+  </data>
+  <data name="attachment" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="attachment_file" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="attachment_msg" xml:space="preserve">
+    <value>Allowed files docx, jpg, pdf max 20MB</value>
+  </data>
+  <data name="attachment_type" xml:space="preserve">
+    <value>Attachment type</value>
+  </data>
+  <data name="attachment_type_data" xml:space="preserve">
+    <value>Attachment type</value>
+  </data>
+  <data name="attachments_data" xml:space="preserve">
+    <value>Registration application attachments</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Communications, Space and Technology Commission</value>
+  </data>
+  <data name="Back_Home" xml:space="preserve">
+    <value>Back to Home</value>
+  </data>
+  <data name="back_to_main" xml:space="preserve">
+    <value>Back to the home page</value>
+  </data>
+  <data name="back_to_registration" xml:space="preserve">
+    <value>Back to the login page</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="BusinessEstablishments" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="BusinessEstablishmentsMessageA" xml:space="preserve">
+    <value>Together to grow your business...</value>
+  </data>
+  <data name="BusinessEstablishmentsMessageB" xml:space="preserve">
+    <value>Business services provided by the Communications, Space and Technology Commission to open new horizons for investment in KSA.</value>
+  </data>
+  <data name="ByStatus" xml:space="preserve">
+    <value>Sort by status</value>
+  </data>
+  <data name="CategoryTypeService" xml:space="preserve">
+    <value>Category and type of service</value>
+  </data>
+  <data name="change_password" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Choosecommunication" xml:space="preserve">
+    <value>Select method of contact</value>
+  </data>
+  <data name="ChooseMessage" xml:space="preserve">
+    <value>Select message</value>
+  </data>
+  <data name="ChooseTypeQuestion" xml:space="preserve">
+    <value>Service category &amp; type</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="CloseII" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="comments" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Company_activity" xml:space="preserve">
+    <value>Company activity</value>
+  </data>
+  <data name="Complaints" xml:space="preserve">
+    <value>Complaint</value>
+  </data>
+  <data name="ComplaintHeader" xml:space="preserve">
+    <value>We are working to increase the effectiveness of electronic communication and raise the percentage of public participation in the partnership, and the portal also allows you to listen to every suggestion, complaint or observation about the portal and its various services.</value>
+  </data>
+  <data name="Complaint" xml:space="preserve">
+    <value>Inquiries and suggestions</value>
+  </data>
+  <data name="contact_info" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="ContactData" xml:space="preserve">
+    <value>Contact details</value>
+  </data>
+  <data name="CopyRight" xml:space="preserve">
+    <value>Communications, Space and Technology Commission</value>
+  </data>
+  <data name="current_password" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Daleel" xml:space="preserve">
+    <value>Service Guide</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>The Communications, Space and Technology Commission is the authority responsible for regulating the communications and information technology sector in the Kingdom of Saudi Arabia. The Communications Regulations issued by Cabinet Resolution No. (74) on 5/3/1422 AH and its Executive Regulations issued by Ministerial Resolution No. (11) on 5/17/1423 AH define the legal framework for organizing the sector</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Documents2" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="DocumentsBackToList" xml:space="preserve">
+    <value>Back to documents</value>
+  </data>
+  <data name="DocumentsCreationDate" xml:space="preserve">
+    <value>Release Date</value>
+  </data>
+  <data name="DocumentsExpirationDate" xml:space="preserve">
+    <value>Expiry date</value>
+  </data>
+  <data name="DocumentsManagement" xml:space="preserve">
+    <value>Manage documents</value>
+  </data>
+  <data name="DocumentsManagementTotal" xml:space="preserve">
+    <value>Total number of documents</value>
+  </data>
+  <data name="DocumentsNo" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="Download Asset" xml:space="preserve">
+    <value>Download document</value>
+  </data>
+  <data name="ElectronicSevice" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="email_lbl" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="email_lbl_conf" xml:space="preserve">
+    <value>Verify your e-mail</value>
+  </data>
+  <data name="EmailMessage" xml:space="preserve">
+    <value>Email is required</value>
+  </data>
+  <data name="EnglishFullName" xml:space="preserve">
+    <value>English Name</value>
+  </data>
+  <data name="external_b_account" xml:space="preserve">
+    <value>Offshore facility account</value>
+  </data>
+  <data name="External_Login" xml:space="preserve">
+    <value>Entering foreign facilities</value>
+  </data>
+  <data name="External_Login_msg" xml:space="preserve">
+    <value>Please enter login information</value>
+  </data>
+  <data name="face_any_login_issues" xml:space="preserve">
+    <value>Are you having trouble logging in?</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="favAddMessage" xml:space="preserve">
+    <value>Service added to favorites</value>
+  </data>
+  <data name="favRemoveMessage" xml:space="preserve">
+    <value>Service removed from favorites list</value>
+  </data>
+  <data name="finish_registration" xml:space="preserve">
+    <value>End of registration</value>
+  </data>
+  <data name="finish_registration_btn" xml:space="preserve">
+    <value>End of registration</value>
+  </data>
+  <data name="FontSizeBig" xml:space="preserve">
+    <value>Increase font size</value>
+  </data>
+  <data name="FontSizeDefault" xml:space="preserve">
+    <value>Restore default size</value>
+  </data>
+  <data name="FontSizeSmall" xml:space="preserve">
+    <value>Reduce font size</value>
+  </data>
+  <data name="foundation_account_login" xml:space="preserve">
+    <value>Entry information for the facility</value>
+  </data>
+  <data name="foundation_Address" xml:space="preserve">
+    <value>The address</value>
+  </data>
+  <data name="foundation_arabic_name" xml:space="preserve">
+    <value>The name of the facility in Arabic</value>
+  </data>
+  <data name="foundation_City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Foundation_Country" xml:space="preserve">
+    <value>Country of Registeration</value>
+  </data>
+  <data name="Foundation_Country_address" xml:space="preserve">
+    <value>The state</value>
+  </data>
+  <data name="foundation_Domain" xml:space="preserve">
+    <value>Domain name</value>
+  </data>
+  <data name="foundation_english_name" xml:space="preserve">
+    <value>The name of the establishment in English</value>
+  </data>
+  <data name="foundation_PostalCode" xml:space="preserve">
+    <value>P O Box</value>
+  </data>
+  <data name="foundation_Tel" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="foundation_Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="foundation_ZipCode" xml:space="preserve">
+    <value>Postal code</value>
+  </data>
+  <data name="FoundationAccountDelegation" xml:space="preserve">
+    <value>Account authorizations</value>
+  </data>
+  <data name="FoundationAccountManagement" xml:space="preserve">
+    <value>Manage corporate data</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GateEntry" xml:space="preserve">
+    <value>Portal access</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Generalization" xml:space="preserve">
+    <value>Circular</value>
+  </data>
+  <data name="government_account" xml:space="preserve">
+    <value>Government facility account</value>
+  </data>
+  <data name="Governments" xml:space="preserve">
+    <value>Goverment Authorities</value>
+  </data>
+  <data name="GovernmentsMessageA" xml:space="preserve">
+    <value>Government digital interconnection.</value>
+  </data>
+  <data name="GovernmentsMessageB" xml:space="preserve">
+    <value>The e-services portal of the Communications, Space and Technology Commission for e-Government Transactions.</value>
+  </data>
+  <data name="HaveQuestion" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="HelpCenter" xml:space="preserve">
+    <value>Help Center</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="IdexpireDate" xml:space="preserve">
+    <value>ID Expiry Date</value>
+  </data>
+  <data name="Idnumber" xml:space="preserve">
+    <value>ID Number</value>
+  </data>
+  <data name="IndividualPortal" xml:space="preserve">
+    <value>Individuals</value>
+  </data>
+  <data name="IndividualPortalMessage" xml:space="preserve">
+    <value>The Individuals Portal provides a range of services that meet the needs of individuals in the field of communications and information technology in KSA.</value>
+  </data>
+  <data name="insert_Address" xml:space="preserve">
+    <value>Enter the address</value>
+  </data>
+  <data name="insert_birthdate" xml:space="preserve">
+    <value>Enter date of birth</value>
+  </data>
+  <data name="insert_City" xml:space="preserve">
+    <value>Enter the city</value>
+  </data>
+  <data name="insert_Comment" xml:space="preserve">
+    <value>Enter a comment</value>
+  </data>
+  <data name="insert_Company_activity" xml:space="preserve">
+    <value>Enter the company's activity</value>
+  </data>
+  <data name="insert_Complaint_message" xml:space="preserve">
+    <value>You must enter the text of the message whether a complaint or a suggestion</value>
+  </data>
+  <data name="insert_current_password" xml:space="preserve">
+    <value>Current password is required</value>
+  </data>
+  <data name="insert_email" xml:space="preserve">
+    <value>Enter the email</value>
+  </data>
+  <data name="insert_email_lbl" xml:space="preserve">
+    <value>Enter the email</value>
+  </data>
+  <data name="insert_email_lbl_conf" xml:space="preserve">
+    <value>Enter the confirmation email</value>
+  </data>
+  <data name="insert_foundation_arabic_name" xml:space="preserve">
+    <value>Enter the name of the facility in Arabic</value>
+  </data>
+  <data name="insert_foundation_Domain" xml:space="preserve">
+    <value>Enter the domain name</value>
+  </data>
+  <data name="insert_foundation_english_name" xml:space="preserve">
+    <value>Enter the name of the establishment in English</value>
+  </data>
+  <data name="insert_FoundationNo" xml:space="preserve">
+    <value>Enter the facility number</value>
+  </data>
+  <data name="insert_full_name" xml:space="preserve">
+    <value>Enter your full name</value>
+  </data>
+  <data name="insert_password" xml:space="preserve">
+    <value>Enter the password</value>
+  </data>
+  <data name="insert_password_conf" xml:space="preserve">
+    <value>Enter Confirm Password</value>
+  </data>
+  <data name="insert_position" xml:space="preserve">
+    <value>Enter the position</value>
+  </data>
+  <data name="insert_PostalCode" xml:space="preserve">
+    <value>Enter a PO Box</value>
+  </data>
+  <data name="insert_Tel" xml:space="preserve">
+    <value>Enter a phone number</value>
+  </data>
+  <data name="insert_username" xml:space="preserve">
+    <value>Enter the username</value>
+  </data>
+  <data name="insert_Website" xml:space="preserve">
+    <value>Enter the website</value>
+  </data>
+  <data name="insert_ZipCode" xml:space="preserve">
+    <value>Enter Zip Code</value>
+  </data>
+  <data name="International_login" xml:space="preserve">
+    <value>Entering national establishments</value>
+  </data>
+  <data name="International_login_info" xml:space="preserve">
+    <value>To take advantage of the digital portal services, please log in through the National Information Center</value>
+  </data>
+  <data name="International_login_unique" xml:space="preserve">
+    <value>Entry through the unified national access</value>
+  </data>
+  <data name="International_login_unique_msg" xml:space="preserve">
+    <value>Entry through the unified national access</value>
+  </data>
+  <data name="IntroVideo" xml:space="preserve">
+    <value>Service introduction video</value>
+  </data>
+  <data name="keywords" xml:space="preserve">
+    <value>Communications, Space and Technology Commission</value>
+  </data>
+  <data name="KnowMore" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="login_btn" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="login_info" xml:space="preserve">
+    <value>Login data</value>
+  </data>
+  <data name="login_to_government" xml:space="preserve">
+    <value>Entering government establishments</value>
+  </data>
+  <data name="login_to_government_msg" xml:space="preserve">
+    <value>To take advantage of the digital portal services, please log in through the National Information Center</value>
+  </data>
+  <data name="LoginToService" xml:space="preserve">
+    <value>Service access</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="main_info" xml:space="preserve">
+    <value>Main information</value>
+  </data>
+  <data name="manage_foundation_account" xml:space="preserve">
+    <value>Enterprise data management</value>
+  </data>
+  <data name="max_attachment_size" xml:space="preserve">
+    <value>Maximum file 20 MB</value>
+  </data>
+  <data name="Message Data" xml:space="preserve">
+    <value>Message data</value>
+  </data>
+  <data name="message_not_recived" xml:space="preserve">
+    <value>You did not receive the message..</value>
+  </data>
+  <data name="MessageType" xml:space="preserve">
+    <value>Message type</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="mobile_numb" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="MobileII" xml:space="preserve">
+    <value>Cell phone</value>
+  </data>
+  <data name="MobileMessage" xml:space="preserve">
+    <value>Mobile number must be entered</value>
+  </data>
+  <data name="more" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="MyNumbers_Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="MyNumbers_Numbers" xml:space="preserve">
+    <value>Numbers</value>
+  </data>
+  <data name="MyNumbers_Title" xml:space="preserve">
+    <value>My Numbers</value>
+  </data>
+  <data name="MyRequests" xml:space="preserve">
+    <value>Follow my applications</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="Nevershowagain" xml:space="preserve">
+    <value>Never show again</value>
+  </data>
+  <data name="new_account" xml:space="preserve">
+    <value>Register a new account</value>
+  </data>
+  <data name="new_account_create" xml:space="preserve">
+    <value>Register a new account</value>
+  </data>
+  <data name="NewFirst" xml:space="preserve">
+    <value>Sort by newest first</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Next one</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="No Data" xml:space="preserve">
+    <value>There are no data</value>
+  </data>
+  <data name="no_data" xml:space="preserve">
+    <value>There is no data</value>
+  </data>
+  <data name="no_poll" xml:space="preserve">
+    <value>There are no surveys at the moment</value>
+  </data>
+  <data name="no_result" xml:space="preserve">
+    <value>No results</value>
+  </data>
+  <data name="no_Vote" xml:space="preserve">
+    <value>No vote found</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>There is no data</value>
+  </data>
+  <data name="NoDataChanged" xml:space="preserve">
+    <value>No data has been modified</value>
+  </data>
+  <data name="NoServiceFound" xml:space="preserve">
+    <value>No service with this name was found...</value>
+  </data>
+  <data name="NoThankYou" xml:space="preserve">
+    <value>No thank you</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="NotificationCounts" xml:space="preserve">
+    <value>Number of alerts</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Alerts</value>
+  </data>
+  <data name="OldFirst" xml:space="preserve">
+    <value>Sort oldest first</value>
+  </data>
+  <data name="OnlyFavorits" xml:space="preserve">
+    <value>Show favourites only</value>
+  </data>
+  <data name="otp_code" xml:space="preserve">
+    <value>Validation code</value>
+  </data>
+  <data name="otp_code_msg" xml:space="preserve">
+    <value>Please enter the four-digit verification code that was sent to the mobile number</value>
+  </data>
+  <data name="otp_confermation" xml:space="preserve">
+    <value>Enter the confirmation code sent to the phone</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Mutasil Portal - Communications, Space and Technology Commission</value>
+  </data>
+  <data name="ParticipateToImprove" xml:space="preserve">
+    <value>Share your opinion to improve the service</value>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="password_conf" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="PDFFile" xml:space="preserve">
+    <value>Service file (PDF)</value>
+  </data>
+  <data name="PersonalData" xml:space="preserve">
+    <value>User Information</value>
+  </data>
+  <data name="Poll" xml:space="preserve">
+    <value>Poll</value>
+  </data>
+  <data name="PollMoreOption" xml:space="preserve">
+    <value>If you have any suggestions, please mention them</value>
+  </data>
+  <data name="PollMorePaceHolder" xml:space="preserve">
+    <value>Please write your suggestions to develop the Authority's electronic services</value>
+  </data>
+  <data name="PollPageTitle" xml:space="preserve">
+    <value>Quesstionnaire</value>
+  </data>
+  <data name="PollSend" xml:space="preserve">
+    <value>Send a survey</value>
+  </data>
+  <data name="PollTitleA" xml:space="preserve">
+    <value>Service Level Evaluation Questionnaire</value>
+  </data>
+  <data name="PollTitleB" xml:space="preserve">
+    <value>Which aims to raise the satisfaction of beneficiaries of the electronic services portal of the Communications, Space and Technology Commission on an ongoing basis</value>
+  </data>
+  <data name="Preferredcommunication" xml:space="preserve">
+    <value>Preferred method of contact</value>
+  </data>
+  <data name="previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Privacy policy</value>
+  </data>
+  <data name="ProfilePageTitle" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="ProfileSave" xml:space="preserve">
+    <value>Update contact information</value>
+  </data>
+  <data name="PublicCommunicationsService" xml:space="preserve">
+    <value>Public Reporting Service</value>
+  </data>
+  <data name="PublicCommunicationsServiceMessage" xml:space="preserve">
+    <value>A government service provided to individuals, companies, and government agencies</value>
+  </data>
+  <data name="RateQuestion" xml:space="preserve">
+    <value>How do you evaluate the service?</value>
+  </data>
+  <data name="Recived" xml:space="preserve">
+    <value>It was received</value>
+  </data>
+  <data name="recover_mobile_btn" xml:space="preserve">
+    <value>Restore password</value>
+  </data>
+  <data name="recover_password" xml:space="preserve">
+    <value>Restore password</value>
+  </data>
+  <data name="recover_password_msg" xml:space="preserve">
+    <value>Please enter the user name and mobile number registered with the account to be able to recover the password</value>
+  </data>
+  <data name="register" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="register_government_account" xml:space="preserve">
+    <value>Government establishments account registration</value>
+  </data>
+  <data name="register_government_account_msg" xml:space="preserve">
+    <value>If the government facility does not have an account previously registered, please register an account with the CITC e-services portal for e-government transactions.</value>
+  </data>
+  <data name="register_review" xml:space="preserve">
+    <value>The data entered will be reviewed and you will be notified as soon as the account is activated.</value>
+  </data>
+  <data name="register_sent" xml:space="preserve">
+    <value>Account data saved successfully</value>
+  </data>
+  <data name="RegisterOffshoreFacilityAccount" xml:space="preserve">
+    <value>Foreign entity account registration</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Application date</value>
+  </data>
+  <data name="RequestNumber" xml:space="preserve">
+    <value>Report number</value>
+  </data>
+  <data name="RequestNumberII" xml:space="preserve">
+    <value>Application number</value>
+  </data>
+  <data name="RequestOrder" xml:space="preserve">
+    <value>Order applications</value>
+  </data>
+  <data name="Requests_BackToList" xml:space="preserve">
+    <value>Back to service requests</value>
+  </data>
+  <data name="Requests_CompletedRequest" xml:space="preserve">
+    <value>Application Completed</value>
+  </data>
+  <data name="Requests_Request" xml:space="preserve">
+    <value>To request</value>
+  </data>
+  <data name="Requests_Requests" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="Requests_TheRequests" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="Requests_TotalRequests" xml:space="preserve">
+    <value>Total number of applications</value>
+  </data>
+  <data name="Requests_UnderProcessingRequest" xml:space="preserve">
+    <value>Under treatment</value>
+  </data>
+  <data name="RequestsTracking" xml:space="preserve">
+    <value>Application follow-up</value>
+  </data>
+  <data name="RequestSubmit" xml:space="preserve">
+    <value>Your request has been successfully received</value>
+  </data>
+  <data name="resend" xml:space="preserve">
+    <value>Resend</value>
+  </data>
+  <data name="resend_after" xml:space="preserve">
+    <value>Resend through</value>
+  </data>
+  <data name="ReSendOTP" xml:space="preserve">
+    <value>Resend confirmation code</value>
+  </data>
+  <data name="ReturnBack" xml:space="preserve">
+    <value>Back to Home</value>
+  </data>
+  <data name="ReviewMyRequests" xml:space="preserve">
+    <value>Follow up on my requests</value>
+  </data>
+  <data name="SaveTemp" xml:space="preserve">
+    <value>Temporary save</value>
+  </data>
+  <data name="SearchForRequest" xml:space="preserve">
+    <value>Search for applications</value>
+  </data>
+  <data name="SearchForService" xml:space="preserve">
+    <value>Searching for a service...</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>A second</value>
+  </data>
+  <data name="select_attachment_type" xml:space="preserve">
+    <value>Choose file type</value>
+  </data>
+  <data name="Select_Country" xml:space="preserve">
+    <value>Choose the country</value>
+  </data>
+  <data name="select_one_services_to_delegate" xml:space="preserve">
+    <value>Choose one or more services from the list</value>
+  </data>
+  <data name="SelectAnswer" xml:space="preserve">
+    <value>Choose the answer</value>
+  </data>
+  <data name="SelectAnswerVote" xml:space="preserve">
+    <value>Rating must be selected</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Send Complaint or Enquiry" xml:space="preserve">
+    <value>Send a suggestion or inquiry</value>
+  </data>
+  <data name="SendSuggestion" xml:space="preserve">
+    <value>Send a suggestion or inquiry</value>
+  </data>
+  <data name="ServiceCondetion" xml:space="preserve">
+    <value>Terms and Conditions</value>
+  </data>
+  <data name="ServiceCondetionMessage" xml:space="preserve">
+    <value>The following recipients should</value>
+  </data>
+  <data name="ServiceDescription" xml:space="preserve">
+    <value>Service Description</value>
+  </data>
+  <data name="ServiceDocument" xml:space="preserve">
+    <value>Rrequired Documents</value>
+  </data>
+  <data name="ServiceExecutionTime" xml:space="preserve">
+    <value>Service process time</value>
+  </data>
+  <data name="ServiceFees" xml:space="preserve">
+    <value>Service fees</value>
+  </data>
+  <data name="ServiceNote" xml:space="preserve">
+    <value>You should know</value>
+  </data>
+  <data name="ServiceProviders" xml:space="preserve">
+    <value>Service Providers</value>
+  </data>
+  <data name="ServiceProvidersMessageA" xml:space="preserve">
+    <value>A unified platform for electronic services.</value>
+  </data>
+  <data name="ServiceProvidersMessageB" xml:space="preserve">
+    <value>To achieve interconnection between service providers and the Communications, Space and Technology Commission quickly and securely.</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="services_to_delegate" xml:space="preserve">
+    <value>Services to be delegated</value>
+  </data>
+  <data name="ServicesForYou" xml:space="preserve">
+    <value>Services designed especially for you...</value>
+  </data>
+  <data name="ServiceSteps" xml:space="preserve">
+    <value>Service Steps</value>
+  </data>
+  <data name="Show Details" xml:space="preserve">
+    <value>View details</value>
+  </data>
+  <data name="size" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="StartService" xml:space="preserve">
+    <value>Start Service</value>
+  </data>
+  <data name="StartSurvey" xml:space="preserve">
+    <value>Start the survey</value>
+  </data>
+  <data name="Suggestion" xml:space="preserve">
+    <value>Suggestion</value>
+  </data>
+  <data name="TakeAction" xml:space="preserve">
+    <value>Need to take action</value>
+  </data>
+  <data name="TargetAudience" xml:space="preserve">
+    <value>Target audience</value>
+  </data>
+  <data name="TargetAudienceMessage" xml:space="preserve">
+    <value>All consumers of telecommunications services in KSA, including individuals, the business sector, and the government sector</value>
+  </data>
+  <data name="TermsOfUse" xml:space="preserve">
+    <value>Terms of use</value>
+  </data>
+  <data name="ThankYouForParticipaate" xml:space="preserve">
+    <value>Thank you for your feedback</value>
+  </data>
+  <data name="ThankYouForParticipaateMessage" xml:space="preserve">
+    <value>To improve the services of the digital portal, please fill out the survey</value>
+  </data>
+  <data name="UnderProcessing" xml:space="preserve">
+    <value>Under processing</value>
+  </data>
+  <data name="update_address_info" xml:space="preserve">
+    <value>Update addresses and contact</value>
+  </data>
+  <data name="update_comment_info" xml:space="preserve">
+    <value>Comment update</value>
+  </data>
+  <data name="update_contct_btn" xml:space="preserve">
+    <value>Edit contact</value>
+  </data>
+  <data name="update_delegate" xml:space="preserve">
+    <value>Edit authorization data</value>
+  </data>
+  <data name="update_login_data" xml:space="preserve">
+    <value>Update login information</value>
+  </data>
+  <data name="update_main_info" xml:space="preserve">
+    <value>Update key information</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Intro video</value>
+  </data>
+  <data name="View Request" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="view_terms" xml:space="preserve">
+    <value>.. View policies and terms and conditions of use</value>
+  </data>
+  <data name="vote" xml:space="preserve">
+    <value>Vote</value>
+  </data>
+  <data name="VotePageTitle" xml:space="preserve">
+    <value>Vote</value>
+  </data>
+  <data name="VoteResult" xml:space="preserve">
+    <value>Voting results</value>
+  </data>
+  <data name="VoteSend" xml:space="preserve">
+    <value>Send vote</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="WriteYourObinion" xml:space="preserve">
+    <value>Share your opinion here</value>
+  </data>
+  <data name="Writeyourquestionhere" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Yourquestionmaximum" xml:space="preserve">
+    <value>Your question will be answered within 48 hours max</value>
+  </data>
+  <data name="YourVoteIsImportant" xml:space="preserve">
+    <value>Your opinion matters</value>
+  </data>
+  <data name="YourVoteMessage" xml:space="preserve">
+    <value>We need your opinion to evaluate the services provided and to measure their suitability to your needs.</value>
+  </data>
+  <data name="ChangeAccountNo" xml:space="preserve">
+    <value>Change Account No</value>
+  </data>
+  <data name="ProcessType" xml:space="preserve">
+    <value>Request Type</value>
+  </data>
+  <data name="ProcessType_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ProcessType_Processing" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="ProcessType_Tracking" xml:space="preserve">
+    <value>Tracking</value>
+  </data>
+  <data name="Requests_TotalRequestsProcessing" xml:space="preserve">
+    <value>Total Processing Requests</value>
+  </data>
+  <data name="Requests_TotalRequestsTracking" xml:space="preserve">
+    <value>Total Tracking Requests</value>
+  </data>
+  <data name="average" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="bad" xml:space="preserve">
+    <value>Bad</value>
+  </data>
+  <data name="excellent" xml:space="preserve">
+    <value>Excellent</value>
+  </data>
+  <data name="good" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="SelectRate" xml:space="preserve">
+    <value>Please select a rating</value>
+  </data>
+  <data name="weak" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="oneattachment" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="DelegationManageTitle" xml:space="preserve">
+    <value>Manage account authorizations</value>
+  </data>
+  <data name="NodataNotification" xml:space="preserve">
+    <value>There is no any notifications</value>
+  </data>
+  <data name="privacyPage" xml:space="preserve">
+    <value>&lt;div class="news_text"&gt;
+                                    &lt;div class="ms-rtestate-field" style="display:inline"&gt;
+                                        &lt;span style="color:#0001fe;font-size:13pt;font-weight:bolder;text-align:justify;"&gt;Privacy and Information Confidentiality&lt;/span&gt;
+                                        &lt;p style="text-align:justify;"&gt;We appreciate your interest and concern over your data privacy on the e-portal and smartphone app of the Communications, Space and Technology Commission (CITC).&lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;This policy has been developed to support relevant visitors in understanding the nature of the data we collect when registering at CITC's website or its smartphone app and how we handle such data.&lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;Given the importance of data and its confidentiality, and due to CITC efforts to provide the best level of services, CITC is committed to maintaining the privacy and confidentiality of user data and any other data entered by users. Such data may only be disclosed in accordance with approved law. The most important applied measure across CITC is to protect visitors' personal information including:&lt;/p&gt;
+
+                                        &lt;ol style="list-style-type:decimal;"&gt;
+                                            &lt;li&gt;Strict procedures to protect the information and technology used to prevent fraud and unauthorized access to our systems.&lt;/li&gt;
+                                            &lt;li&gt;Regular update of procedures and controls that meet or exceed standard criteria.&lt;/li&gt;
+                                            &lt;li&gt;CITC employees are highly trained and qualified to respect and protect the privacy and confidentiality of portal users' personal information.&lt;/li&gt;
+                                            &lt;li&gt;CITC collects data, as per its statutes and authority, to the minimal limit required to fulfil the purposes of providing e-portal and app services.&amp;nbsp;&lt;br&gt;&lt;/li&gt;
+                                        &lt;/ol&gt;
+
+                                        &lt;p style="text-align:justify;"&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;&lt;br&gt;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;&lt;span style="font-weight:bolder;font-size:13pt;color:#0001fe;"&gt;Usage and Disclosure&lt;/span&gt;&lt;/p&gt;
+                                        &lt;p&gt;&lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;The right to view beneficiaries' data and information shall be limited to CITC authorized employees and for the purposes and uses defined by the CITC statutes.&lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;Beneficiaries' data and information shall mean each and all of the following:&lt;/p&gt;
+
+                                        &lt;ol style="list-style-type:decimal;"&gt;
+                                            &lt;li&gt;Personal information used in registration.&lt;/li&gt;
+                                            &lt;li&gt;User's geographical location data.&lt;/li&gt;
+                                            &lt;li&gt;Contact information and updates related to use.&lt;/li&gt;
+                                            &lt;li&gt;Other information submitted by the user, such as filling complaint form or using other electronic services that gather the information necessary for processing.&lt;/li&gt;
+                                        &lt;/ol&gt;
+
+                                        &lt;p style="text-align:justify;"&gt;&lt;span style="font-weight:bolder;font-size:13pt;color:#0001fe;"&gt;Collecting Personal Information&lt;/span&gt;&lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;If you used the beneficiary portal or communicated through any CITC official communication channels or the e-portal, and you provided us therein with your personal information, we may share some of the necessary data with third parties or across CITC departments for providing you with service that is more effective. We will not share your personal data with non-governmental entities unless such entities are authorized by competent authorities to perform specific governmental services. By submitting your data and personal information through CITC official channels, you completely agree that we store, process and use such data. We reserve the right at all times to disclose any information to the competent entities, as necessary, to comply with any law, regulation, or official request.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;&lt;br&gt;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;&lt;span style="font-weight:bolder;font-size:13pt;color:#0001fe;"&gt;General Provisions&lt;/span&gt;&lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;&lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;CITC reserves its right to carry out any minor or significant modification to the privacy policy from time to time, without any need for notification. Such modifications shall be valid from the time of publishing the same at the CITC website. Your continued use of our website following such modifications shall be deemed an agreement to such modifications. Therefore, you shall regularly review the privacy policy to make sure you are informed of its most recent version. &lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;Laws of the Kingdom of Saudi Arabia shall be the sole applicable laws in any conflict that might arise from using this website. Courts of Saudi Arabia shall have the sole jurisdiction over such conflicts.&lt;br&gt;&lt;/p&gt;
+                                        &lt;p style="text-align:justify;"&gt;&lt;br&gt;&lt;/p&gt;
+                                     
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;</value>
+  </data>
+  <data name="TermsOfUsePage" xml:space="preserve">
+    <value>&lt;div class="news_text"&gt;
+                                    &lt;div class="ms-rtestate-field" style="display:inline"&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;Terms&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;The website of the Saudi Communications, Space and Technology Commission (CITC) and its subsidiary services and websites shall be available for your personal use. Your access and use of this website shall be subject to the following Terms of Use and to the laws in force in the Kingdom of Saudi Arabia. Furthermore, your access to this website and its services shall be deemed to be an unconditional approval of these Terms of Use, whether or not you are a registered user. This approval shall be effective upon your first use of this website.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;Any amendment to these terms and conditions shall be effective immediately upon its announcement, unless otherwise indicated. Your continued use of this website shall be deemed a full acceptance of such amendment.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;
+                                                &lt;br&gt;
+                                            &lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;&amp;nbsp;Restrictions on Use&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;By using CITC services or websites, you hereby undertake NOT to: &lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Upload or download files containing software, materials, data, or other information not owned by you or for which you do not have a license;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Upload or download files containing viruses, corrupted data, or any other malicious software, or do anything that could affect the integrity, reliability, or continued availability of the information on the website;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Publish, advertise, distribute or circulate through the services of CITC any materials or information that contain defamation of character; violation of laws; pornographic or obscene material; material violating Islamic teachings or public morals; or any illegal material or information;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Use any means, software or procedure to intercept or attempt to intercept the proper operation of CITC website;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Take any action that imposes an unreasonable, large or improper load on the infrastructure of CITC website;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Any act that violates the Saudi Anti-Cyber Crime Law or any other related law in the Kingdom.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;strong class="ms-rteFontSize-3"&gt;&amp;nbsp;&lt;/strong&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;Using Links to CITC Website&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Website-related links may not be created or displayed in a popup window or posted on any website, except for service-related links which may be posted on websites whose goals and general policies are consistent with the goals, policies and frameworks of CITC e-services.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; CITC shall not in any way be deemed involved in or linked to any trade or service marks, logos or brands or any other means used or appear on some of website services or any of their contents, unless they are approved by the Commission's competent departments.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; CITC shall reserve full rights to suspend and intercept any links from any unauthorized website or one containing inappropriate, obscene, offensive, indecent, pornographic, or unlawful topics, or any names, materials or information violating any laws or public or private rights.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; CITC disclaims any responsibility for the contents available on any other website accessed through its own website or through its services.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;Using Links from CITC Services&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span&gt;
+                                                ·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+                                                related to other services and websites shall be provided with the aim of facilitating a visitor's access. CITC shall not be responsible for the contents or reliability of the services and websites whose contents are not approved by CITC. Therefore, the user shall be responsible for using any of these links to access such websites or services.
+                                            &lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; CITC shall not guarantee the operation of the links to other websites.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;Property Rights&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; This website shall be technically supervised by CITC General Administration of Information Technology in the Kingdom. All the contents of the website, namely services and information, shall be considered as CITC's property, and shall be fully protected according to the Saudi copyright and trademark laws and intellectual property rights.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Unless otherwise specified, the website's services and materials may not be sold, licensed, rented, modified, copied, reproduced, reprinted, downloaded, advertised, transferred, distributed, displayed in public, edited, or used to produce works for public or commercial purposes, without obtaining the prior approval of CITC General Administration of Information Technology, except for scientific, research and awareness-raising purposes, wherein quoting the website is permissible on condition that its name is provided as reference.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Under no circumstances shall any of the website's contents be modified.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The drawings and images on this website shall be protected by copyright, and they may not be reproduced or exploited in any way whatsoever without obtaining the prior written approval of CITC General Administration of Information Technology.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;Termination of Use&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;CITC may, at its absolute discretion, terminate, restrict or suspend the user's right to access and use the services offered by the website without notice and for whatever reason, including violating the terms and conditions of use or any other behavior that the Commission may, at its discretion, deem as illegal or harmful to others. In case of termination, the user shall not be authorized to access these services.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&amp;nbsp;&lt;strong&gt;Judicial Reference&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;The user shall be subject to the judicial laws in force in the Kingdom of Saudi Arabia.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;&amp;nbsp;Liability Limits&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;The e-services provided by CITC website regarding the various public and government agencies shall only be intended to facilitate manual procedures. Therefore, the user shall hereby acknowledge being fully aware that online communications may be subject to interference or interception by third parties; that the website shall not replace the information provided by official agencies; and that the applications and administrative procedures shall be made directly before the concerned agencies. Therefore, any reference to this website shall be made at the user's own liability. In no way shall the Commission assume any liability for any loss or damage whatsoever that the user may suffer because of using or visiting the website; depending on any statement, opinion or advertisement on the website; delaying the operation, lack of access or bad connection to the internet; breakdown of equipment or software; or the conduct or ideas of any person having access to this website. Therefore, the user shall hereby acknowledge and agree that his only way to avoid any damage or loss that may happen as a result of having access or use of this website is to stop or discontinue using or accessing it. &lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;&amp;nbsp;Protection against Viruses&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;CITC shall exert every possible effort to check and test the contents of the website. The user shall be required to run anti-virus programs to scan all materials downloaded from the website. CITC shall not be responsible for any loss, interruption or damage of the user's data and devices that could happen during his use of the website or any materials downloaded therefrom.&amp;nbsp;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;Waiver of Claims&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; CITC's website and the services, information, materials and jobs provided or accessed through it shall be provided to the user on "as is" or "as available" basis without any acknowledgements, promises or guarantees whatsoever. CITC shall not guarantee or assume any liability for any failures, errors or violations that could arise from using this website or its contents or any other website linked thereto, whether with or without its knowledge.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; The user shall not have the right to own or guarantee the confidentiality of any communications or information that he may send via the services of this website. Moreover, any use or interactive use that such services involve shall not guarantee any rights, licenses or privileges of any kind to the user.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;&amp;nbsp;Compensation&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;The user hereby undertakes that he shall not take any legal action against CITC or any of its employees or staff in charge of managing, maintaining, updating, or providing website services. He shall also hold CITC harmless&amp;nbsp; against any commitments, liabilities and compensations arising from the use of such services, whether the user breaches the terms and conditions of use or violates any of the laws in force in either the Kingdom or the place where he lives, or otherwise.&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;strong class="ms-rteFontSize-3"&gt;&amp;nbsp;&lt;/strong&gt;
+                                        &lt;/p&gt;
+                                        &lt;h3&gt;
+                                            &lt;span style="font-weight:bolder;font-size:11pt;color:#0001fe;"&gt;&lt;strong&gt;Criteria for Comments and E-Participation&lt;/strong&gt;&lt;/span&gt;
+                                        &lt;/h3&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;All comments posted through E-participation channels shall be subject to a filtering process to ensure that the commentator has complied with the standards and controls for posting comments. The website management shall be entitled to exclude any comments which it deems inappropriate. The criteria for posting comments include the following:&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Observe public morals, the Kingdom's laws, and Islamic teachings, and avoid using inappropriate phrases or indecent words;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Focus on the topic under discussion and keep comments relevant thereto;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;&lt;span class="ms-rteFontSize-3"&gt;&lt;span style="font-size:17.3333px;"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;Avoid personal criticism that does not enrich the discussion;&lt;/span&gt;&lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Avoid comments that&amp;nbsp; promote sectarian prejudices, racist attitudes or religious differences;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Be completely certain of the accuracy of Quranic texts or religious views they refer to; users had better leave such topics for specialists to discuss. &lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;span class="ms-rteFontSize-3"&gt;·&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Avoid writing any personal information, including any contact details.&lt;br&gt;&lt;/span&gt;
+                                        &lt;/p&gt;
+                                        &lt;p&gt;
+                                            &lt;br class="ms-rteFontSize-3"&gt;
+                                        &lt;/p&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;</value>
+  </data>
+  <data name="full_name" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Request_Details" xml:space="preserve">
+    <value>Request Details</value>
+  </data>
+  <data name="Request_Log" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="BackDirection" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="CRNumber" xml:space="preserve">
+    <value>Commercial Register </value>
+  </data>
+  <data name="CRs" xml:space="preserve">
+    <value>Commercial records</value>
+  </data>
+  <data name="SelectCR" xml:space="preserve">
+    <value>Please choose the commercial register from the following</value>
+  </data>
+  <data name="TotalCRs" xml:space="preserve">
+    <value>Total Commercial Registration Numbers</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FoundationNo" xml:space="preserve">
+    <value>Foundation No</value>
+  </data>
+  <data name="dateType" xml:space="preserve">
+    <value>Date type</value>
+  </data>
+  <data name="higri" xml:space="preserve">
+    <value>Hijri</value>
+  </data>
+  <data name="melady" xml:space="preserve">
+    <value>Gregorian</value>
+  </data>
+  <data name="Select_dateType" xml:space="preserve">
+    <value>Select date type</value>
+  </data>
+  <data name="NoServiceFoundData" xml:space="preserve">
+    <value>No services found</value>
+  </data>
+  <data name="PollSavedSuccessfully" xml:space="preserve">
+    <value>The survey has been sent, thanking you for your fruitful participation in the development of the Authority's services</value>
+  </data>
+  <data name="PollSent" xml:space="preserve">
+    <value>Survey sent</value>
+  </data>
+  <data name="Reply" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="langCode" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Main menu</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="BankTransfer" xml:space="preserve">
+    <value>Bank Transfer</value>
+  </data>
+  <data name="ElectronicGate" xml:space="preserve">
+    <value>Electronic Gate</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="ServicePaymentChannels" xml:space="preserve">
+    <value>Payment Channels</value>
+  </data>
+  <data name="ServicePaymentChannelsMessage" xml:space="preserve">
+    <value>Possible payment methods</value>
+  </data>
+  <data name="ServiceSubmitChannels" xml:space="preserve">
+    <value>Service Channels</value>
+  </data>
+  <data name="ServiceSubmitChannelsMessage" xml:space="preserve">
+    <value>Ways to provide the available services</value>
+  </data>
+  <data name="ProcessingRequests" xml:space="preserve">
+    <value>Processing Requests</value>
+  </data>
+  <data name="TrackingRequests" xml:space="preserve">
+    <value>Tracking Requests</value>
+  </data>
+  <data name="MobileGate" xml:space="preserve">
+    <value>Mobile Application</value>
+  </data>
+  <data name="no_requests" xml:space="preserve">
+    <value>There are no requests</value>
+  </data>
+  <data name="no_requests_results" xml:space="preserve">
+    <value>There are no search results</value>
+  </data>
+  <data name="PDFFileServiceIntro" xml:space="preserve">
+    <value>Service definition file</value>
+  </data>
+  <data name="RequestNumberMessage" xml:space="preserve">
+    <value>The order reference number</value>
+  </data>
+  <data name="AnnounceDontShowAgain" xml:space="preserve">
+    <value>Not appearing again</value>
+  </data>
+  <data name="WeHelpYou" xml:space="preserve">
+    <value>Mutasil Platform</value>
+  </data>
+  <data name="WeHelpYouA" xml:space="preserve">
+    <value>A connected platform that provides you with all the electronic services provided by the Communications, Space and Technology Commission.. Choose your portal</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="electronicService" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="MyRequestsManagement" xml:space="preserve">
+    <value>Requests Management</value>
+  </data>
+  <data name="AccountDataManagementTitle" xml:space="preserve">
+    <value>Account Informations</value>
+  </data>
+  <data name="AssetsManagementTitle" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="NotificationsTitle" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="RequestsTrackingTitle" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="All_Requests" xml:space="preserve">
+    <value>All orders</value>
+  </data>
+  <data name="apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CurrentMonth" xml:space="preserve">
+    <value>Current month</value>
+  </data>
+  <data name="customRange" xml:space="preserve">
+    <value>Custom Range</value>
+  </data>
+  <data name="DocumentsStatus" xml:space="preserve">
+    <value>Documents status</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>from</value>
+  </data>
+  <data name="Last30Days" xml:space="preserve">
+    <value>Last 30 days</value>
+  </data>
+  <data name="Last7Days" xml:space="preserve">
+    <value>Last 7 days</value>
+  </data>
+  <data name="Last90Days" xml:space="preserve">
+    <value>Last 90 days</value>
+  </data>
+  <data name="LastMonth" xml:space="preserve">
+    <value>Last month</value>
+  </data>
+  <data name="numberCopied" xml:space="preserve">
+    <value>Number Copied</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="NeedAction" xml:space="preserve">
+    <value>Need action</value>
+  </data>
+  <data name="Recieved" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="RequestesFillter" xml:space="preserve">
+    <value>Filter requestes</value>
+  </data>
+  <data name="RequestNumberTitle" xml:space="preserve">
+    <value>Request number</value>
+  </data>
+  <data name="RequestReview" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="RequestStatus" xml:space="preserve">
+    <value>Request status</value>
+  </data>
+  <data name="TheCurrent" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="TheEnded" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="TheNotCompleted" xml:space="preserve">
+    <value>Incomplete</value>
+  </data>
+  <data name="ViewAll" xml:space="preserve">
+    <value>View all</value>
+  </data>
+  <data name="DocumentStatus" xml:space="preserve">
+    <value>Document Status</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="InValidDocument" xml:space="preserve">
+    <value>Expired document</value>
+  </data>
+  <data name="IssueDate" xml:space="preserve">
+    <value>Issue date</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>Expired document</value>
+  </data>
+  <data name="ValidDocument" xml:space="preserve">
+    <value>Valid document</value>
+  </data>
+  <data name="ViewDetails" xml:space="preserve">
+    <value>View Details</value>
+  </data>
+  <data name="ReviewRequest" xml:space="preserve">
+    <value>Request review</value>
+  </data>
+  <data name="WizzradA" xml:space="preserve">
+    <value>We can help you get to the service you want faster by answering a few questions...</value>
+  </data>
+  <data name="WizzradQ" xml:space="preserve">
+    <value>Do you need help deciding which service is right for you?</value>
+  </data>
+  <data name="WizzradStartNow" xml:space="preserve">
+    <value>Start now</value>
+  </data>
+  <data name="AtAnySector" xml:space="preserve">
+    <value>In which sector is the required service related?</value>
+  </data>
+  <data name="BackHome" xml:space="preserve">
+    <value>Back to Home</value>
+  </data>
+  <data name="CurrentStatus" xml:space="preserve">
+    <value>current stage</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Ending</value>
+  </data>
+  <data name="GetServiceYouWant" xml:space="preserve">
+    <value>To get the service you want</value>
+  </data>
+  <data name="HelpMe" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading ...</value>
+  </data>
+  <data name="NoCategoryForSector" xml:space="preserve">
+    <value>There are no ratings for this sector</value>
+  </data>
+  <data name="NoServiceForCategory" xml:space="preserve">
+    <value>There are no services for these categories</value>
+  </data>
+  <data name="NoServieFound" xml:space="preserve">
+    <value>Did you not find the right service for you within the previous services?</value>
+  </data>
+  <data name="SelectSector" xml:space="preserve">
+    <value>Please select which of the following sectors is related to the required service</value>
+  </data>
+  <data name="ServiceActive" xml:space="preserve">
+    <value>Suggested services</value>
+  </data>
+  <data name="ServiceActiveQ" xml:space="preserve">
+    <value>Based on your answer, here are the appropriate services to meet your needs</value>
+  </data>
+  <data name="ServiceYouNeed" xml:space="preserve">
+    <value>Service category</value>
+  </data>
+  <data name="ServiceYouNeedQ" xml:space="preserve">
+    <value>You can select multiple options to view the appropriate services for your needs.</value>
+  </data>
+  <data name="ViewAllServices" xml:space="preserve">
+    <value>.. View all services</value>
+  </data>
+  <data name="Request_Back" xml:space="preserve">
+    <value>Back to service requests</value>
+  </data>
+  <data name="Request_Date" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="Request_Description" xml:space="preserve">
+    <value>Report Description</value>
+  </data>
+  <data name="Request_Description_Enter" xml:space="preserve">
+    <value>Enter Report Description</value>
+  </data>
+  <data name="Request_Description_Required" xml:space="preserve">
+    <value>The Description is required</value>
+  </data>
+  <data name="Request_Evidence" xml:space="preserve">
+    <value>Evidence</value>
+  </data>
+  <data name="Request_Evidence_Enter" xml:space="preserve">
+    <value>Enter The Evidence</value>
+  </data>
+  <data name="Request_Evidence_Required" xml:space="preserve">
+    <value>The Evidence is required</value>
+  </data>
+  <data name="Request_HistoryLogActions" xml:space="preserve">
+    <value>Request History</value>
+  </data>
+  <data name="Request_ReportDetails" xml:space="preserve">
+    <value>REPORT DETAILS</value>
+  </data>
+  <data name="Request_ReporterInformation" xml:space="preserve">
+    <value>REPORTER INFORMATION</value>
+  </data>
+  <data name="Request_ReportType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Request_ReportType_Choose" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Request_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Request_Service" xml:space="preserve">
+    <value>Reporting Service</value>
+  </data>
+  <data name="Request_ServiceNumber" xml:space="preserve">
+    <value>Service Number</value>
+  </data>
+  <data name="Request_ServiceNumberEnter" xml:space="preserve">
+    <value>Service Number</value>
+  </data>
+  <data name="Request_ServiceNumber_Choose" xml:space="preserve">
+    <value>Choose Your Service Number</value>
+  </data>
+  <data name="Request_ServiceNumber_Required" xml:space="preserve">
+    <value>Choose Your Service Number</value>
+  </data>
+  <data name="Request_ServiceProvider" xml:space="preserve">
+    <value>Service Provider</value>
+  </data>
+  <data name="Request_Title" xml:space="preserve">
+    <value>Disclosure or leaking User Information</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="Ended" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="FilterByService" xml:space="preserve">
+    <value>Filter by service</value>
+  </data>
+  <data name="FilterRequestByStatus" xml:space="preserve">
+    <value>Filter orders by status</value>
+  </data>
+  <data name="NoServiceFoundDataWithSameName" xml:space="preserve">
+    <value>No service was found with this name</value>
+  </data>
+  <data name="NotCompleted" xml:space="preserve">
+    <value>Incomplete</value>
+  </data>
+  <data name="SearchByRequestNumber" xml:space="preserve">
+    <value>Search by order number</value>
+  </data>
+  <data name="service_filter" xml:space="preserve">
+    <value>Services Filter</value>
+  </data>
+  <data name="Agree" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+  <data name="CopyNumber" xml:space="preserve">
+    <value>Copy reguest number</value>
+  </data>
+  <data name="NumberHasCopied" xml:space="preserve">
+    <value>The order number has been copied:</value>
+  </data>
+  <data name="CurrentState" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="EndedState" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="FilterByServiceState" xml:space="preserve">
+    <value>Filter by service</value>
+  </data>
+  <data name="NotCompletedState" xml:space="preserve">
+    <value>Incomplete</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="nextBtn" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="soon" xml:space="preserve">
+    <value>Soon</value>
+  </data>
+  <data name="no_Documents" xml:space="preserve">
+    <value>There is no documents</value>
+  </data>
+  <data name="loading_numbers" xml:space="preserve">
+    <value>Loading my numbers...</value>
+  </data>
+  <data name="failed_to_load_numbers" xml:space="preserve">
+    <value>Failed to load my numbers</value>
+  </data>
+  <data name="no_numbers" xml:space="preserve">
+    <value>There are no registered numbers</value>
+  </data>
+  <data name="KnowmoreTitle" xml:space="preserve">
+    <value>Know more</value>
+  </data>
+  <data name="StartServiceTitle" xml:space="preserve">
+    <value>Start service</value>
+  </data>
+  <data name="UsedMore" xml:space="preserve">
+    <value>Most used</value>
+  </data>
+  <data name="TopRequest" xml:space="preserve">
+    <value>Latest request</value>
+  </data>
+  <data name="TotalDocuments" xml:space="preserve">
+    <value>Total documents</value>
+  </data>
+  <data name="Condetions" xml:space="preserve">
+    <value>Condetions</value>
+  </data>
+  <data name="FAQ_Title" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Steps" xml:space="preserve">
+    <value>Steps</value>
+  </data>
+  <data name="DefineRightService" xml:space="preserve">
+    <value>To select the appropriate service</value>
+  </data>
+  <data name="Presshere" xml:space="preserve">
+    <value>Press here</value>
+  </data>
+  <data name="StartPoll" xml:space="preserve">
+    <value>Start the survey</value>
+  </data>
+  <data name="YourOpenionDoDiffrance" xml:space="preserve">
+    <value>Your opinion makes the difference</value>
+  </data>
+  <data name="YourOpenionDoDiffranceDesc" xml:space="preserve">
+    <value>Share your opinion in an online evaluation to help develop the service provided to the public...</value>
+  </data>
+  <data name="OtherLanguage" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <data name="BuildingNo" xml:space="preserve">
+    <value>Building number</value>
+  </data>
+  <data name="CityName" xml:space="preserve">
+    <value>City name</value>
+  </data>
+  <data name="DistrictArea" xml:space="preserve">
+    <value>District area</value>
+  </data>
+  <data name="DragImageHere" xml:space="preserve">
+    <value>Drag the file here or click to choose the image</value>
+  </data>
+  <data name="DragImageHereI" xml:space="preserve">
+    <value>Drag the file here or click to replace the image</value>
+  </data>
+  <data name="MaxFileImageSize" xml:space="preserve">
+    <value>The file size is too large (maximum 2MB).</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Removal</value>
+  </data>
+  <data name="Sorry" xml:space="preserve">
+    <value>Oops.. an unexpected error occurred</value>
+  </data>
+  <data name="StreetName" xml:space="preserve">
+    <value>Street name</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Zip code</value>
+  </data>
+  <data name="ProfileImage" xml:space="preserve">
+    <value>Personal picture</value>
+  </data>
+  <data name="DashboardInfo" xml:space="preserve">
+    <value>Dashboard Info</value>
+  </data>
+  <data name="ManageFoundationInfo" xml:space="preserve">
+    <value>Manage Foundation Info</value>
+  </data>
+  <data name="AllowedFiles" xml:space="preserve">
+    <value>Allowed files</value>
+  </data>
+  <data name="ComplaintTitle" xml:space="preserve">
+    <value>Inquiry</value>
+  </data>
+  <data name="PersonalImage" xml:space="preserve">
+    <value>Personal picture</value>
+  </data>
+  <data name="RequestTitle" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="UnderReview" xml:space="preserve">
+    <value>Under Review</value>
+  </data>
+  <data name="BeneficiaryCategory" xml:space="preserve">
+    <value>Beneficiary category</value>
+  </data>
+  <data name="AddressInfo" xml:space="preserve">
+    <value>National address</value>
+  </data>
+  <data name="BusinessLoginGateTitle" xml:space="preserve">
+    <value>Business Portal</value>
+  </data>
+  <data name="BusinessLoginGateTitleDesc" xml:space="preserve">
+    <value>Dedicated services for business establishments provided by the Communications, Space and Technology Commission to open new horizons for investment in the Kingdom.</value>
+  </data>
+  <data name="ExternalBuilding" xml:space="preserve">
+    <value>External establishments</value>
+  </data>
+  <data name="GovernmentGates" xml:space="preserve">
+    <value>Governmental entities</value>
+  </data>
+  <data name="GovernmentGatesDesc" xml:space="preserve">
+    <value>Services dedicated to government agencies provided by the Communications, Space and Technology Commission to open new horizons for investment in the Kingdom.</value>
+  </data>
+  <data name="GovernmentGatesLogin" xml:space="preserve">
+    <value>Governmental entities login</value>
+  </data>
+  <data name="GovernmentGatesSignUp" xml:space="preserve">
+    <value>Governmental entities signup</value>
+  </data>
+  <data name="NationalBuilding" xml:space="preserve">
+    <value>National establishments</value>
+  </data>
+  <data name="login_to_government_button" xml:space="preserve">
+    <value>Entry through the unified national access</value>
+  </data>
+  <data name="MyNumbers_Title_main" xml:space="preserve">
+    <value>My Numbers</value>
+  </data>
+  <data name="ServiceActive_Title" xml:space="preserve">
+    <value>List of available services</value>
+  </data>
+  <data name="ServiceYouNeed_Title" xml:space="preserve">
+    <value>The service your facility needs</value>
+  </data>
+  <data name="Help_Title" xml:space="preserve">
+    <value>Connect Us</value>
+  </data>
+  <data name="MutasilVisitor" xml:space="preserve">
+    <value>Mutasil Visitor</value>
+    <comment>Online portal visitor</comment>
+  </data>
+  <data name="GoHome" xml:space="preserve">
+    <value>Back to Home</value>
+  </data>
+  <data name="ThankYouForYourUsingOurService" xml:space="preserve">
+    <value>Thank you for using our services</value>
+  </data>
+  <data name="FileExtionForProfileImage" xml:space="preserve">
+    <value>Only the following extensions are allowed .png | .jpg | .gif | .jpeg</value>
+  </data>
+  <data name="BackToHome" xml:space="preserve">
+    <value>Back to home</value>
+  </data>
+  <data name="ChangeFoundationError" xml:space="preserve">
+    <value>An error occurred while converting the commercial register</value>
+  </data>
+  <data name="ChnageFoundationErrorMessage" xml:space="preserve">
+    <value>Please try again later</value>
+  </data>
+  <data name="CopyRightII" xml:space="preserve">
+    <value>All rights reserved © 2023</value>
+  </data>
+  <data name="TryVersion" xml:space="preserve">
+    <value>Test launch</value>
+  </data>
+  <data name="ChangeFoundationInProgress" xml:space="preserve">
+    <value>Changing Commercial Register</value>
+  </data>
+  <data name="ChangeFoundationInProgressMessage" xml:space="preserve">
+    <value>Changing Commercial Register In Progress ...</value>
+  </data>
+  <data name="electronicServiceProcess" xml:space="preserve">
+    <value>Processing Service</value>
+  </data>
+  <data name="DocumentActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="DocumentDeactivated" xml:space="preserve">
+    <value>Deactivated</value>
+  </data>
+  <data name="DocumentExpired" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="DocumentSuspended" xml:space="preserve">
+    <value>Suspended</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="FailedToSave" xml:space="preserve">
+    <value>Failed To Save</value>
+  </data>
+  <data name="sorryM1" xml:space="preserve">
+    <value>The requested page was not found</value>
+  </data>
+  <data name="sorryM2" xml:space="preserve">
+    <value>Please check the link and try again</value>
+  </data>
+  <data name="sorryT" xml:space="preserve">
+    <value>Sorry</value>
+  </data>
+  <data name="Account_Email" xml:space="preserve">
+    <value>Email Account</value>
+  </data>
+</root>
